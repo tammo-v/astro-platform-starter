@@ -3,10 +3,7 @@ title: "Manifesto: Structure as the Foundation"
 layout: ../layouts/Layout.astro
 ---
 
-# Manifesto  
 *Structure as the Foundation*
-
----
 
 Modern computation runs faster than ever.  
 But what it computes has been flattened.
@@ -20,10 +17,7 @@ Languages became heavier.
 Abstractions piled up.  
 Syntax replaced structure.
 
----
-
-## Symbolic Computing Restores What Was Lost
-
+Symbolic Computing restores what was lost.  
 It replaces approximation with composition.  
 It replaces evaluation with form.
 
@@ -31,19 +25,12 @@ At its foundation is **MAR** — *Mathematical Adaptive Reasoning* —
 a symbolic architecture in which structure is preserved across every layer:  
 representation, execution, memory, and reasoning.
 
----
+Here, numbers are symbolic.  
+Functions are compositional.  
+Programs are structured.  
+Evaluation is no longer the default — it is a choice.
 
-### In This World
-
-- Numbers are symbolic  
-- Functions are compositional  
-- Programs are structured  
-- Evaluation is no longer the default — it is a choice
-
----
-
-## This Is Not a Tweak
-
+This is not a tweak.  
 It is a structural inversion.
 
 We do not believe computation must be shallow to be fast.  
@@ -54,10 +41,8 @@ We believe execution must follow form.
 We believe intelligence must preserve identity.  
 We believe meaning must remain symbolic — all the way down.
 
----
-
-**This is Symbolic Computing.**  
+This is **Symbolic Computing**.  
 It does not simulate structure.  
 It computes on it.
 
-**And it begins here.**
+And it begins here.
