@@ -1,23 +1,41 @@
 ---
 ---
 
-<nav class="bg-white">
-  <div class="max-w-6xl mx-auto px-4 py-4 flex items-center space-x-10">
+<nav class="w-full flex items-center justify-start gap-8 px-6 py-4 text-sm tracking-wide text-gray-800 border-b border-gray-200">
+  <!-- Logo -->
+  <div class="text-base font-semibold text-gray-900">
+    Symbolic Computing
+  </div>
 
-    <!-- Logo -->
-    <div class="text-base font-medium tracking-tight">
+  <!-- Symbolic Computing Dropdown -->
+  <div class="relative group">
+    <div class="cursor-pointer font-semibold text-gray-700">
       Symbolic Computing
     </div>
-
-    <!-- Navigation links -->
-    <div class="flex gap-6 text-sm text-gray-900 tracking-tight">
-      <a href="#" class="no-underline hover:text-gray-600 transition">Symbolic Computing</a>
-      <a href="#" class="no-underline hover:text-gray-600 transition">MAR Architecture</a>
-      <a href="#" class="no-underline hover:text-gray-600 transition">Articles</a>
-      <a href="#" class="no-underline hover:text-gray-600 transition">Patents</a>
-      <a href="#" class="no-underline hover:text-gray-600 transition">Licensing</a>
-      <a href="#" class="no-underline hover:text-gray-600 transition">Contact</a>
+    <div class="absolute left-0 top-full hidden group-hover:block mt-2 space-y-1 bg-white text-gray-700">
+      <a href="/manifesto" class="block px-2 hover:underline">The Manifesto</a>
+      <a href="/what-is-symbolic-computing" class="block px-2 hover:underline">What Is Symbolic Computing?</a>
+      <a href="/introducing-mar" class="block px-2 hover:underline">Introducing MAR</a>
     </div>
-
   </div>
+
+  <!-- MAR Architecture Dropdown -->
+  <div class="relative group">
+    <div class="cursor-pointer font-semibold text-gray-700">
+      MAR Architecture
+    </div>
+    <div class="absolute left-0 top-full hidden group-hover:block mt-2 space-y-1 bg-white text-gray-700">
+      <a href="/asn" class="block px-2 hover:underline">Adaptive Symbolic Notation (ASN)</a>
+      <a href="/adm" class="block px-2 hover:underline">Adaptive Decision Module (ADM)</a>
+      <a href="/symbolic-software" class="block px-2 hover:underline">Symbolic Software Layer</a>
+      <a href="/symbolic-hardware" class="block px-2 hover:underline">Symbolic Hardware Layer</a>
+      <a href="/sems" class="block px-2 hover:underline">SEMS</a>
+    </div>
+  </div>
+
+  <!-- Static Links -->
+  <a href="/articles" class="font-semibold text-gray-700 hover:underline">Articles</a>
+  <a href="/patents" class="font-semibold text-gray-700 hover:underline">Patents</a>
+  <a href="/licensing" class="font-semibold text-gray-700 hover:underline">Licensing</a>
+  <a href="/contact" class="font-semibold text-gray-700 hover:underline">Contact</a>
 </nav>
