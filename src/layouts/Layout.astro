@@ -25,8 +25,14 @@ const { title } = Astro.props;
 <body class="bg-white text-black antialiased">
   <!-- <Header /> -->
 <NavBar />
-<main class="max-w-3xl mx-auto pl-5 pr-4 py-12">
-  <div class="space-y-6 text-base leading-relaxed tracking-tight text-gray-900 [&>p:first-of-type]:text-lg [&>p:first-of-type]:leading-snug">
+<main class="max-w-3xl mx-auto px-4 py-12">
+  <div class="prose prose-neutral text-base leading-relaxed tracking-tight text-gray-900
+    [&>h1]:text-2xl [&>h1]:font-semibold
+    [&>h2]:text-xl [&>h2]:font-medium
+    [&>h3]:text-lg [&>h3]:font-normal
+    [&>p:first-of-type]:text-[1.05rem] [&>p:first-of-type]:leading-snug
+    [&>code]:bg-gray-100 [&>code]:text-sm [&>code]:rounded-sm [&>code]:px-1
+  ">
     <slot />
   </div>
 </main>
