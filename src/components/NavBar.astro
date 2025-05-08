@@ -1,36 +1,41 @@
 ---
 ---
 
-<nav class="w-full flex items-center gap-10 px-6 py-4 text-sm tracking-wide text-gray-800 border-b border-gray-200">
+<nav class="w-full flex items-center gap-8 px-6 py-4 text-sm tracking-wide text-gray-800 border-b border-gray-200">
 
   <!-- Logo -->
   <a href="/" class="text-base font-semibold text-gray-900">Symbolic Computing</a>
 
-  <!-- Symbolic Computing Section -->
-  <div class="flex flex-col space-y-0.5">
-    <span class="font-semibold text-gray-700">Symbolic Computing</span>
-    <div class="flex flex-col ml-2 space-y-0.5 text-gray-600">
-      <a href="/manifesto" class="hover:underline">The Manifesto</a>
-      <a href="/what-is-symbolic-computing" class="hover:underline">What Is Symbolic Computing?</a>
-      <span class="text-gray-400">Introducing MAR</span>
+  <!-- Symbolic Computing Dropdown -->
+  <div class="relative group">
+    <div class="font-semibold text-gray-700 cursor-pointer">
+      Symbolic Computing
+    </div>
+    <div class="absolute left-0 mt-2 hidden group-hover:block bg-white shadow-md p-2 space-y-1">
+      <a href="/manifesto" class="block hover:underline text-gray-700">The Manifesto</a>
+      <a href="/what-is-symbolic-computing" class="block hover:underline text-gray-700">What Is Symbolic Computing?</a>
+      <a href="#" class="block text-gray-400">Introducing MAR</a>
     </div>
   </div>
 
-  <!-- MAR Architecture Section -->
-  <div class="flex flex-col space-y-0.5">
-    <span class="font-semibold text-gray-700">MAR Architecture</span>
-    <div class="flex flex-col ml-2 space-y-0.5 text-gray-600">
-      <span class="text-gray-400">ASN</span>
-      <span class="text-gray-400">ADM</span>
-      <span class="text-gray-400">Software Layer</span>
-      <span class="text-gray-400">Hardware Layer</span>
-      <span class="text-gray-400">SEMS</span>
+  <!-- MAR Architecture Dropdown -->
+  <div class="relative group">
+    <div class="font-semibold text-gray-700 cursor-pointer">
+      MAR Architecture
+    </div>
+    <div class="absolute left-0 mt-2 hidden group-hover:block bg-white shadow-md p-2 space-y-1">
+      <a href="#" class="block text-gray-400">ASN</a>
+      <a href="#" class="block text-gray-400">ADM</a>
+      <a href="#" class="block text-gray-400">Software Layer</a>
+      <a href="#" class="block text-gray-400">Hardware Layer</a>
+      <a href="#" class="block text-gray-400">SEMS</a>
     </div>
   </div>
 
-  <!-- Static Links -->
-  <a href="#" class="font-semibold text-gray-600 hover:underline">Articles</a>
-  <a href="#" class="font-semibold text-gray-600 hover:underline">Patents</a>
-  <a href="#" class="font-semibold text-gray-600 hover:underline">Licensing</a>
-  <a href="#" class="font-semibold text-gray-600 hover:underline">Contact</a>
+  <!-- Static links -->
+  <a href="#" class="font-semibold text-gray-700 hover:underline">Articles</a>
+  <a href="#" class="font-semibold text-gray-700 hover:underline">Patents</a>
+  <a href="#" class="font-semibold text-gray-700 hover:underline">Licensing</a>
+  <a href="#" class="font-semibold text-gray-700 hover:underline">Contact</a>
+
 </nav>
