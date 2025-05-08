@@ -1,11 +1,11 @@
 ---
 import Layout from '../layouts/Layout.astro'
 import { getEntryBySlug } from 'astro:content'
-import Content from '@astro/components/Content.astro'
+import { MarkdownContent } from 'astro:content'
 
 const entry = await getEntryBySlug('manifesto', 'manifesto')
 ---
 
 <Layout title="Manifesto">
-  <Content entry={entry} />
+  <MarkdownContent content={entry} />
 </Layout>
