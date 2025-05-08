@@ -1,3 +1,9 @@
+---
+title: "Manifesto"
+layout: ../layouts/Layout.astro
+---
+
+
 Structure as the Foundation
 
 Modern computation runs faster than ever.  
