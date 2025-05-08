@@ -1,0 +1,10 @@
+---
+import Layout from '../layouts/Layout.astro'
+import manifesto from '../content/manifesto.md'
+
+const { Content } = await manifesto()
+---
+
+<Layout title="Manifesto">
+  <Content />
+</Layout>
