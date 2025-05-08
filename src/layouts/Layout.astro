@@ -26,7 +26,9 @@ const { title } = Astro.props;
   <!-- <Header /> -->
 <NavBar />
 <main class="max-w-3xl mx-auto px-4 py-12">
-  <div class="prose prose-neutral text-base leading-relaxed tracking-tight text-gray-900
+  <div class="space-y-6 text-base leading-relaxed tracking-tight text-gray-900">
+  <slot />
+</div>
     [&>h1]:text-2xl [&>h1]:font-semibold
     [&>h2]:text-xl [&>h2]:font-medium
     [&>h3]:text-lg [&>h3]:font-normal
