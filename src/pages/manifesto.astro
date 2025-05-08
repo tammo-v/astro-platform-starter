@@ -1,10 +1,11 @@
 ---
 import Layout from '../layouts/Layout.astro'
-import manifesto from '../content/manifesto.md'
+import { Content } from 'astro:content'
+import { getEntryBySlug } from 'astro:content'
 
-const { Content } = await manifesto()
+const entry = await getEntryBySlug('manifesto', 'manifesto')
 ---
 
 <Layout title="Manifesto">
-  <Content />
+  <Content entry={entry} />
 </Layout>
