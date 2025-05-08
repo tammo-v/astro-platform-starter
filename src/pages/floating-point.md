@@ -4,7 +4,9 @@ layout: ../layouts/Layout.astro
 ---
 
 # Floating Point Is Broken 
-<span class="block text-lg font-normal text-gray-600 mt-2">Here's What We're Replacing It With</span>
+<span class="block text-lg font-normal text-gray-600 mt-1">
+  Here's what we're replacing it with
+</span>
 
 **Technical Article**
 
