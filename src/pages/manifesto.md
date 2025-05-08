@@ -3,7 +3,7 @@ title: "Manifesto: Structure as the Foundation"
 layout: ../layouts/Layout.astro
 ---
 
-*Structure as the Foundation*
+Structure as the Foundation
 
 Modern computation runs faster than ever.  
 But what it computes has been flattened.
