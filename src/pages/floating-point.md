@@ -3,7 +3,8 @@ title: Floating Point Is Broken
 layout: ../layouts/Layout.astro
 ---
 
-# Floating Point Is Broken - Here's What We're Replacing It With
+# Floating Point Is Broken 
+<span class="block text-lg font-normal text-gray-600 mt-2">Here's What We're Replacing It With</span>
 
 **Technical Article**
 
