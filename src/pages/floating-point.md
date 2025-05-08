@@ -3,7 +3,7 @@ title: Floating Point Is Broken
 layout: ../layouts/Layout.astro
 ---
 
-# Floating Point Is Broken - Here's what we're replacing it with
+# Floating Point Is Broken — Here's What We're Replacing It With
 
 ## The Problem No One Questions
 
@@ -30,7 +30,7 @@ These constraints are not anomalies—they are built into the foundation. Every 
 
 This recursive pattern—evaluating early, discarding form, and collapsing identity—is mirrored from numerical encoding all the way up to high-level computation.
 
-## How Symbolic Computing Works—and What It Makes Possible
+## How Symbolic Computing Works — and What It Makes Possible
 
 The number is already structured. It does not need to be approximated or reduced. It can be preserved.
 
@@ -41,7 +41,7 @@ Classical systems store the result of a computation. Symbolic systems store the 
 What follows are examples of how preserving symbolic form changes the behavior of computation. When expressions are retained rather than resolved, new capabilities emerge: reversibility, introspection, and compositional control.
 
 - `L2(x)` denotes the logarithm base 2 of `x`. In most systems, this is immediately evaluated into a floating-point approximation. In symbolic computing, the form `L2(x)` remains available as a compositional object. It can be reused, transformed, or passed into other symbolic expressions. The expression is stored symbolically, not reduced.
-- In programming, consider a function definition: `f(x) = x × 2`. A call like `f(3)` is typically evaluated immediately, producing `6`. The original expression is lost, along with the ability to reference or transform the function call itself. In symbolic computing, `f(3)` is retained as a symbolic expression and stored structurally. It can be composed with other functions (such as `g(f(3))`), reused in new contexts, or reversed to solve for its inputs. The output remains available, but the form is preserved.
-- In data pipelines, a sequence like `df.filter(...).groupby(...).sum()` is typically executed step by step, with each stage overwriting the last. The end value is computed, but the structure of the pipeline is discarded. In symbolic computing, the entire transformation is preserved as a symbolic expression (ISE). Rather than storing the full expression repeatedly, it can be assigned a symbolic identifier (ISU), allowing the pipeline to be compressed, reused, or referenced across contexts. Because the symbolic expression is stored unevaluated, the structure remains accessible across all operations.
+- In programming, consider a function definition: `f(x) = x × 2`. A call like `f(3)` is typically evaluated immediately, producing `6`. The original expression is lost, along with the ability to reference or transform the function call itself. In symbolic computing, `f(3)` is retained as a symbolic expression and stored structurally. It can be composed with other functions (such as `g(f(3))`), reused in new contexts, or reversed to solve for its inputs.
+- In data pipelines, a sequence like `df.filter(...).groupby(...).sum()` is typically executed step by step, with each stage overwriting the last. The end value is computed, but the structure of the pipeline is discarded. In symbolic computing, the entire transformation is preserved as a symbolic expression (ISE). Rather than storing the full expression repeatedly, it can be assigned a symbolic identifier (ISU), allowing the pipeline to be compressed, reused, or referenced across contexts.
 
 In symbolic computing, output remains fully accessible. In all of the examples above, computations yield results just as they do in classical systems. The key difference is that evaluation is not automatic: it occurs only when explicitly requested or when structurally required by the symbolic form.
