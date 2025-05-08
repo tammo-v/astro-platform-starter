@@ -76,3 +76,8 @@
         --btn-py: 1.125rem;
     }
 }
+body {
+  background-image: none !important;
+  background-color: white !important;
+  color: black !important;
+}
