@@ -25,8 +25,10 @@ const { title } = Astro.props;
 <body class="bg-white text-black antialiased">
   <!-- <Header /> -->
 <NavBar />
-<main class="prose prose-base sm:prose-lg lg:prose-xl max-w-3xl mx-auto px-4 py-12">
-  <slot />
+<main class="max-w-3xl mx-auto px-4 py-12">
+  <div class="prose prose-base sm:prose-lg lg:prose-xl tracking-tight text-gray-900">
+    <slot />
+  </div>
 </main>
   <!-- <Footer /> -->
 </body>
