@@ -1,7 +1,7 @@
 ---
 import Layout from '../layouts/Layout.astro'
 import { getEntryBySlug } from 'astro:content'
-import { Content } from 'astro:content'
+import Content from '@astro/components/Content.astro'
 
 const entry = await getEntryBySlug('manifesto', 'manifesto')
 ---
