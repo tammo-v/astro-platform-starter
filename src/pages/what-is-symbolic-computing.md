@@ -3,7 +3,7 @@ title: What Is Symbolic Computing?
 layout: ../layouts/Layout.astro
 ---
 
-# What Is Symbolic Computing?
+What Is Symbolic Computing?
 
 Symbolic Computing is a shift in how we represent, preserve, and execute structure in computational systems.
 
