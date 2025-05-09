@@ -1,4 +1,6 @@
 /** @type {import('tailwindcss').Config} */
+const plugin = require('tailwindcss/plugin');
+
 module.exports = {
   content: [
     './src/**/*.{astro,js,ts,jsx,tsx,md}',
@@ -8,23 +10,23 @@ module.exports = {
       typography: {
         DEFAULT: {
           css: {
-            // Remove all boxes and default styles from block code
+            // full reset for all inline and block code
             pre: {
               backgroundColor: 'transparent',
               padding: '0',
               borderRadius: '0',
               boxShadow: 'none',
             },
-            // Inline code general styling
             code: {
               backgroundColor: 'transparent',
-              color: '#1f2937', // Tailwind gray-800
+              color: '#1f2937',
               padding: '0',
               borderRadius: '0',
               fontSize: '1rem',
               fontWeight: '400',
             },
-            // Inline code in paragraph
+            'code::before': { content: 'none' },
+            'code::after': { content: 'none' },
             'p > code': {
               backgroundColor: 'transparent',
               color: '#1f2937',
@@ -33,7 +35,6 @@ module.exports = {
               fontSize: '1rem',
               fontWeight: '400',
             },
-            // Inline code in list
             'li > code': {
               backgroundColor: 'transparent',
               color: '#1f2937',
@@ -42,30 +43,22 @@ module.exports = {
               fontSize: '1rem',
               fontWeight: '400',
             },
-            // Inline code in headings
-            'h1 > code': {
-              backgroundColor: 'transparent',
-              color: '#1f2937',
-              padding: '0',
-              borderRadius: '0',
-              fontSize: '1rem',
-              fontWeight: '400',
-            },
-            'h2 > code': {
-              backgroundColor: 'transparent',
-              color: '#1f2937',
-              padding: '0',
-              borderRadius: '0',
-              fontSize: '1rem',
-              fontWeight: '400',
-            },
-            // Remove before/after quotation marks
-            'code::before': { content: 'none' },
-            'code::after': { content: 'none' },
           },
         },
       },
     },
   },
-  plugins: [require('@tailwindcss/typography')],
+  plugins: [
+    require('@tailwindcss/typography'),
+    plugin(function({ addBase }) {
+      addBase({
+        'code': {
+          all: 'unset',
+          fontFamily: 'monospace',
+          fontSize: '1rem',
+          color: '#1f2937',
+        },
+      });
+    }),
+  ],
 };
