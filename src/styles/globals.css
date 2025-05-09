@@ -34,13 +34,20 @@
   }
 
   pre {
-    @apply p-6 overflow-x-auto rounded-lg;
-  }
+  @apply overflow-x-auto;
+  padding: 0;
+  border-radius: 0;
+  background: none;
+  font-size: 0.95rem;
+  color: #111827;
+}
 
   :not(pre) > code {
-    @apply px-1 py-0.5 font-mono rounded bg-gray-900 text-primary;
-    font-size: 0.875rem;
-  }
+  @apply px-1 py-0.5 font-mono rounded;
+  background-color: #f3f4f6;
+  color: #1f2937;
+  font-size: 0.875rem;
+}
 }
 
 @layer components {
