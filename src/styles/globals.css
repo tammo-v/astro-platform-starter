@@ -190,3 +190,12 @@ pre code,
   font-size: 1rem;
   color: #1f2937;
 }
+
+.symbolic {
+  font-family: monospace;
+  font-size: 1rem;
+  color: #1f2937;
+  background: none;
+  padding: 0;
+  border-radius: 0;
+}
