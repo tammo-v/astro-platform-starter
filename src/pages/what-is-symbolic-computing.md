@@ -38,6 +38,6 @@ It begins by asking a simple question:
 ---
 
 <div class="flex justify-between text-sm text-gray-600 mt-12">
-  <a href="/manifesto" class="hover:underline">← Back: The Manifesto</a>
-  <a href="/mar" class="hover:underline">Next: MAR Architecture →</a>
+  <a href="/manifesto" class="hover:underline">← The Manifesto</a>
+  <a href="/mar" class="hover:underline">MAR Architecture →</a>
 </div>
