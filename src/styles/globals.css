@@ -151,3 +151,16 @@ pre code {
   margin-bottom: 0.5rem;
   line-height: 1.6;
 }
+
+/* Final override: remove background boxes from math/code blocks */
+pre,
+pre code,
+.markdown pre,
+.markdown pre code {
+  background: none !important;
+  padding: 0 !important;
+  border-radius: 0 !important;
+  box-shadow: none !important;
+  font-size: 1rem !important;
+  color: #1f2937 !important; /* Tailwind gray-800 */
+}
