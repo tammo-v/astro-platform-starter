@@ -15,7 +15,7 @@ That compromise became the default. Floating point arithmetic remains the founda
 
 For example, consider the input: <span class="symbolic">sqrt(2)</span>.
 
-This is not stored as a structural object. It is immediately evaluated: `1.4142135...`
+This is not stored as a structural object. It is immediately evaluated: <span class="symbolic">1.4142135...</span>
 
 The original form is lost. Only a flattened numerical approximation remains.
 
