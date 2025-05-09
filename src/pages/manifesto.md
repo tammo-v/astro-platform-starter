@@ -3,7 +3,7 @@ title: "Manifesto"
 layout: ../layouts/Layout.astro
 ---
 
-
+## The Manifesto
 Structure as the Foundation
 
 Modern computation runs faster than ever.  
