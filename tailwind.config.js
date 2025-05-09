@@ -8,24 +8,23 @@ module.exports = {
       typography: {
         DEFAULT: {
           css: {
-            // Block code: remove gray background and radius
+            // Remove all boxes and default styles from block code
             pre: {
               backgroundColor: 'transparent',
               padding: '0',
               borderRadius: '0',
               boxShadow: 'none',
             },
-            // Inline code (default)
+            // Inline code general styling
             code: {
               backgroundColor: 'transparent',
-              color: '#1f2937',
+              color: '#1f2937', // Tailwind gray-800
               padding: '0',
               borderRadius: '0',
-              boxShadow: 'none',
               fontSize: '1rem',
               fontWeight: '400',
             },
-            // Inline code in paragraphs
+            // Inline code in paragraph
             'p > code': {
               backgroundColor: 'transparent',
               color: '#1f2937',
@@ -34,7 +33,7 @@ module.exports = {
               fontSize: '1rem',
               fontWeight: '400',
             },
-            // Inline code in list items
+            // Inline code in list
             'li > code': {
               backgroundColor: 'transparent',
               color: '#1f2937',
@@ -52,7 +51,15 @@ module.exports = {
               fontSize: '1rem',
               fontWeight: '400',
             },
-            // Remove quotation marks before/after inline code
+            'h2 > code': {
+              backgroundColor: 'transparent',
+              color: '#1f2937',
+              padding: '0',
+              borderRadius: '0',
+              fontSize: '1rem',
+              fontWeight: '400',
+            },
+            // Remove before/after quotation marks
             'code::before': { content: 'none' },
             'code::after': { content: 'none' },
           },
