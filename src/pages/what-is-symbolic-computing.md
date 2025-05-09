@@ -35,7 +35,7 @@ Symbolic Computing is not a replacement for classical systems. It is an extensio
 It begins by asking a simple question:  
 *What if we could compute without losing the structure that defines what we mean?*
 
----
+
 
 <div class="flex justify-between text-sm text-gray-600 mt-12">
   <a href="/manifesto" class="hover:underline">← The Manifesto</a>
