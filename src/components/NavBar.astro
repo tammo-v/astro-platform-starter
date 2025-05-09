@@ -1,41 +1,39 @@
 ---
 ---
-
 <nav class="w-full flex items-center px-6 py-4 text-sm tracking-wide text-gray-800 border-b border-gray-100 relative z-50">
 
   <!-- Logo -->
-{/* 
+  {/*
   <a href="/" class="flex items-center space-x-2 pl-2">
     <img src="/Symbolic-Computing-Logo.png" alt="Symbolic Computing logo" class="h-8 w-auto" />
     <span class="sr-only">Symbolic Computing</span>
-  </a> 
-*/}
-
-<a href="/" class="text-lg font-medium tracking-tight text-[var(--aubergine)] no-underline">
-  Symbolic Computing
-</a>
+  </a>
+  */}
+  <a href="/" class="text-lg font-medium tracking-tight text-[var(--aubergine)] no-underline hover:opacity-80 pl-2">
+    Symbolic Computing
+  </a>
 
   <!-- Navigation Groups -->
   <div class="flex items-center gap-x-6 ml-6">
 
     <!-- Foundation -->
     <div class="relative group">
-      <div class="font-semibold text-gray-700 cursor-pointer no-underline">
-  Foundation
-</div>
-      <div class="absolute left-0 mt-2 hidden group-hover:block bg-white shadow p-2 space-y-1 text-gray-700 text-sm">
-        <a href="/manifesto" class="block hover:underline no-underline">The Manifesto</a>
-        <a href="/what-is-symbolic-computing" class="block hover:underline no-underline">What Is Symbolic Computing?</a>
+      <button class="font-semibold text-gray-700 cursor-pointer no-underline">
+        Foundation
+      </button>
+      <div class="absolute left-0 top-full mt-2 hidden group-hover:block bg-white shadow p-2 space-y-1 text-gray-700 text-sm z-50">
+        <a href="/manifesto" class="block no-underline hover:underline">The Manifesto</a>
+        <a href="/what-is-symbolic-computing" class="block no-underline hover:underline">What Is Symbolic Computing?</a>
         <span class="block text-gray-400">Introducing MAR</span>
       </div>
     </div>
 
     <!-- MAR Architecture -->
     <div class="relative group">
-      <div class="font-semibold text-gray-700 cursor-pointer no-underline">
+      <button class="font-semibold text-gray-700 cursor-pointer no-underline">
         MAR Architecture
-      </div>
-      <div class="absolute left-0 mt-2 hidden group-hover:block bg-white shadow p-2 space-y-1 text-gray-700 text-sm">
+      </button>
+      <div class="absolute left-0 top-full mt-2 hidden group-hover:block bg-white shadow p-2 space-y-1 text-gray-700 text-sm z-50">
         <span class="block text-gray-400">ASN</span>
         <span class="block text-gray-400">ADM</span>
         <span class="block text-gray-400">Software Layer</span>
