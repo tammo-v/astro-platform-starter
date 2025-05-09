@@ -9,54 +9,49 @@
     </a>
 
     <!-- Top Navigation -->
-    <ul class="flex items-center gap-x-6">
-      <li><button class="nav-toggle font-semibold text-gray-700 hover:text-[var(--aubergine)]" data-menu="foundation">Foundation</button></li>
-      <li><button class="nav-toggle font-semibold text-gray-700 hover:text-[var(--aubergine)]" data-menu="architecture">MAR Architecture</button></li>
+    <ul class="flex items-center gap-x-6 relative">
+      <li class="relative">
+        <button class="nav-toggle font-semibold text-gray-700 hover:text-[var(--aubergine)]" data-menu="foundation">Foundation</button>
+        <div id="subnav-foundation" class="absolute top-full left-0 hidden flex-wrap gap-x-6 gap-y-2 bg-gray-50 py-2 z-50">
+          <a href="/manifesto" class="text-gray-700 hover:text-[var(--aubergine)] font-medium px-3">The Manifesto</a>
+          <a href="/what-is-symbolic-computing" class="text-gray-700 hover:text-[var(--aubergine)] font-medium px-3">What Is Symbolic Computing?</a>
+          <span class="text-gray-400 font-medium px-3">Introducing MAR</span>
+        </div>
+      </li>
+
+      <li class="relative">
+        <button class="nav-toggle font-semibold text-gray-700 hover:text-[var(--aubergine)]" data-menu="architecture">MAR Architecture</button>
+        <div id="subnav-architecture" class="absolute top-full left-0 hidden flex-wrap gap-x-6 gap-y-2 bg-gray-50 py-2 z-50">
+          <span class="text-gray-400 font-medium px-3">ASN</span>
+          <span class="text-gray-400 font-medium px-3">ADM</span>
+          <span class="text-gray-400 font-medium px-3">Software Layer</span>
+          <span class="text-gray-400 font-medium px-3">Hardware Layer</span>
+          <span class="text-gray-400 font-medium px-3">SEMS</span>
+        </div>
+      </li>
+
       <li><a href="#" class="font-semibold text-gray-700 no-underline hover:underline hover:text-[var(--aubergine)]">Articles</a></li>
       <li><a href="#" class="font-semibold text-gray-700 no-underline hover:underline hover:text-[var(--aubergine)]">Patents</a></li>
       <li><a href="#" class="font-semibold text-gray-700 no-underline hover:underline hover:text-[var(--aubergine)]">Licensing</a></li>
       <li><a href="#" class="font-semibold text-gray-700 no-underline hover:underline hover:text-[var(--aubergine)]">Contact</a></li>
     </ul>
   </div>
-
-  <!-- Subnavigation Area -->
-  <div id="subnav" class="border-t border-gray-100 bg-gray-50" data-active="">
-    <div class="max-w-6xl mx-auto px-6 py-2">
-      <div class="pl-[9rem]">
-        <ul id="subnav-foundation" class="hidden flex-wrap gap-x-6 gap-y-2">
-          <li><a href="/manifesto" class="text-gray-700 hover:text-[var(--aubergine)] font-medium">The Manifesto</a></li>
-          <li><a href="/what-is-symbolic-computing" class="text-gray-700 hover:text-[var(--aubergine)] font-medium">What Is Symbolic Computing?</a></li>
-          <li><span class="text-gray-400 font-medium">Introducing MAR</span></li>
-        </ul>
-        <ul id="subnav-architecture" class="hidden flex-wrap gap-x-6 gap-y-2">
-          <li><span class="text-gray-400 font-medium">ASN</span></li>
-          <li><span class="text-gray-400 font-medium">ADM</span></li>
-          <li><span class="text-gray-400 font-medium">Software Layer</span></li>
-          <li><span class="text-gray-400 font-medium">Hardware Layer</span></li>
-          <li><span class="text-gray-400 font-medium">SEMS</span></li>
-        </ul>
-      </div>
-    </div>
-  </div>
 </nav>
 
 <script type="module" client:load>
   const toggleButtons = document.querySelectorAll('.nav-toggle');
-  const subnav = document.getElementById('subnav');
-  const sections = {
+  const subnavs = {
     foundation: document.getElementById('subnav-foundation'),
     architecture: document.getElementById('subnav-architecture')
   };
 
   toggleButtons.forEach(btn => {
     btn.addEventListener('click', () => {
-      const current = subnav.getAttribute('data-active');
       const target = btn.dataset.menu;
-      const next = current === target ? '' : target;
-      subnav.setAttribute('data-active', next);
-      Object.entries(sections).forEach(([key, el]) => {
-        el.classList.toggle('hidden', key !== next);
-        el.classList.toggle('flex', key === next);
+      Object.entries(subnavs).forEach(([key, el]) => {
+        const isActive = key === target && el.classList.contains('hidden');
+        el.classList.toggle('hidden', !isActive);
+        el.classList.toggle('flex', isActive);
       });
     });
   });
