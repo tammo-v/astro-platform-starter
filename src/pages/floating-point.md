@@ -3,9 +3,7 @@ title: Floating Point Is Broken
 layout: ../layouts/Layout.astro
 ---
 
-# Floating Point Is Broken — Here's What We're Replacing It With
-
-## The Problem No One Questions
+## Floating Point Is Broken — Here's What We're Replacing It With
 
 Floating point was not adopted because it was ideal—it was adopted because it matched the constraints of early hardware.
 
