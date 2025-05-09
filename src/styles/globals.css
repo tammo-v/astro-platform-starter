@@ -112,11 +112,11 @@
   margin-bottom: 0.75rem;
 }
 
-.markdown p:first-of-type {
+/* .markdown p:first-of-type {
   font-size: 1.0625rem;
   line-height: 1.55;
   margin-bottom: 1.25rem;
-}
+} */
 
 .markdown code {
   background-color: #f3f4f6;
