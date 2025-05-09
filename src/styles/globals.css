@@ -179,3 +179,14 @@ pre code,
   display: block;
   white-space: pre-wrap;
 }
+
+/* Final override for inline code (e.g., `sqrt(2)`) */
+.markdown code,
+.prose code,
+.markdown :not(pre) > code,
+.prose :not(pre) > code {
+  all: unset;
+  font-family: monospace;
+  font-size: 1rem;
+  color: #1f2937;
+}
