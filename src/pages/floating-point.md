@@ -13,9 +13,9 @@ In the first generation of computing systems, memory was scarce, hardware was li
 
 That compromise became the default. Floating point arithmetic remains the foundation of nearly all modern computation—and the assumptions behind it are rarely re-examined.
 
-For example, consider the input: <span class="symbolic">sqrt(2)</span>.
+For example, consider the input: `sqrt(2)`.  
 
-This is not stored as a structural object. It is immediately evaluated into <span class="symbolic">1.4142135&#8203;...</span>.
+This is not stored as a structural object. It is immediately evaluated: `1.4142135...`.
 
 The original form is lost. Only a flattened numerical approximation remains.
 
