@@ -51,10 +51,13 @@ pre code {
 }
 
 :not(pre) > code {
-  @apply px-1 py-0.5 font-mono rounded;
-  background-color: #f3f4f6;
+  background: none !important;
+  background-color: transparent !important;
+  border-radius: 0 !important;
+  padding: 0 !important;
+  font-family: monospace;
+  font-size: 1rem;
   color: #1f2937;
-  font-size: 0.875rem;
 }
 
 @layer components {
