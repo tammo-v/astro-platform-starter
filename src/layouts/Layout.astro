@@ -4,7 +4,6 @@ import '../../src/styles/globals.css';
 import '@fontsource-variable/inter/wght.css';
 import interWoff2 from '@fontsource-variable/inter/files/inter-latin-wght-normal.woff2?url';
 
-
 interface Props {
     title: string;
 }
@@ -21,15 +20,23 @@ const { title } = Astro.props;
         <meta name="generator" content={Astro.generator} />
         <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
         <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600&family=Inter:wght@400;500&display=swap" rel="stylesheet">
+        
+        <!-- Plausible Analytics -->
+        <script defer data-domain="symboliccomputing.com" src="https://plausible.io/js/script.file-downloads.outbound-links.js"></script>
+        <script>
+          window.plausible = window.plausible || function() {
+            (window.plausible.q = window.plausible.q || []).push(arguments)
+          }
+        </script>
     </head>
-<body class="bg-white text-black antialiased">
-  <!-- <Header /> -->
-<NavBar />
-<main class="max-w-3xl mx-auto pl-[8px] pt-12 pb-32">
-  <div class="prose markdown text-base leading-relaxed tracking-tight text-gray-900">
-    <slot />
-  </div>
-</main>
-  <!-- <Footer /> -->
-</body>
+    <body class="bg-white text-black antialiased">
+      <!-- <Header /> -->
+      <NavBar />
+      <main class="max-w-3xl mx-auto pl-[8px] pt-12 pb-32">
+        <div class="prose markdown text-base leading-relaxed tracking-tight text-gray-900">
+          <slot />
+        </div>
+      </main>
+      <!-- <Footer /> -->
+    </body>
 </html>
