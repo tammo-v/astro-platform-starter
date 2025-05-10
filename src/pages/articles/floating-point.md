@@ -1,6 +1,6 @@
 ---
-title: Floating Point Is Broken
-layout: ../layouts/Layout.astro
+title: Floating Point Is Broken — Here’s What We’re Replacing It With
+layout: ../../layouts/Layout.astro
 ---
 
 # Floating Point Is Broken — Here's What We're Replacing It With
