@@ -32,3 +32,9 @@ All symbolic operations within MAR are governed by the **Symbolic Execution and 
 Together, these layers form a unified symbolic system — one where structure is preserved, reasoning is explicit, and computation becomes a transformation of form rather than a sequence of instructions.
 
 **MAR is what allows Symbolic Computing to function as a complete system** — not as an abstraction or overlay, but as a new computational foundation.
+
+
+<div class="flex justify-between text-sm text-gray-600 mt-12">
+  <a href="/what-is-symbolic-computing" class="no-underline hover:underline">← What Is Symbolic Computing?</a>
+  <a href="/asn" class="no-underline hover:underline">Adaptive Symbolic Notation (ASN) →</a>
+</div>
