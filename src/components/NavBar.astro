@@ -42,16 +42,28 @@
     </ul>
   </div>
 
-  <!-- Mobile Menu -->
-  <div id="mobile-menu" class="sm:hidden hidden flex-col space-y-4 px-6 pb-6">
-    <a href="/manifesto" class="block text-gray-700 font-medium">The Manifesto</a>
-    <a href="/what-is-symbolic-computing" class="block text-gray-700 font-medium">What Is Symbolic Computing?</a>
-    <a href="/introducing-mar" class="block text-gray-700 font-medium">Introducing MAR</a>
-    <a href="/asn" class="block text-gray-700 font-medium">ASN</a>
-    <a href="/adm" class="block text-gray-700 font-medium">ADM</a>
-    <a href="/software-layer" class="block text-gray-700 font-medium">Software Layer</a>
-    <a href="/hardware-layer" class="block text-gray-700 font-medium">Hardware Layer</a>
-    <a href="/sems" class="block text-gray-700 font-medium">SEMS</a>
+  <!-- Mobile Navigation -->
+  <div id="mobile-menu" class="sm:hidden hidden flex-col px-4 pt-2 pb-4 space-y-2">
+    <!-- Foundation -->
+    <button class="text-left font-semibold text-gray-700" data-toggle="mobile-foundation">Foundation</button>
+    <div id="mobile-foundation" class="hidden pl-4 space-y-1">
+      <a href="/manifesto" class="block text-gray-700 font-medium">The Manifesto</a>
+      <a href="/what-is-symbolic-computing" class="block text-gray-700 font-medium">What Is Symbolic Computing?</a>
+      <a href="/introducing-mar" class="block text-gray-700 font-medium">Introducing MAR</a>
+    </div>
+
+    <!-- MAR Architecture -->
+    <button class="text-left font-semibold text-gray-700" data-toggle="mobile-architecture">MAR Architecture</button>
+    <div id="mobile-architecture" class="hidden pl-4 space-y-1">
+      <a href="/introducing-mar" class="block text-gray-700 font-medium">Introducing MAR</a>
+      <a href="/asn" class="block text-gray-700 font-medium">ASN</a>
+      <a href="/adm" class="block text-gray-700 font-medium">ADM</a>
+      <a href="/software-layer" class="block text-gray-700 font-medium">Software Layer</a>
+      <a href="/hardware-layer" class="block text-gray-700 font-medium">Hardware Layer</a>
+      <a href="/sems" class="block text-gray-700 font-medium">SEMS</a>
+    </div>
+
+    <!-- Other pages -->
     <a href="/articles" class="block text-gray-700 font-medium">Articles</a>
     <a href="/patents" class="block text-gray-700 font-medium">Patents</a>
     <a href="/licensing" class="block text-gray-700 font-medium">Licensing</a>
@@ -77,10 +89,19 @@
     });
   });
 
+  // Mobile menu toggle
   const mobileToggle = document.getElementById('mobile-toggle');
   const mobileMenu = document.getElementById('mobile-menu');
-
   mobileToggle?.addEventListener('click', () => {
     mobileMenu.classList.toggle('hidden');
+  });
+
+  // Collapsible mobile subsections
+  document.querySelectorAll('[data-toggle]').forEach(button => {
+    const targetId = button.getAttribute('data-toggle');
+    const target = document.getElementById(targetId);
+    button.addEventListener('click', () => {
+      target.classList.toggle('hidden');
+    });
   });
 </script>
