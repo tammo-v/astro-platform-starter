@@ -1,3 +1,9 @@
+---
+title: Adaptive Symbolic Notation (ASN)
+layout: ../layouts/Layout.astro
+---
+
+
 ## Adaptive Symbolic Notation (ASN)
 
 **Adaptive Symbolic Notation (ASN)** is the foundational layer of the MAR architecture. It defines how symbolic objects — including numbers, functions, matrices, and transformations — are represented and composed.
