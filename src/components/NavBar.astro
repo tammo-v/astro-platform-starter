@@ -1,41 +1,44 @@
 ---
 ---
 <nav class="w-full isolate z-[9999] relative bg-white text-sm tracking-wide text-gray-800">
-  <div class="max-w-6xl mx-auto flex items-center justify-between py-4 px-6 sm:px-0">
-    <!-- Logo -->
-    <a href="/what-is-symbolic-computing"
-       class="text-xl sm:text-lg font-medium sm:font-semibold tracking-tight text-[var(--aubergine)] no-underline hover:opacity-80">
-      Symbolic Computing
-    </a>
+  <div class="max-w-6xl mx-auto py-4 px-6 sm:px-0 relative">
+    <!-- Flex container for logo + desktop nav -->
+    <div class="flex items-center gap-x-12">
+      <!-- Logo -->
+      <a href="/what-is-symbolic-computing"
+         class="text-xl sm:text-lg font-semibold sm:font-medium tracking-tight text-[var(--aubergine)] no-underline hover:opacity-80">
+        Symbolic Computing
+      </a>
 
-    <!-- Desktop nav -->
-    <ul class="hidden sm:flex items-center gap-x-6">
-      <li class="relative">
-        <button class="nav-toggle font-semibold text-gray-700 hover:text-[var(--aubergine)]" data-menu="foundation">Foundation</button>
-        <div id="subnav-foundation" class="absolute top-full left-0 hidden flex flex-row gap-x-6 py-4 px-6 z-50 whitespace-nowrap">
-          <a href="/manifesto" class="text-gray-700 font-medium hover:text-[var(--aubergine)] no-underline">The Manifesto</a>
-          <a href="/what-is-symbolic-computing" class="text-gray-700 font-medium hover:text-[var(--aubergine)] no-underline">What Is Symbolic Computing?</a>
-          <a href="/introducing-mar" class="text-gray-700 font-medium hover:text-[var(--aubergine)] no-underline">Introducing MAR</a>
-        </div>
-      </li>
-      <li class="relative">
-        <button class="nav-toggle font-semibold text-gray-700 hover:text-[var(--aubergine)]" data-menu="architecture">MAR Architecture</button>
-        <div id="subnav-architecture" class="absolute top-full left-0 hidden flex flex-row gap-x-6 py-4 px-6 z-50 whitespace-nowrap">
-          <a href="/asn" class="text-gray-700 font-medium hover:text-[var(--aubergine)] no-underline">ASN</a>
-          <a href="/adm" class="text-gray-700 font-medium hover:text-[var(--aubergine)] no-underline">ADM</a>
-          <a href="/software-layer" class="text-gray-700 font-medium hover:text-[var(--aubergine)] no-underline">Software Layer</a>
-          <a href="/hardware-layer" class="text-gray-700 font-medium hover:text-[var(--aubergine)] no-underline">Hardware Layer</a>
-          <a href="/sems" class="text-gray-700 font-medium hover:text-[var(--aubergine)] no-underline">SEMS</a>
-        </div>
-      </li>
-      <li><a href="/articles" class="font-semibold text-gray-700 no-underline hover:underline hover:text-[var(--aubergine)]">Articles</a></li>
-      <li><a href="/patents" class="font-semibold text-gray-700 no-underline hover:underline hover:text-[var(--aubergine)]">Patents</a></li>
-      <li><a href="/licensing" class="font-semibold text-gray-700 no-underline hover:underline hover:text-[var(--aubergine)]">Licensing</a></li>
-      <li><a href="/contact" class="font-semibold text-gray-700 no-underline hover:underline hover:text-[var(--aubergine)]">Contact</a></li>
-    </ul>
+      <!-- Desktop Navigation -->
+      <ul class="hidden sm:flex items-center gap-x-6">
+        <li class="relative">
+          <button class="nav-toggle font-semibold text-gray-700 hover:text-[var(--aubergine)]" data-menu="foundation">Foundation</button>
+          <div id="subnav-foundation" class="absolute top-full left-0 hidden flex flex-row gap-x-6 py-4 px-6 z-50 whitespace-nowrap">
+            <a href="/manifesto" class="text-gray-700 font-medium hover:text-[var(--aubergine)] no-underline">The Manifesto</a>
+            <a href="/what-is-symbolic-computing" class="text-gray-700 font-medium hover:text-[var(--aubergine)] no-underline">What Is Symbolic Computing?</a>
+            <a href="/introducing-mar" class="text-gray-700 font-medium hover:text-[var(--aubergine)] no-underline">Introducing MAR</a>
+          </div>
+        </li>
+        <li class="relative">
+          <button class="nav-toggle font-semibold text-gray-700 hover:text-[var(--aubergine)]" data-menu="architecture">MAR Architecture</button>
+          <div id="subnav-architecture" class="absolute top-full left-0 hidden flex flex-row gap-x-6 py-4 px-6 z-50 whitespace-nowrap">
+            <a href="/asn" class="text-gray-700 font-medium hover:text-[var(--aubergine)] no-underline">ASN</a>
+            <a href="/adm" class="text-gray-700 font-medium hover:text-[var(--aubergine)] no-underline">ADM</a>
+            <a href="/software-layer" class="text-gray-700 font-medium hover:text-[var(--aubergine)] no-underline">Software Layer</a>
+            <a href="/hardware-layer" class="text-gray-700 font-medium hover:text-[var(--aubergine)] no-underline">Hardware Layer</a>
+            <a href="/sems" class="text-gray-700 font-medium hover:text-[var(--aubergine)] no-underline">SEMS</a>
+          </div>
+        </li>
+        <li><a href="/articles" class="font-semibold text-gray-700 no-underline hover:underline hover:text-[var(--aubergine)]">Articles</a></li>
+        <li><a href="/patents" class="font-semibold text-gray-700 no-underline hover:underline hover:text-[var(--aubergine)]">Patents</a></li>
+        <li><a href="/licensing" class="font-semibold text-gray-700 no-underline hover:underline hover:text-[var(--aubergine)]">Licensing</a></li>
+        <li><a href="/contact" class="font-semibold text-gray-700 no-underline hover:underline hover:text-[var(--aubergine)]">Contact</a></li>
+      </ul>
+    </div>
 
     <!-- Hamburger toggle (mobile only) -->
-    <button id="mobile-toggle" class="sm:hidden text-gray-800 focus:outline-none">
+    <button id="mobile-toggle" class="absolute right-6 top-4 sm:hidden text-gray-800 focus:outline-none">
       <svg class="w-6 h-6" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24">
         <path stroke-linecap="round" stroke-linejoin="round" d="M4 6h16M4 12h16M4 18h16" />
       </svg>
