@@ -36,9 +36,8 @@ Symbolic software can be deployed on classical machines. It emulates the full MA
 
 The symbolic software layer makes MAR operational before symbolic hardware is available. It allows symbolic programs to run today — not as simulations, but as direct executions on preserved form.
 
----
 
 <div class="flex justify-between text-sm text-gray-600 mt-12">
   <a href="/adm" class="no-underline hover:underline">← Adaptive Decision Module (ADM)</a>
-  <a href="/hardware" class="no-underline hover:underline">Symbolic Hardware Layer →</a>
+  <a href="/hardware-layer" class="no-underline hover:underline">Symbolic Hardware Layer →</a>
 </div>
