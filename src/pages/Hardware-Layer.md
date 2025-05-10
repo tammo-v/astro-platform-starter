@@ -35,9 +35,9 @@ As symbolic circuits evolve, the system gains not just speed, but structural pre
 Symbolic hardware is not a reimplementation of classical logic.  
 It is a structural substrate for symbolic execution — one that carries identity, preserves form, and allows symbolic computation to operate directly in material space.
 
----
+
 
 <div class="flex justify-between text-sm text-gray-600 mt-12">
-  <a href="/software" class="no-underline hover:underline">← Symbolic Software Layer</a>
+  <a href="/software-layer" class="no-underline hover:underline">← Symbolic Software Layer</a>
   <a href="/sems" class="no-underline hover:underline">Symbolic Execution and Memory Stack (SEMS) →</a>
 </div>
