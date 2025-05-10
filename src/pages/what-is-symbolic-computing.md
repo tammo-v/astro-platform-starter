@@ -32,8 +32,9 @@ This model enables computation to move differently:
 
 Symbolic Computing is not a replacement for classical systems. It is an extension — one that supports structural thinking at every level, from representation to execution.
 
-It begins by asking a simple question:  
-*What if we could compute without losing the structure that defines what we mean?*
+It begins by asking a simple question: 
+
+*What if computation could preserve not just meaning, but structure itself?*
 
 
 
