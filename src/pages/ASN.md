@@ -36,7 +36,7 @@ ASN is not a syntax for human input. It is the representational layer for symbol
 
 It is through ASN that symbolic meaning enters the system — and through which form becomes the basis for computation.
 
----
+
 
 <div class="flex justify-between text-sm text-gray-600 mt-12">
   <a href="/introducing-mar" class="no-underline hover:underline">← Introducing MAR</a>
