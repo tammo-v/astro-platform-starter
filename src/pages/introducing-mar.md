@@ -5,7 +5,7 @@ layout: ../layouts/Layout.astro
 
 ## Introducing MAR
 
-**MAR** — *Mathematical Adaptive Reasoning* — is the execution system that enables Symbolic Computing to function as a complete computational model.
+**Mathematical Adaptive Reasoning (MAR)**  is the execution system that enables Symbolic Computing to function as a complete computational model.
 
 In MAR, symbolic form is not a layer on top of computation — it is the foundation. Numbers, functions, expressions, and transformations are represented as structured, symbolic objects. These objects are preserved through execution, stored in symbolic memory, and transformed compositionally rather than reduced.
 
