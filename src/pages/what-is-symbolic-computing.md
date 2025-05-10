@@ -40,5 +40,5 @@ It begins by asking a simple question:
 
 <div class="flex justify-between text-sm text-gray-600 mt-12">
   <a href="/manifesto" class="no-underline hover:underline">← The Manifesto</a>
-  <a href="/mar" class="no-underline hover:underline">MAR Architecture →</a>
+  <a href="/introducing-mar" class="no-underline hover:underline">Introducing MAR →</a>
 </div>
