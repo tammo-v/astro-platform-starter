@@ -47,3 +47,7 @@ It does not simulate structure.
 It computes on it.
 
 And it begins here.
+
+<div class="flex justify-end text-sm text-gray-600 mt-12">
+  <a href="/what-is-symbolic-computing" class="no-underline hover:underline">What Is Symbolic Computing? →</a>
+</div>
