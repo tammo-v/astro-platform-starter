@@ -1,3 +1,8 @@
+---
+title: Symbolic Execution and Memory Stack (SEMS)
+layout: ../layouts/Layout.astro
+---
+
 ## Symbolic Execution and Memory Stack (SEMS)
 
 The **Symbolic Execution and Memory Stack (SEMS)** is the internal coordination system that supports symbolic execution, memory, and transformation across all layers of the MAR architecture. It is not a separate module — it is the connective substrate through which symbolic objects are preserved, accessed, and processed.
