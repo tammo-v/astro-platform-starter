@@ -1,3 +1,8 @@
+---
+title: Introducing MAR
+layout: ../layouts/Base.astro
+---
+
 ## Introducing MAR
 
 **MAR** — *Mathematical Adaptive Reasoning* — is the execution system that enables Symbolic Computing to function as a complete computational model.
