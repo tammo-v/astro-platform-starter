@@ -202,3 +202,9 @@ pre code,
     padding-left: calc((100% - 48rem) / 2);
   }
 }
+
+@layer utilities {
+  .nav-align {
+    padding-left: calc((100% - 48rem) / 2); /* aligns with max-w-3xl */
+  }
+}
