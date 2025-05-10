@@ -1,3 +1,8 @@
+---
+title: Symbolic Software Layer
+layout: ../layouts/Layout.astro
+---
+
 ## Symbolic Software Layer
 
 The **Symbolic Software Layer** is the runtime environment in which symbolic programs are composed, interpreted, and executed. It is built directly on top of ISUs, ISEs, and IRDs, and operates without reducing symbolic form into procedural code.
