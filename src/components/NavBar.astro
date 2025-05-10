@@ -9,8 +9,8 @@
         Symbolic Computing
       </a>
 
-      <!-- Desktop Nav (manually aligned with pl-[84px]) -->
-      <ul class="hidden sm:flex items-center gap-x-6 pl-[84px]">
+      <!-- Desktop nav -->
+      <ul class="hidden sm:flex items-center gap-x-6 nav-align">
         <li class="relative">
           <button class="nav-toggle font-semibold text-gray-700 hover:text-[var(--aubergine)]" data-menu="foundation">Foundation</button>
           <div id="subnav-foundation" class="absolute top-full left-0 hidden flex flex-row gap-x-6 py-4 px-6 z-50 whitespace-nowrap">
@@ -74,6 +74,9 @@
     <a href="/licensing" class="block text-gray-700 font-medium no-underline">Licensing</a>
     <a href="/contact" class="block text-gray-700 font-medium no-underline">Contact</a>
   </div>
+
+  <!-- Dummy safelist block to force Tailwind to include nav-align -->
+  <div class="hidden nav-align"></div>
 </nav>
 
 <script type="module" client:load>
