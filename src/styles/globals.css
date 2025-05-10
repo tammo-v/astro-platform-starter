@@ -195,3 +195,10 @@ pre code,
   padding: 0;
   border-radius: 0;
 }
+
+@layer utilities {
+  /* Aligns desktop nav with body content (max-w-3xl = 48rem) */
+  .align-body-left {
+    padding-left: calc((100% - 48rem) / 2);
+  }
+}
