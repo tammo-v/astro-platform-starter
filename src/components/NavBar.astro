@@ -1,9 +1,10 @@
 ---
 ---
 <nav class="w-full isolate z-[9999] relative bg-white text-sm tracking-wide text-gray-800">
-  <div class="max-w-6xl mx-auto px-6 sm:px-0 py-4 flex items-center justify-between">
+  <div class="max-w-6xl mx-auto py-4 flex items-center justify-between">
     <!-- Logo -->
-    <a href="/what-is-symbolic-computing" class="text-lg font-medium tracking-tight text-[var(--aubergine)] no-underline hover:opacity-80">
+    <a href="/what-is-symbolic-computing"
+       class="text-xl font-semibold tracking-tight text-[var(--aubergine)] no-underline hover:opacity-80 px-6 sm:px-0">
       Symbolic Computing
     </a>
 
@@ -27,7 +28,6 @@
       <li class="relative">
         <button class="nav-toggle font-semibold text-gray-700 hover:text-[var(--aubergine)]" data-menu="architecture">MAR Architecture</button>
         <div id="subnav-architecture" class="absolute top-full left-0 hidden flex flex-row gap-x-6 py-4 px-6 z-50 whitespace-nowrap">
-          <a href="/introducing-mar" class="text-gray-700 font-medium hover:text-[var(--aubergine)] no-underline">Introducing MAR</a>
           <a href="/asn" class="text-gray-700 font-medium hover:text-[var(--aubergine)] no-underline">ASN</a>
           <a href="/adm" class="text-gray-700 font-medium hover:text-[var(--aubergine)] no-underline">ADM</a>
           <a href="/software-layer" class="text-gray-700 font-medium hover:text-[var(--aubergine)] no-underline">Software Layer</a>
@@ -43,39 +43,35 @@
   </div>
 
   <!-- Mobile Navigation -->
-<div id="mobile-menu" class="sm:hidden hidden flex-col px-4 pt-2 pb-4 space-y-3">
-  <!-- Foundation -->
-  <div>
-    <button class="text-left text-gray-700 font-semibold mb-1" data-toggle="mobile-foundation">
-      Foundation
-    </button>
-    <div id="mobile-foundation" class="hidden pl-4 pt-1 space-y-1">
-      <a href="/manifesto" class="block text-gray-700 font-medium no-underline">The Manifesto</a>
-      <a href="/what-is-symbolic-computing" class="block text-gray-700 font-medium no-underline">What Is Symbolic Computing?</a>
-      <a href="/introducing-mar" class="block text-gray-700 font-medium no-underline">Introducing MAR</a>
+  <div id="mobile-menu" class="sm:hidden hidden flex-col px-4 pt-2 pb-4 space-y-3">
+    <!-- Foundation -->
+    <div>
+      <button class="text-left text-gray-700 font-semibold mb-1" data-toggle="mobile-foundation">Foundation</button>
+      <div id="mobile-foundation" class="hidden pl-4 pt-1 space-y-1">
+        <a href="/manifesto" class="block text-gray-700 font-medium no-underline">The Manifesto</a>
+        <a href="/what-is-symbolic-computing" class="block text-gray-700 font-medium no-underline">What Is Symbolic Computing?</a>
+        <a href="/introducing-mar" class="block text-gray-700 font-medium no-underline">Introducing MAR</a>
+      </div>
     </div>
-  </div>
 
-  <!-- MAR Architecture -->
-  <div>
-    <button class="text-left text-gray-700 font-semibold mb-1" data-toggle="mobile-architecture">
-      MAR Architecture
-    </button>
-    <div id="mobile-architecture" class="hidden pl-4 pt-1 space-y-1">
-      <a href="/asn" class="block text-gray-700 font-medium no-underline">ASN</a>
-      <a href="/adm" class="block text-gray-700 font-medium no-underline">ADM</a>
-      <a href="/software-layer" class="block text-gray-700 font-medium no-underline">Software Layer</a>
-      <a href="/hardware-layer" class="block text-gray-700 font-medium no-underline">Hardware Layer</a>
-      <a href="/sems" class="block text-gray-700 font-medium no-underline">SEMS</a>
+    <!-- MAR Architecture -->
+    <div>
+      <button class="text-left text-gray-700 font-semibold mb-1" data-toggle="mobile-architecture">MAR Architecture</button>
+      <div id="mobile-architecture" class="hidden pl-4 pt-1 space-y-1">
+        <a href="/asn" class="block text-gray-700 font-medium no-underline">ASN</a>
+        <a href="/adm" class="block text-gray-700 font-medium no-underline">ADM</a>
+        <a href="/software-layer" class="block text-gray-700 font-medium no-underline">Software Layer</a>
+        <a href="/hardware-layer" class="block text-gray-700 font-medium no-underline">Hardware Layer</a>
+        <a href="/sems" class="block text-gray-700 font-medium no-underline">SEMS</a>
+      </div>
     </div>
-  </div>
 
-  <!-- Other pages -->
-  <a href="/articles" class="block text-gray-700 font-medium no-underline">Articles</a>
-  <a href="/patents" class="block text-gray-700 font-medium no-underline">Patents</a>
-  <a href="/licensing" class="block text-gray-700 font-medium no-underline">Licensing</a>
-  <a href="/contact" class="block text-gray-700 font-medium no-underline">Contact</a>
-</div>
+    <!-- Other pages -->
+    <a href="/articles" class="block text-gray-700 font-medium no-underline">Articles</a>
+    <a href="/patents" class="block text-gray-700 font-medium no-underline">Patents</a>
+    <a href="/licensing" class="block text-gray-700 font-medium no-underline">Licensing</a>
+    <a href="/contact" class="block text-gray-700 font-medium no-underline">Contact</a>
+  </div>
 </nav>
 
 <script type="module" client:load>
