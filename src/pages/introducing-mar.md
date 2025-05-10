@@ -1,6 +1,6 @@
 ---
 title: Introducing MAR
-layout: ../layouts/Base.astro
+layout: ../layouts/Layout.astro
 ---
 
 ## Introducing MAR
