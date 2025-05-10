@@ -1,3 +1,9 @@
+---
+title: Adaptive Decision Module (ADM)
+layout: ../layouts/Layout.astro
+---
+
+
 ## Adaptive Decision Module (ADM)
 
 The **Adaptive Decision Module (ADM)** is the symbolic reasoning engine within the MAR architecture. It governs how symbolic expressions are evaluated, deferred, transformed, or preserved — based not on procedural rules, but on the structure of the symbolic form itself.
