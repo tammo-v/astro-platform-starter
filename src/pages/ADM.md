@@ -39,7 +39,6 @@ ADM is not a controller.
 It is a structural selector.  
 It is how symbolic systems choose how to compute.
 
----
 
 <div class="flex justify-between text-sm text-gray-600 mt-12">
   <a href="/asn" class="no-underline hover:underline">← Adaptive Symbolic Notation (ASN)</a>
