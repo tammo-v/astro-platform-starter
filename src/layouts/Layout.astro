@@ -30,13 +30,11 @@ const { title } = Astro.props;
         </script>
     </head>
     <body class="bg-white text-black antialiased">
-      <!-- <Header /> -->
       <NavBar />
-      <main class="max-w-3xl mx-auto pl-[8px] pt-12 pb-32">
+      <main class="max-w-3xl mx-auto px-6 sm:px-0 pt-6 pb-32">
         <div class="prose markdown text-base leading-relaxed tracking-tight text-gray-900">
           <slot />
         </div>
       </main>
-      <!-- <Footer /> -->
     </body>
 </html>
