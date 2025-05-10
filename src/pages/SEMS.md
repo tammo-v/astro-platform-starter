@@ -41,8 +41,7 @@ SEMS is not a stack in the classical sense.
 It is a symbolic field —  
 one in which the computation is not just performed, but remembered.
 
----
 
 <div class="flex justify-start text-sm text-gray-600 mt-12">
-  <a href="/hardware" class="no-underline hover:underline">← Symbolic Hardware Layer</a>
+  <a href="/hardware-layer" class="no-underline hover:underline">← Symbolic Hardware Layer</a>
 </div>
