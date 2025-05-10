@@ -1,3 +1,8 @@
+---
+title: Symbolic Hardware Layer
+layout: ../layouts/Layout.astro
+---
+
 ## Symbolic Hardware Layer
 
 The **Symbolic Hardware Layer** enables direct execution of symbolic logic at the physical level. While the MAR architecture can be fully emulated in software, symbolic hardware provides a native substrate — allowing symbolic structures to be executed, preserved, and transformed without approximation or flattening.
