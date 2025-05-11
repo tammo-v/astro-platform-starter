@@ -48,3 +48,7 @@ layout: ../layouts/BaseLayout.astro
 > It computes on it.  
 >
 > And it begins here.
+
+<div class="hidden sm:flex justify-end mt-12">
+  <a href="/what-is-symbolic-computing" class="link-nav-soft">What Is Symbolic Computing? →</a>
+</div>
