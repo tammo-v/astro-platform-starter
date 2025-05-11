@@ -37,7 +37,7 @@ It is a structural substrate for symbolic execution — one that carries identit
 
 
 
-<div class="hidden sm:flex justify-between text-sm text-gray-600 mt-12">
-  <a href="/software-layer" class="no-underline hover:underline">← Symbolic Software Layer</a>
-  <a href="/sems" class="no-underline hover:underline">Symbolic Execution and Memory Stack (SEMS) →</a>
+<div class="hidden sm:flex justify-between mt-12">
+  <a href="/software-layer" class="link-nav-soft">← Symbolic Software Layer</a>
+  <a href="/sems" class="link-nav-soft">Symbolic Execution and Memory Stack (SEMS) →</a>
 </div>
