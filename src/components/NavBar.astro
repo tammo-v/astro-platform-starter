@@ -1,16 +1,24 @@
 ---
 ---
 <nav class="w-full isolate z-[9999] relative bg-white text-sm tracking-wide text-gray-800">
+  <!-- Mobile logo (only visible below sm) -->
+  <div class="sm:hidden px-6 py-4">
+    <a href="/what-is-symbolic-computing"
+       class="text-xl font-semibold tracking-tight text-[var(--aubergine)] no-underline hover:opacity-80">
+      Symbolic Computing
+    </a>
+  </div>
+
   <div class="max-w-6xl mx-auto py-4 px-6 sm:px-0 relative">
-    <!-- Logo + Desktop nav in one flex row -->
+    <!-- Desktop logo + nav -->
     <div class="hidden sm:flex items-center justify-start gap-x-12">
-      <!-- Logo -->
+      <!-- Logo (desktop only) -->
       <a href="/what-is-symbolic-computing"
-         class="text-xl sm:text-lg font-semibold sm:font-medium tracking-tight text-[var(--aubergine)] no-underline hover:opacity-80">
+         class="text-lg font-medium tracking-tight text-[var(--aubergine)] no-underline hover:opacity-80">
         Symbolic Computing
       </a>
 
-      <!-- Desktop nav (inline, shared axis) -->
+      <!-- Desktop nav list -->
       <ul class="flex items-center gap-x-6">
         <li class="relative">
           <button class="nav-toggle font-semibold text-gray-700 hover:text-[var(--aubergine)]" data-menu="foundation">Foundation</button>
