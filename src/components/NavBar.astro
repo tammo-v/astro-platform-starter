@@ -2,15 +2,16 @@
 ---
 <nav class="w-full isolate z-[9999] relative bg-white text-sm tracking-wide text-gray-800">
   <div class="max-w-6xl mx-auto py-4 px-6 sm:px-0 relative">
-    <div class="flex items-center justify-between">
+    <!-- Logo + Desktop nav in one flex row -->
+    <div class="hidden sm:flex items-center justify-start gap-x-12">
       <!-- Logo -->
       <a href="/what-is-symbolic-computing"
          class="text-xl sm:text-lg font-semibold sm:font-medium tracking-tight text-[var(--aubergine)] no-underline hover:opacity-80">
         Symbolic Computing
       </a>
 
-      <!-- Desktop nav -->
-      <ul class="hidden sm:flex items-center gap-x-6 nav-align">
+      <!-- Desktop nav (inline, shared axis) -->
+      <ul class="flex items-center gap-x-6">
         <li class="relative">
           <button class="nav-toggle font-semibold text-gray-700 hover:text-[var(--aubergine)]" data-menu="foundation">Foundation</button>
           <div id="subnav-foundation" class="absolute top-full left-0 hidden flex flex-row gap-x-6 py-4 px-6 z-50 whitespace-nowrap">
@@ -74,6 +75,7 @@
     <a href="/licensing" class="block text-gray-700 font-medium no-underline">Licensing</a>
     <a href="/contact" class="block text-gray-700 font-medium no-underline">Contact</a>
   </div>
+</nav>
 
 <script type="module" client:load>
   const toggleButtons = document.querySelectorAll('.nav-toggle');
