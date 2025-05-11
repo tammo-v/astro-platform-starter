@@ -5,5 +5,9 @@ layout: ../../layouts/Layout.astro
 
 ## Articles
 
-- [Floating Point Is Broken — Here’s What We’re Replacing It With](/articles/floating-point)  
-  [Download PDF](/articles/floating-point/floating-point.pdf) 📄
+<a href="/articles/floating-point" class="no-underline hover:opacity-80">
+  Floating Point Is Broken — Here’s What We’re Replacing It With
+</a><br>
+<a href="/articles/floating-point/floating-point.pdf" class="no-underline hover:opacity-80">
+  Download PDF 📄
+</a>
