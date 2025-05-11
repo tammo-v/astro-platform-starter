@@ -1,18 +1,23 @@
 ---
 ---
 <nav class="w-full isolate z-[9999] relative bg-white text-sm tracking-wide text-gray-800">
-  <!-- Mobile logo (only visible below sm) -->
-  <div class="sm:hidden px-6 py-4">
+  <!-- Mobile: logo + hamburger inline -->
+  <div class="sm:hidden flex items-center justify-between px-6 py-4">
     <a href="/what-is-symbolic-computing"
        class="text-xl font-semibold tracking-tight text-[var(--aubergine)] no-underline hover:opacity-80">
       Symbolic Computing
     </a>
+    <button id="mobile-toggle" class="text-gray-800 focus:outline-none">
+      <svg class="w-6 h-6" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24">
+        <path stroke-linecap="round" stroke-linejoin="round" d="M4 6h16M4 12h16M4 18h16" />
+      </svg>
+    </button>
   </div>
 
+  <!-- Desktop: logo + nav -->
   <div class="max-w-6xl mx-auto py-4 px-6 sm:px-0 relative">
-    <!-- Desktop logo + nav -->
     <div class="hidden sm:flex items-center justify-start gap-x-12">
-      <!-- Logo (desktop only) -->
+      <!-- Logo (desktop) -->
       <a href="/what-is-symbolic-computing"
          class="text-lg font-medium tracking-tight text-[var(--aubergine)] no-underline hover:opacity-80">
         Symbolic Computing
@@ -44,13 +49,6 @@
         <li><a href="/contact" class="font-semibold text-gray-700 no-underline hover:underline hover:text-[var(--aubergine)]">Contact</a></li>
       </ul>
     </div>
-
-    <!-- Hamburger toggle (mobile only) -->
-    <button id="mobile-toggle" class="absolute right-6 top-4 sm:hidden text-gray-800 focus:outline-none">
-      <svg class="w-6 h-6" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24">
-        <path stroke-linecap="round" stroke-linejoin="round" d="M4 6h16M4 12h16M4 18h16" />
-      </svg>
-    </button>
   </div>
 
   <!-- Mobile Menu -->
