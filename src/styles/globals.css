@@ -196,3 +196,12 @@ pre code,
   border-radius: 0;
 }
 
+@layer utilities {
+  .link-default {
+    @apply no-underline hover:opacity-80 transition-opacity;
+  }
+
+  .link-nav {
+    @apply no-underline hover:text-[var(--aubergine)] transition-colors;
+  }
+}
