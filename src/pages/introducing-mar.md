@@ -39,7 +39,7 @@ Together, these layers form a unified symbolic system — one where structure is
 **MAR is what allows Symbolic Computing to function as a complete system** — not as an abstraction or overlay, but as a new computational foundation.
 
 
-<div class="flex justify-between text-sm text-gray-600 mt-12">
+<div class="hidden sm:flex justify-between text-sm text-gray-600 mt-12">
   <a href="/what-is-symbolic-computing" class="no-underline hover:underline">← What Is Symbolic Computing?</a>
   <a href="/asn" class="no-underline hover:underline">Adaptive Symbolic Notation (ASN) →</a>
 </div>
