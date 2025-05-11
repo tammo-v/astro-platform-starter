@@ -205,3 +205,9 @@ pre code,
     @apply no-underline hover:text-[var(--aubergine)] transition-colors;
   }
 }
+
+@layer utilities {
+  .link-nav-soft {
+    @apply no-underline text-gray-600 text-sm transition-colors hover:text-[var(--aubergine)];
+  }
+}
