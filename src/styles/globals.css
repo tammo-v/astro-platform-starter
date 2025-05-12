@@ -31,9 +31,9 @@
     @apply text-xl font-medium;
   }
 
-  a:not(.btn):not(.link-nav):not(.link-nav-soft) {
-  @apply underline transition hover:opacity-80;
-}
+  a:not(.btn):not(.link-nav):not(.link-nav-soft):not(.link-default) {
+    @apply underline transition hover:opacity-80;
+  }
 
   pre {
     @apply overflow-x-auto;
@@ -98,7 +98,7 @@
   }
 
   .btn:hover {
-    background-color: #f88c91; /* Slightly lighter than primary */
+    background-color: #f88c91;
   }
 
   .btn:disabled {
@@ -202,12 +202,14 @@ pre code,
   border-radius: 0;
 }
 
-@layer utilities {
-  .link-default {
-    @apply no-underline hover:opacity-80 transition-opacity;
-    text-decoration: none !important;
-  }
+.markdown a.link-default,
+.prose a.link-default,
+.link-default {
+  @apply no-underline hover:opacity-80 transition-opacity;
+  text-decoration: none !important;
+}
 
+@layer utilities {
   .link-nav {
     @apply no-underline transition-colors;
     text-decoration: none;
@@ -220,27 +222,6 @@ pre code,
   .link-nav-soft {
     @apply no-underline text-gray-600 text-sm transition-colors;
     text-decoration: none !important;
-  }
-
-  .link-nav-soft:hover {
-    color: var(--aubergine);
-  }
-}
-
-  .link-nav {
-    text-decoration: none;
-    transition: color 0.2s;
-  }
-
-  .link-nav:hover {
-    color: var(--aubergine);
-  }
-
-  .link-nav-soft {
-    text-decoration: none;
-    color: #4b5563;
-    font-size: 0.875rem;
-    transition: color 0.2s;
   }
 
   .link-nav-soft:hover {
