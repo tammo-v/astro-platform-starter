@@ -205,13 +205,9 @@ pre code,
 }
 
 @layer utilities {
-  .link-default {
-    @apply no-underline hover:opacity-80 transition-opacity;
-  }
-
   .link-nav {
+    @apply no-underline transition-colors;
     text-decoration: none;
-    transition: color 0.2s;
   }
 
   .link-nav:hover {
@@ -219,10 +215,8 @@ pre code,
   }
 
   .link-nav-soft {
-    text-decoration: none;
-    color: #4b5563;
-    font-size: 0.875rem;
-    transition: color 0.2s;
+    @apply no-underline text-gray-600 text-sm transition-colors;
+    text-decoration: none !important;
   }
 
   .link-nav-soft:hover {
