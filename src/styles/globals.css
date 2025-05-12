@@ -31,9 +31,7 @@
     @apply text-xl font-medium;
   }
 
-main a:not(.btn),
-article a:not(.btn),
-section a:not(.btn):not(.link-nav):not(.link-nav-soft) {
+  a:not(.btn):not(.link-nav):not(.link-nav-soft) {
   @apply underline transition hover:opacity-80;
 }
 
@@ -205,6 +203,11 @@ pre code,
 }
 
 @layer utilities {
+  .link-default {
+    @apply no-underline hover:opacity-80 transition-opacity;
+    text-decoration: none !important;
+  }
+
   .link-nav {
     @apply no-underline transition-colors;
     text-decoration: none;
@@ -217,6 +220,27 @@ pre code,
   .link-nav-soft {
     @apply no-underline text-gray-600 text-sm transition-colors;
     text-decoration: none !important;
+  }
+
+  .link-nav-soft:hover {
+    color: var(--aubergine);
+  }
+}
+
+  .link-nav {
+    text-decoration: none;
+    transition: color 0.2s;
+  }
+
+  .link-nav:hover {
+    color: var(--aubergine);
+  }
+
+  .link-nav-soft {
+    text-decoration: none;
+    color: #4b5563;
+    font-size: 0.875rem;
+    transition: color 0.2s;
   }
 
   .link-nav-soft:hover {
