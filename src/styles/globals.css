@@ -2,18 +2,18 @@
 @tailwind components;
 @tailwind utilities;
 
-@theme {
+:root {
   --font-sans: 'Inter', ui-sans-serif, system-ui, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol', 'Noto Color Emoji';
   --color-primary: #f67280;
   --color-primary-content: #101828;
   --color-complementary: #355c7d;
   --aubergine: #5c3a5c;
   --background-image-noise: linear-gradient(
-      to bottom,
-      color-mix(in oklab, var(--color-gray-950) 0%, transparent),
-      color-mix(in oklab, var(--color-gray-950) 100%, transparent)
-    ),
-    url('/images/noise.png');
+    to bottom,
+    color-mix(in oklab, var(--color-gray-950) 0%, transparent),
+    color-mix(in oklab, var(--color-gray-950) 100%, transparent)
+  ),
+  url('/images/noise.png');
 }
 
 @layer base {
@@ -61,40 +61,49 @@
     font-size: 1rem;
     color: #1f2937;
   }
-} /* ← this closes @layer base */
+}
 
 @layer components {
-  .markdown {
-    > * {
-      @apply my-6;
-    }
+  .markdown > * {
+    @apply my-6;
+  }
 
-    :where(h1, h2) {
-      @apply mt-12 mb-6;
-    }
+  .markdown :where(h1, h2) {
+    @apply mt-12 mb-6;
+  }
 
-    > :first-child {
-      @apply mt-0;
-    }
+  .markdown > :first-child {
+    @apply mt-0;
+  }
 
-    > :last-child {
-      @apply mb-0;
-    }
+  .markdown > :last-child {
+    @apply mb-0;
   }
 
   .btn {
-    @apply inline-flex items-center justify-center gap-2 bg-primary text-primary-content cursor-pointer text-center font-semibold no-underline transition-colors;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    gap: 0.5rem;
+    background-color: var(--color-primary);
+    color: var(--color-primary-content);
+    cursor: pointer;
+    text-align: center;
+    font-weight: 600;
+    text-decoration: none;
+    transition: background-color 0.2s;
     padding: var(--btn-py, 0.875rem) var(--btn-px, 1.25rem);
     font-size: var(--btn-font-size, 0.875rem);
     border-radius: var(--btn-border-radius, 0.25rem);
+  }
 
-    &:hover {
-      @apply bg-primary/85;
-    }
+  .btn:hover {
+    background-color: #f88c91; /* Slightly lighter than primary */
+  }
 
-    &:disabled {
-      @apply text-gray-400 bg-gray-700;
-    }
+  .btn:disabled {
+    color: #9ca3af;
+    background-color: #374151;
   }
 
   .btn-lg {
@@ -104,7 +113,6 @@
   }
 }
 
-/* Markdown content styling */
 .markdown h1,
 .markdown h2,
 .markdown h3 {
@@ -151,7 +159,6 @@
   line-height: 1.6;
 }
 
-/* Final override: remove background boxes from math/code blocks */
 pre,
 pre code,
 .markdown pre,
@@ -164,7 +171,6 @@ pre code,
   color: #1f2937 !important;
 }
 
-/* Hard reset math blocks if all else fails */
 .markdown pre,
 .markdown pre code,
 .markdown :where(pre, pre code) {
@@ -177,7 +183,6 @@ pre code,
   white-space: pre-wrap;
 }
 
-/* Final override for inline code (e.g., `sqrt(2)`) */
 .markdown code,
 .prose code,
 .markdown :not(pre) > code,
@@ -188,7 +193,6 @@ pre code,
   color: #1f2937;
 }
 
-/* Symbolic class for custom math */
 .symbolic {
   font-family: monospace;
   font-size: 1rem;
@@ -204,12 +208,22 @@ pre code,
   }
 
   .link-nav {
-    @apply no-underline hover:text-[var(--aubergine)] transition-colors;
+    text-decoration: none;
+    transition: color 0.2s;
   }
-}
 
-@layer utilities {
+  .link-nav:hover {
+    color: var(--aubergine);
+  }
+
   .link-nav-soft {
-    @apply no-underline text-gray-600 text-sm transition-colors hover:text-[var(--aubergine)];
+    text-decoration: none;
+    color: #4b5563;
+    font-size: 0.875rem;
+    transition: color 0.2s;
+  }
+
+  .link-nav-soft:hover {
+    color: var(--aubergine);
   }
 }
