@@ -31,7 +31,9 @@
     @apply text-xl font-medium;
   }
 
-  a:not(.btn):not(.link-nav):not(.link-nav-soft):not(.link-default) {
+  main a:not(.btn):not(.link-default):not(.link-nav):not(.link-nav-soft),
+  .markdown a:not(.link-default):not(.link-nav):not(.link-nav-soft),
+  .prose a:not(.link-default):not(.link-nav):not(.link-nav-soft) {
     @apply underline transition hover:opacity-80;
   }
 
@@ -202,29 +204,19 @@ pre code,
   border-radius: 0;
 }
 
-.markdown a.link-default,
-.prose a.link-default,
-.link-default {
-  @apply no-underline hover:opacity-80 transition-opacity;
-  text-decoration: none !important;
-  -webkit-text-decoration: none !important;
-}
-
 @layer utilities {
-  .link-nav {
-    @apply no-underline transition-colors;
-    text-decoration: none;
-  }
-
-  .link-nav:hover {
-    color: var(--aubergine);
-  }
-
+  .link-default,
+  .markdown a.link-default,
+  .prose a.link-default,
+  .link-nav,
   .link-nav-soft {
-    @apply no-underline text-gray-600 text-sm transition-colors;
+    @apply no-underline hover:opacity-80 transition-opacity;
     text-decoration: none !important;
+    -webkit-text-decoration: none !important;
   }
 
+  .link-default:hover,
+  .link-nav:hover,
   .link-nav-soft:hover {
     color: var(--aubergine);
   }
