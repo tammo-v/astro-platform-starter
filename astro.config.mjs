@@ -1,11 +1,23 @@
-import { defineConfig } from "astro/config";
-import tailwind from "@astrojs/tailwind";
-import react from "@astrojs/react";
-import netlify from "@astrojs/netlify";
-
-// https://astro.build/config
-export default defineConfig({
-  integrations: [tailwind(), react()],
-  output: "static",
-  adapter: netlify()
-});
+{
+  "name": "astro-netlify-platform-starter",
+  "type": "module",
+  "version": "0.1.0",
+  "scripts": {
+    "dev": "astro dev",
+    "build": "astro build",
+    "preview": "astro preview"
+  },
+  "dependencies": {
+    "astro": "^4.5.14",
+    "@astrojs/netlify": "^4.0.0",
+    "@astrojs/react": "^3.2.0",
+    "@astrojs/tailwind": "^5.0.0",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0"
+  },
+  "devDependencies": {
+    "eslint": "^8.57.0",
+    "eslint-config-prettier": "^9.1.0",
+    "prettier": "^3.2.5"
+  }
+}
