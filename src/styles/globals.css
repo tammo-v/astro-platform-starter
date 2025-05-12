@@ -207,6 +207,7 @@ pre code,
 .link-default {
   @apply no-underline hover:opacity-80 transition-opacity;
   text-decoration: none !important;
+  -webkit-text-decoration: none !important;
 }
 
 @layer utilities {
