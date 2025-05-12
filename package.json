@@ -10,7 +10,8 @@
   "dependencies": {
     "astro": "^4.5.14",
     "@astrojs/netlify": "^4.0.0",
-    "@astrojs/tailwind": "^5.0.0"
+    "@astrojs/tailwind": "^5.0.0",
+    "@tailwindcss/typography": "^0.5.10"
   },
   "devDependencies": {
     "eslint": "^8.57.0",
