@@ -31,9 +31,9 @@
     @apply text-xl font-medium;
   }
 
-  a:not(.btn) {
-    @apply underline transition hover:opacity-80;
-  }
+  a:not(.btn):not(.link-nav):not(.link-nav-soft) {
+  @apply underline transition hover:opacity-80;
+}
 
   pre {
     @apply overflow-x-auto;
