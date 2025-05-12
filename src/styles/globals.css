@@ -31,7 +31,9 @@
     @apply text-xl font-medium;
   }
 
-  main a:not(.btn) {
+main a:not(.btn),
+article a:not(.btn),
+section a:not(.btn):not(.link-nav):not(.link-nav-soft) {
   @apply underline transition hover:opacity-80;
 }
 
