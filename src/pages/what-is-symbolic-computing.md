@@ -59,4 +59,4 @@ Symbolic Computing is not a replacement for classical systems. It extends them �
 
 It ends with a simple shift in perspective:
 
-> *What if the next step in computing isn’t faster — but smarter?*
+*What if the next step in computing isn’t faster — but smarter?*
