@@ -3,7 +3,7 @@ title: What Is Symbolic Computing?
 layout: ../layouts/Layout.astro
 ---
 
-# What Is Symbolic Computing?
+## What Is Symbolic Computing?
 
 Symbolic Computing is the result of a research effort rooted in foundational mathematics. It began with the study of structure — particularly the internal structure of numbers, transformations, and symbolic operations. Over time, this work expanded into computation: how structure is represented, evaluated, and preserved across execution. This site presents the resulting system — not as a product or platform, but as a representational framework that others are invited to **study, license, and apply.**
 
