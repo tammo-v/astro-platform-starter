@@ -3,7 +3,7 @@ title: Licensing
 layout: ../layouts/Layout.astro
 ---
 
-**Licensing**
+##Licensing
 
 Symbolic Computing is a structural framework for systems design. We do not manufacture hardware or deploy end-user systems. Instead, we define the underlying architecture that enables those systems to exist.
 
