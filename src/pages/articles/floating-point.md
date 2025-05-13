@@ -46,7 +46,7 @@ For matrices, the shift is not only in preservation, but in execution. In classi
 
 Symbolic computing stores the same matrix structurally:
 
-`A = 1A11, 2A12; 3A21, 4A22`  `# Symbolically structured`
+`A = 1_A11, 2_A12; 3_A21, 4_A22`  `# Symbolically structured`
 
 Each entry carries symbolic identity. This enables parallel processing — blocks, submatrices, or symbolic groups can be distributed and executed independently. Evaluation becomes localized and structurally aware.
 
