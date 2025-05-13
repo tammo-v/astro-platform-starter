@@ -16,7 +16,8 @@
     "postcss": "^8.4.38",
     "autoprefixer": "^10.4.17",
     "marked": "^9.1.2",
-    "chokidar": "^3.5.3"
+    "chokidar": "^3.5.3",
+    "marked-shiki": "^1.2.0"
   },
   "devDependencies": {
     "eslint": "^8.57.0",
