@@ -3,6 +3,8 @@ title: Contact
 layout: ../layouts/Layout.astro
 ---
 
+## Contact
+
 If you would like to connect regarding Symbolic Computing, please choose the appropriate address below. This ensures your message is received by the right channel, whether technical, collaborative, or legal in nature.
 
 **Licensing Requests**  
