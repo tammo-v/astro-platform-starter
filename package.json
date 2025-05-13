@@ -1,7 +1,7 @@
 {
-  "name": "astro-netlify-platform-starter",
+  "name": "symbolic-computing-site",
   "type": "module",
-  "version": "0.1.0",
+  "version": "1.0.0",
   "scripts": {
     "dev": "astro dev",
     "build": "astro build",
@@ -16,7 +16,7 @@
     "postcss": "^8.4.38",
     "autoprefixer": "^10.4.17",
     "marked": "^9.1.2",
-    "marked-shiki": "^1.2.0"
+    "chokidar": "^3.5.3"
   },
   "devDependencies": {
     "eslint": "^8.57.0",
