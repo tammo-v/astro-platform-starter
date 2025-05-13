@@ -36,7 +36,7 @@ Symbolic computing stores the same matrix structurally:
 
 Each entry carries symbolic identity. This enables parallel processing — blocks, submatrices, or symbolic groups can be distributed and executed independently. Evaluation becomes localized and structurally aware.
 
-At the center of this model is a system called **MAR** — *Mathematical Adaptive Reasoning*. MAR is what makes symbolic computation operational. It defines the symbolic substrate — a structural layer in which numbers, functions, and transformations exist as compositional objects. These are not representations of computation — they are its structure. They persist across memory, transformation, and execution.
+**Mathematical Adaptive Reasoning (MAR)** is the system that makes symbolic computation operational. It defines the symbolic substrate — a structural layer in which numbers, functions, and transformations exist as compositional objects. These are not representations of computation — they are its structure. They persist across memory, transformation, and execution.
 
 In a classical system, evaluation reduces an expression to a value. In MAR, evaluation is optional. Expressions remain intact until resolution is explicitly requested — or structurally required.
 
