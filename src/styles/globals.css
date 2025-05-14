@@ -214,9 +214,4 @@ pre code,
   text-decoration: none !important;
   -webkit-text-decoration: none !important;
 }
-
-  <div class="hidden sm:flex justify-between mt-12 text-sm">
-  <a href="/manifesto" class="link-nav-soft">← The Manifesto</a>
-  <a href="/asn" class="link-nav-soft">Adaptive Symbolic Notation (ASN) →</a>
-</div>
 }
