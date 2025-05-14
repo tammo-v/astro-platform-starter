@@ -61,7 +61,7 @@ It ends with a simple shift in perspective:
 
 *What if the next step in computing isn’t faster — but smarter?*
 
-<div class="hidden sm:flex justify-between mt-12">
+<div class="hidden sm:flex justify-between mt-12 text-sm text-gray-700 font-medium">
   <a href="/manifesto" class="link-nav-soft">← The Manifesto</a>
   <a href="/introducing-mar" class="link-nav-soft">Introducing MAR →</a>
 </div>
