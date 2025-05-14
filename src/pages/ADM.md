@@ -40,7 +40,7 @@ It is a structural selector.
 It is how symbolic systems choose how to compute.
 
 
-<div class="hidden sm:flex justify-between mt-12">
+<div class="hidden sm:flex justify-between mt-12 text-sm font-medium">
   <a href="/asn" class="link-nav-soft">← Adaptive Symbolic Notation (ASN)</a>
   <a href="/software-layer" class="link-nav-soft">Symbolic Software Layer →</a>
 </div>
