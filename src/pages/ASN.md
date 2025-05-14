@@ -38,7 +38,7 @@ It is through ASN that symbolic meaning enters the system — and through which 
 
 
 
-<div class="hidden sm:flex justify-between mt-12">
+<div class="hidden sm:flex justify-between mt-12 text-sm font-medium">
   <a href="/introducing-mar" class="link-nav-soft">← Introducing MAR</a>
   <a href="/adm" class="link-nav-soft">Adaptive Decision Module (ADM) →</a>
 </div>
