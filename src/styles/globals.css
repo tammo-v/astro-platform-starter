@@ -210,7 +210,7 @@ pre code,
 .prose a.link-default,
 .link-nav,
 .link-nav-soft {
-  @apply no-underline font-medium text-gray-700 hover:text-[var(--aubergine)] transition-colors;
+  @apply no-underline font-medium text-gray-500 hover:text-[var(--aubergine)] transition-colors;
   text-decoration: none !important;
   -webkit-text-decoration: none !important;
 }
