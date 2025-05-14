@@ -209,11 +209,11 @@ pre code,
   .markdown a.link-default,
   .prose a.link-default,
   .link-nav,
-  .link-nav-soft {
-    @apply no-underline hover:opacity-80 transition-opacity;
-    text-decoration: none !important;
-    -webkit-text-decoration: none !important;
-  }
+.link-nav-soft {
+  @apply no-underline hover:opacity-80 transition-opacity text-gray-400 hover:text-gray-500;
+  text-decoration: none !important;
+  -webkit-text-decoration: none !important;
+}
 
   .link-default:hover,
   .link-nav:hover,
