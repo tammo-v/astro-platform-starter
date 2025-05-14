@@ -205,19 +205,18 @@ pre code,
 }
 
 @layer utilities {
-  .link-default,
-  .markdown a.link-default,
-  .prose a.link-default,
-  .link-nav,
+.link-default,
+.markdown a.link-default,
+.prose a.link-default,
+.link-nav,
 .link-nav-soft {
-  @apply no-underline hover:opacity-80 transition-opacity text-gray-400 hover:text-gray-500;
+  @apply no-underline font-medium text-gray-700 hover:text-[var(--aubergine)] transition-colors;
   text-decoration: none !important;
   -webkit-text-decoration: none !important;
 }
 
-  .link-default:hover,
-  .link-nav:hover,
-  .link-nav-soft:hover {
-    color: var(--aubergine);
-  }
+  <div class="hidden sm:flex justify-between mt-12 text-sm">
+  <a href="/manifesto" class="link-nav-soft">← The Manifesto</a>
+  <a href="/asn" class="link-nav-soft">Adaptive Symbolic Notation (ASN) →</a>
+</div>
 }
