@@ -42,6 +42,6 @@ It is a symbolic field —
 one in which the computation is not just performed, but remembered.
 
 
-<div class="hidden sm:flex justify-start mt-12">
+<div class="hidden sm:flex justify-start mt-12 text-sm font-medium">
   <a href="/hardware-layer" class="link-nav-soft">← Symbolic Hardware Layer</a>
 </div>
