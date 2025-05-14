@@ -48,6 +48,6 @@ It computes on it.
 
 And it begins here.
 
-<div class="hidden sm:flex justify-end mt-12">
+<div class="hidden sm:flex justify-end mt-12 text-sm font-medium">
   <a href="/what-is-symbolic-computing" class="link-nav-soft">What Is Symbolic Computing? →</a>
 </div>
