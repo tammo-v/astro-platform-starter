@@ -17,6 +17,8 @@ But computers don’t share that constraint. They can keep multiple symbolic pat
 
 MAR provides that system.
 
+---
+
 **Mathematical Adaptive Reasoning (MAR)** is a structured architecture for symbolic computing. It keeps symbolic expressions intact across memory, transformation, and evaluation. Rather than resolving everything up front, MAR preserves compositional form — and allows reasoning to unfold when and where it’s needed.
 
 The architecture is built on four symbolic pillars, each addressing a distinct aspect of symbolic execution — from representation to decision-making to flow. These pillars are designed to work together as a complete system, but can also be used independently, depending on what your application requires.
