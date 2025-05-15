@@ -42,7 +42,7 @@ Take the value `1/3`. In most systems, it’s stored as a floating-point approxi
 
 `0.333333...`
 
-This seems minor, but the error compounds. Multiply it by `3`, and you don’t get `1` — you get something slightly off. These rounding errors accumulate, especially in iterative processes or symbolic systems that depend on exactness.
+This seems minor, but the error compounds. Multiply it by `3`, and you don’t get `1` — you get something slightly off. These rounding errors accumulate — especially in iterative numerical processes or systems where structural precision must be maintained across steps.
 
 In ASN, the same value is stored exactly as:
 
