@@ -38,7 +38,7 @@ Each of these will be introduced in the sections below.
 
 ASN begins with a simple shift: storing values as symbolic expressions, rather than approximated numbers. This allows systems to compute with structure intact — preserving meaning, improving reuse, and avoiding many of the common failures of floating-point arithmetic.
 
-Take the value `1/3`. In most systems, it’s stored as an approximation:
+Take the value `1/3`. In most systems, it’s stored as a floating-point approximation:
 
 `0.333333...`
 
