@@ -21,6 +21,8 @@ But computers don’t share that constraint. They can keep multiple symbolic pat
 
 The architecture is built on four symbolic pillars. Each addresses a distinct aspect of symbolic execution — from representation to decision-making to flow. These pillars are designed to work together, but can also be used independently, depending on what your system requires.
 
+---
+
 ### 1. Adaptive Symbolic Notation (ASN)
 
 Adaptive Symbolic Notation (ASN)
