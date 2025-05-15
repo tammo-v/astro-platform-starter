@@ -6,7 +6,7 @@ layout: ../layouts/Layout.astro
 ## The Manifesto  
 
 Modern systems are fast, scalable, and efficient — but structurally blind.  
-We optimized for throughput, not form — and in doing so, we flattened the structural clarity of mathematics into something machines could compute.
+We optimized for throughput — and in doing so, we flattened the structural clarity of mathematics into something machines could compute.
 
 For decades, we’ve optimized evaluation — not understanding.  
 We accepted floating point not because it preserved meaning, but because it fit the constraints of hardware.  
