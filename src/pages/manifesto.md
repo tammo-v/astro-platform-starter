@@ -10,7 +10,7 @@ We optimized for throughput, not form — and in doing so, we flattened the stru
 
 For decades, we’ve optimized evaluation — not understanding.  
 We accepted floating point not because it preserved meaning, but because it fit the constraints of hardware.  
-Structure was lost early — and with it, the ability to compute on form.
+Mathematical structure was lost early — and with it, the ability to compute on form.
 
 That compromise shaped everything that followed.  
 Languages grew more complex to manage what hardware could not.  
