@@ -63,55 +63,27 @@ Each value carries its position. This enables submatrix manipulation, structural
 ASN is not a surface notation. It defines how form is held, how identity is preserved, and how structure enters execution. It is the first of MAR’s four symbolic pillars — and the foundation on which the others build.
 
 ---
-### Adaptive Decision Module (ADM)
-
-Once symbolic structure is preserved, computation no longer follows a single fixed path. There are often many valid ways to evaluate an expression — and choosing between them becomes part of the system’s intelligence.
-
-Consider matrix multiplication. In a symbolic system, a matrix isn’t just a grid of numbers — each entry is tagged and structured. Suppose you have a 1000×1000 symbolic matrix and want to multiply it with another of the same size. That results in one million scalar operations. But how those operations are grouped, ordered, or deferred can vary dramatically.
-
-Should the matrix be multiplied as a whole? Blockwise? Row-by-row? Should some regions be evaluated now and others later? Are there repeated patterns that can be reused?
-
-The system now faces a branching set of possibilities. It can no longer rely on a single predefined sequence — it needs a way to navigate options.
-
-This is the role of ADM.
-
-ADM allows the system to:
-- Evaluate symbolic expressions when the structure demands it
-- Defer evaluation when reuse or context makes it more efficient
-- Rewrite, factor, or expand expressions based on symbolic shape
-- Route expressions differently depending on phase, depth, or reuse history
-
-ADM is not a controller. It is a selector. It doesn’t apply fixed rules — it makes decisions based on the structure of each expression: how it’s composed, where it appears, and how it relates to other symbolic forms.
-
-At this scale, the logic required to make these decisions can no longer be programmed manually. The system must learn how to move efficiently through symbolic space — recognizing when to compute, when to defer, and when to reuse.
-
-This is where artificial intelligence enters, not as a layer on top, but as an embedded capacity. ADM makes intelligence a property of execution itself — a native function of how symbolic computation flows.
-
-This capacity becomes essential as systems grow more complex. Once structure is preserved, intelligence is needed to move through it. ADM provides that intelligence — structurally grounded, context-aware, and integral to the act of execution.
-
----
-
 ### Symbolic Software Layer
 
 Once symbolic representation and symbolic reasoning are in place, a natural question follows: how do you write programs in this system?
 
 The first step is using a programming language that supports symbolic notation — the same symbolic forms introduced by ASN. Numbers, expressions, and transformations are written exactly as they appear in equations — and they stay that way during execution.
 
-But symbolic programming goes beyond notation. It also applies the same structure-preserving logic to the program itself. Instead of compiling logic into fixed instructions, symbolic systems keep the logic open — reusable, introspectable, and structurally active at runtime.
+But symbolic programming goes beyond notation. It also applies the same structure-preserving logic to the program itself. Instead of compiling logic into fixed instructions, symbolic systems keep the logic open — reusable, inspectable, and structurally active at runtime.
 
-In the symbolic software layer, programs aren’t compiled down into linear instructions. They’re written as symbolic expressions — and those expressions remain accessible during execution. Instead of flattening the code, the system keeps it open to inspection, reuse, and transformation while it’s running.
+In the symbolic software layer, programs aren’t reduced to instruction sequences. They’re composed as symbolic expressions — and those expressions remain accessible throughout execution. Rather than flattening logic, the system maintains its form — making it possible to introspect, reuse, or selectively route computation based on structure.
 
 For example, a rule like:
 
-if phase(x) = n, then promote(x)
+`if phase(x) = n, then promote(x)`
 
-isn’t just parsed and executed — it stays available as a symbolic object. It can be referenced again, modified, or applied conditionally depending on the symbolic state of the program. If that logic is useful in another context, it doesn’t need to be recompiled or redefined — it’s already there.
+isn’t just parsed and executed — it persists as a symbolic object. It can be referenced, modified, or conditionally applied depending on the state of the system. If that logic reappears elsewhere, it doesn’t need to be recompiled or reconstructed — it’s already there.
 
-Because symbolic programs preserve structure, they can evaluate selectively — choosing what to compute and when, based on context. This enables systems to avoid unnecessary computation and adapt execution to what’s actually required. Over time, as patterns emerge, the system can begin to learn which symbolic paths are most efficient — and adjust its execution strategy accordingly.
+Because symbolic programs retain structure, they can evaluate selectively — computing only what’s needed, when it’s needed. For systems operating at scale — such as AI pipelines, scientific models, or structured reasoning engines — this means fewer redundant evaluations, smarter reuse, and reduced energy cost.  Over time, patterns of execution can be learned and reused, allowing the system to adapt its strategy based on past flow.
 
-While this kind of adaptive execution represents the long-term potential of symbolic software, it’s not required to gain value from the system. Many parts of the symbolic approach — especially ASN — can be used independently to improve structure, precision, or reuse in existing tools. For example, symbolic representation can be applied directly in encryption algorithms to manage overflow and ensure exact control over value magnitudes — with minimal changes to existing code. These fragments of symbolic logic can enhance existing tools without requiring a complete transition.
+While this kind of adaptive execution represents the full potential of symbolic software, it’s not required to gain value from the system. Components — especially ASN — can be used independently to improve structure, precision, or reuse in existing tools. For instance, symbolic representation can be applied in encryption algorithms to manage overflow and ensure control over value magnitudes — with minimal changes to existing code. These fragments of symbolic logic can enhance existing tools without requiring a full transition.
 
-At the same time, full symbolic programs can already run on classical hardware using interpreters that maintain structure and defer resolution. This is not simulation. It’s a different way of executing logic — one that already runs on today’s machines and scales naturally into hardware designed for symbolic form. It’s a different way of executing logic — one that already runs on today’s machines and scales naturally into hardware designed for symbolic form.
+At the same time, full symbolic programs already run on classical hardware using interpreters that preserve structure and defer resolution. This is not simulation. It’s a different mode of execution — one that works today, and one that aligns naturally with hardware designed for symbolic form.
 
 ---
 
@@ -126,6 +98,24 @@ This introduces new demands, particularly on memory. Symbolic execution requires
 The first step is emulation: running symbolic programs through interpreters, using standard data architectures with no modification. This is already viable, and in certain AI-heavy applications — especially those involving deferred computation or structure reuse — can yield 2–3× efficiency improvements.
 
 The next step is reconfiguration: adapting existing hardware by optimizing memory layout, instruction scheduling, or parallel routing to better support symbolic workloads. This might include repurposing GPU shared memory, aligning cache strategies with symbolic reuse patterns, or expanding stack behavior to accommodate symbolic depth.
+
+Ultimately, symbolic computing calls for hardware designed specifically for it — processors and memory systems built to evaluate, route, and transform unevaluated expressions directly. These systems prioritize structural integrity and reuse, enabling logic to be processed without flattening, and structure to be preserved across time and threads of execution.
+
+Symbolic hardware brings the architecture full circle. It allows structure to be preserved not just in notation or software, but all the way down to execution itself. What was once emulated or adapted can now run natively — with logic, identity, and form carried through each layer without reduction. This is where symbolic computing becomes complete.
+
+---
+
+### Symbolic Hardware Layer
+
+Symbolic systems preserve structure throughout execution — including values, transformations, and logic that remain open and reusable at runtime. Rather than reducing everything to resolved values early, the system holds symbolic form in motion. To support this model, hardware must not only compute — it must store, reference, and route structure in real time.
+
+One way this becomes tangible is in symbolic matrix multiplication. A 1000×1000 matrix multiplied with another of the same size results in a million scalar operations. In a symbolic system, these operations don’t have to be evaluated sequentially. They can be grouped, parallelized, deferred, or selectively skipped — depending on the structure and context. But enabling that kind of flexibility requires hardware to retain symbolic identities, tags, and intermediate products across time — not just within a cycle, but across the full flow of execution.
+
+This introduces new demands, particularly on memory. Symbolic execution requires retention of unevaluated expressions, branching logic, and partially transformed forms — all of which must persist without loss or flattening. While this can be emulated on classical hardware, such as CPUs and GPUs, that’s not what those systems were designed for.
+
+The first step is emulation: running symbolic programs through interpreters, using standard hardware and data architectures without modification. This is already viable. In domains like AI, scientific modeling, and symbolic automation — especially where deferred computation or structural reuse is common — symbolic execution can already yield 2–3× efficiency improvements.
+
+The next step is reconfiguration: adapting existing hardware by optimizing memory layout, instruction scheduling, or parallel routing to better support symbolic workloads. This might include repurposing GPU shared memory, aligning cache strategies with symbolic reuse patterns, or modifying stack behavior to accommodate symbolic depth.
 
 Ultimately, symbolic computing calls for hardware designed specifically for it — processors and memory systems built to evaluate, route, and transform unevaluated expressions directly. These systems prioritize structural integrity and reuse, enabling logic to be processed without flattening, and structure to be preserved across time and threads of execution.
 
