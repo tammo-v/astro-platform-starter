@@ -5,7 +5,7 @@ layout: ../layouts/Layout.astro
 
 ## Introducing MAR
 
-The field of computing is approaching a structural bottleneck. For decades, progress has meant shrinking transistors, increasing clock speeds, and optimizing logic pipelines. But that curve is flattening. We are reaching the physical and economic limits of what silicon can provide. Power costs are rising, thermal constraints are real, and further gains come at disproportionate cost.
+The limits of conventional hardware are no longer theoretical — they’re active constraints. Power ceilings, thermal bottlenecks, and fixed execution models now shape how systems are built and what they can do. Across domains — from AI to scientific computing — these constraints are becoming structural blockers rather than tuning challenges.
 
 Some look to quantum computing as the next step. But quantum architectures are built for narrow classes of problems — typically involving probabilistic models, combinatorial optimization, or large-scale search. They offer little for domains like AI, scientific computing, and cryptographic systems — areas that depend on precision, memory stability, and complex logic.  
 
