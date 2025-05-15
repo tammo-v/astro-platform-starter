@@ -48,7 +48,7 @@ In ASN, the same value is stored exactly as:
 
 1/3
 
-Rather than resolving the value up front, ASN stores it in its exact symbolic form. This approach doesn’t just fix rounding issues — it also avoids the edge cases that plague floating-point systems: very large values like 9.7e+308, and very small ones like 2.3e-308, can trigger overflow or underflow in conventional formats. In ASN, these values are stored symbolically — with no hard limits on magnitude or precision. By changing how values are represented at the core, ASN sidesteps the entire class of floating-point problems: rounding drift, overflow, underflow, and cumulative error across operations.
+Rather than resolving the value up front, ASN stores it in its exact symbolic form. This approach doesn’t just fix rounding issues — it also avoids the edge cases that plague floating-point systems: very large values like `9.7e+308`, and very small ones like `2.3e-308`, can trigger overflow or underflow in conventional formats. In ASN, these values are written as `9.7#308` and `2.3#-308`, respectively — preserving magnitude and scale without loss. By changing how values are represented at the core, ASN sidesteps the entire class of floating-point problems: rounding drift, overflow, underflow, and cumulative error across operations.
 
 This symbolic clarity extends to larger structures. A matrix like:
 
