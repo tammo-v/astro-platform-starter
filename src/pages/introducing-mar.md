@@ -38,25 +38,25 @@ Each of these will be introduced in the sections below.
 
 Adaptive Symbolic Notation (ASN) begins with a simple shift: storing values as symbolic expressions, rather than approximated numbers. This allows systems to compute with structure intact — preserving meaning, improving reuse, and avoiding many of the common failures of floating-point arithmetic.
 
-Take the value 1/3. In most systems, it’s stored as an approximation:
+Take the value '1/3'. In most systems, it’s stored as an approximation:
 
-0.333333...
+'0.333333...'
 
-This seems minor, but the error compounds. Multiply it by 3, and you don’t get 1 — you get something slightly off. These rounding errors accumulate, especially in iterative processes or symbolic systems that depend on exactness.
+This seems minor, but the error compounds. Multiply it by '3', and you don’t get '1' — you get something slightly off. These rounding errors accumulate, especially in iterative processes or symbolic systems that depend on exactness.
 
 In ASN, the same value is stored exactly as:
 
-1/3
+'1/3'
 
 Rather than resolving the value up front, ASN stores it in its exact symbolic form. This approach doesn’t just fix rounding issues — it also avoids the edge cases that plague floating-point systems: very large values like `9.7e+308`, and very small ones like `2.3e-308`, can trigger overflow or underflow in conventional formats. In ASN, these values are written as `9.7#308` and `2.3#-308`, respectively — preserving magnitude and scale without loss. By changing how values are represented at the core, ASN sidesteps the entire class of floating-point problems: rounding drift, overflow, underflow, and cumulative error across operations.
 
 This symbolic clarity extends to larger structures. A matrix like:
 
-A = 1, 2; 3, 4
+'A = 1, 2; 3, 4'
 
 Is stored in ASN as:
 
-A = 1A11, 2A12; 3A21, 4A22
+'A = 1A11, 2A12; 3A21, 4A22'
 
 Each value carries its position. This enables submatrix manipulation, structural reuse, and flexible evaluation paths — making representation itself a basis for computation.
 
