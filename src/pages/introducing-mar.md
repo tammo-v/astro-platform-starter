@@ -63,6 +63,37 @@ Each value carries its position. This enables submatrix manipulation, structural
 ASN is not a surface notation. It defines how form is held, how identity is preserved, and how structure enters execution. It is the first of MAR’s four symbolic pillars — and the foundation on which the others build.
 
 ---
+
+### Adaptive Decision Module (ADM)
+
+Once symbolic structure is preserved, computation no longer follows a single fixed path. There are often many valid ways to evaluate an expression — and choosing between them becomes part of the system’s intelligence.
+
+Take symbolic matrix multiplication. A 1000×1000 matrix multiplied with another produces one million scalar operations. But in a symbolic system, each entry carries identity and structure — so those operations don’t need to be executed in a fixed sequence. They can be grouped, deferred, parallelized, or bypassed altogether — depending on the context and form.
+
+Should the matrix be multiplied as a whole? Blockwise? Row-by-row? Should some regions be evaluated now and others later? Are there repeated patterns that can be reused?
+
+The system now faces a branching set of possibilities. It can no longer rely on a single predefined sequence — it needs a way to navigate options dynamically.
+
+This is the role of ADM.
+
+ADM allows the system to:
+- Evaluate symbolic expressions when the structure demands it  
+- Defer evaluation when reuse or context makes it more efficient  
+- Rewrite, factor, or expand expressions based on symbolic shape  
+- Route expressions differently depending on phase, depth, or reuse history  
+
+ADM is not a controller. It is a selector. It doesn’t apply fixed rules — it makes decisions based on the structure of each expression: how it’s composed, where it appears, and how it relates to other symbolic forms.
+
+At this scale, the logic required to make these decisions can no longer be programmed manually. The system must learn how to move efficiently through symbolic space — recognizing when to compute, when to defer, and when to reuse.
+
+This is where artificial intelligence enters, not as a layer on top, but as an embedded capacity. ADM makes intelligence a property of execution itself — a native function of how symbolic computation flows.
+
+For AI workloads — where branching logic, sparse patterns, and massive reuse are common — this kind of embedded reasoning becomes more than useful. It becomes necessary.
+
+ADM provides that reasoning — structurally grounded, context-aware, and integral to the act of execution.
+
+---
+
 ### Symbolic Software Layer
 
 Once symbolic representation and symbolic reasoning are in place, a natural question follows: how do you write programs in this system?
@@ -103,23 +134,6 @@ Ultimately, symbolic computing calls for hardware designed specifically for it �
 
 Symbolic hardware brings the architecture full circle. It allows structure to be preserved not just in notation or software, but all the way down to execution itself. What was once emulated or adapted can now run natively — with logic, identity, and form carried through each layer without reduction. This is where symbolic computing becomes complete.
 
----
-
-### Symbolic Hardware Layer
-
-Symbolic systems preserve structure throughout execution — including values, transformations, and logic that remain open and reusable at runtime. Rather than reducing everything to resolved values early, the system holds symbolic form in motion. To support this model, hardware must not only compute — it must store, reference, and route structure in real time.
-
-One way this becomes tangible is in symbolic matrix multiplication. A 1000×1000 matrix multiplied with another of the same size results in a million scalar operations. In a symbolic system, these operations don’t have to be evaluated sequentially. They can be grouped, parallelized, deferred, or selectively skipped — depending on the structure and context. But enabling that kind of flexibility requires hardware to retain symbolic identities, tags, and intermediate products across time — not just within a cycle, but across the full flow of execution.
-
-This introduces new demands, particularly on memory. Symbolic execution requires retention of unevaluated expressions, branching logic, and partially transformed forms — all of which must persist without loss or flattening. While this can be emulated on classical hardware, such as CPUs and GPUs, that’s not what those systems were designed for.
-
-The first step is emulation: running symbolic programs through interpreters, using standard hardware and data architectures without modification. This is already viable. In domains like AI, scientific modeling, and symbolic automation — especially where deferred computation or structural reuse is common — symbolic execution can already yield 2–3× efficiency improvements.
-
-The next step is reconfiguration: adapting existing hardware by optimizing memory layout, instruction scheduling, or parallel routing to better support symbolic workloads. This might include repurposing GPU shared memory, aligning cache strategies with symbolic reuse patterns, or modifying stack behavior to accommodate symbolic depth.
-
-Ultimately, symbolic computing calls for hardware designed specifically for it — processors and memory systems built to evaluate, route, and transform unevaluated expressions directly. These systems prioritize structural integrity and reuse, enabling logic to be processed without flattening, and structure to be preserved across time and threads of execution.
-
-Symbolic hardware brings the architecture full circle. It allows structure to be preserved not just in notation or software, but all the way down to execution itself. What was once emulated or adapted can now run natively — with logic, identity, and form carried through each layer without reduction. This is where symbolic computing becomes complete.
 
 ---
 
