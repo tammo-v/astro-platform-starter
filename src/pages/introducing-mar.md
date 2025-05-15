@@ -122,9 +122,9 @@ Symbolic systems preserve structure throughout execution — including values, t
 
 One way this becomes tangible is in symbolic matrix multiplication. A 1000×1000 matrix multiplied with another of the same size results in a million scalar operations. In a symbolic system, these operations don’t have to be evaluated sequentially. They can be grouped, parallelized, deferred, or selectively skipped — depending on the structure and context. But enabling that kind of flexibility requires hardware to retain symbolic identities, tags, and intermediate products across time — not just within a cycle, but across the flow of execution.
 
-This introduces new demands, particularly on memory. Symbolic execution requires retention of unevaluated expressions, branching paths, and partial transformations — all of which must persist without loss. While this can be emulated on classical hardware, such as CPUs and GPUs, it’s not what those systems were designed for.
+This introduces new demands, particularly on memory. Symbolic execution requires retention of unevaluated expressions, branching paths, and partial transformations — all of which must persist without loss. These requirements stretch the assumptions of conventional hardware, which was not designed to hold symbolic state over time.
 
-The first step is emulation: running symbolic programs through interpreters, using standard data architectures with no modification. This is already viable, and in certain AI-heavy applications — especially those involving deferred computation or structure reuse — can yield 2–3× efficiency improvements.
+The first step is emulation: running symbolic programs through interpreters, using standard data architectures with no modification. This is already viable — and in structurally intensive applications, particularly those involving deferred computation or reuse, it holds the potential for significant efficiency improvements over conventional execution models.
 
 The next step is reconfiguration: adapting existing hardware by optimizing memory layout, instruction scheduling, or parallel routing to better support symbolic workloads. This might include repurposing GPU shared memory, aligning cache strategies with symbolic reuse patterns, or expanding stack behavior to accommodate symbolic depth.
 
