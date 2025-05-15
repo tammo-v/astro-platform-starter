@@ -98,11 +98,9 @@ ADM provides that reasoning — structurally grounded, context-aware, and integr
 
 Once symbolic representation and symbolic reasoning are in place, a natural question follows: how do you write programs in this system?
 
-The first step is using a programming language that supports symbolic notation — the same symbolic forms introduced by ASN. Numbers, expressions, and transformations are written exactly as they appear in equations — and they remain in symbolic form throughout execution. In this model, structure isn’t just preserved — it’s encoded through tagging: each value or function carries metadata that defines its phase, role, or position. This gives the system direct access to the identity of every component, not just its numeric value.
+TThe first step is using a programming language that supports symbolic notation — the same symbolic forms introduced by ASN. Numbers, expressions, and transformations are written exactly as they appear in equations — and they remain symbolic throughout execution. In this model, structure isn’t just preserved — it’s encoded. Each value or operation carries tags that define its role, phase, or position, giving the system direct access to identity and form, not just magnitude.
 
-But symbolic programming goes beyond representation. It also changes how logic is held. Instead of compiling conditions and control structures into instruction sequences, symbolic programs retain their structure. Rules, transformations, and decisions remain active and visible at runtime — not as code to be interpreted, but as forms that can be examined, referenced, or adapted in context.
-
-In the symbolic software layer, logic doesn't flatten. It flows. Programs are composed as symbolic expressions, and those expressions stay structurally available during execution. This makes it possible to adapt evaluation dynamically — computing only what’s needed, when it’s needed, based on structure and state.
+Symbolic programming also changes how logic flows. Conditions, rules, and transformations aren’t compiled away — they remain active as structural elements during execution. Programs are composed as symbolic expressions, and those expressions stay available throughout runtime. This makes it possible to adapt computation dynamically — evaluating only what’s needed, when structure calls for it, and reusing what’s already known.
 
 For example, a rule like:
 
