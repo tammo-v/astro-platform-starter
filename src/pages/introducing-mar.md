@@ -34,9 +34,7 @@ Each of these will be introduced in the sections below.
 
 ---
 
-### 1. Adaptive Symbolic Notation (ASN)
-
-Adaptive Symbolic Notation (ASN)
+### Adaptive Symbolic Notation (ASN)
 
 Adaptive Symbolic Notation (ASN) begins with a simple shift: storing values as symbolic expressions, rather than approximated numbers. This allows systems to compute with structure intact — preserving meaning, improving reuse, and avoiding many of the common failures of floating-point arithmetic.
 
