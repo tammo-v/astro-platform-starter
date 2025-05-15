@@ -15,7 +15,7 @@ That shift requires structure.
 
 In classical systems, speed is gained by reducing structure. A function may be executed before its role is understood. A matrix may be flattened before its shape can inform the system. A value may be approximated before its origin is preserved. These systems become fast — but brittle. Optimized — but opaque.
 
-Smarter computing begins with symbolic structure. Consider a simple numerical comparison from classical systems:
+At the heart of this tradeoff is floating-point arithmetic — a system optimized for hardware efficiency, but structurally fragile. Consider a simple numerical comparison:
 
 `0.1 + 0.2 == 0.3`
 
@@ -29,7 +29,7 @@ In symbolic computing, that same expression is preserved in its original form
 
 `1/10 + 2/10 == 3/10`
 
-The system stores each term symbolically — as `1/10`, `2/10`, and `3/10` — and compares the structural form itself. No rounding occurs. Nothing is flattened. The comparison succeeds because structure is intact.
+Each term is stored symbolically — as `1/10`, `2/10`, and `3/10` — and compared structurally. No rounding occurs. Nothing is flattened. The comparison succeeds because structure is intact.
 
 ---
 
