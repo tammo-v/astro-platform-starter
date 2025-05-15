@@ -3,50 +3,46 @@ title: "Manifesto"
 layout: ../layouts/Layout.astro
 ---
 
-## The Manifesto
-Structure as the Foundation
+## The Manifesto  
 
-Modern computation runs faster than ever.  
-But what it computes has been flattened.
+Modern systems are fast, scalable, and efficient — but structurally blind.  
+We optimized for throughput, not form — and in doing so, we lost the structure that computation once carried.
 
-For decades, we have optimized evaluation — not understanding.  
-We accepted floating point as our substrate, not because it was true, but because it was available.  
-Structure was sacrificed for speed, and meaning was approximated before it could unfold.
+For decades, we’ve optimized evaluation — not understanding.  
+We accepted floating point not because it preserved meaning, but because it fit the constraints of hardware.  
+Structure was lost early — and with it, the ability to compute on form.
 
-That loss was never repaired — only obscured.  
-Languages became heavier.  
-Abstractions piled up.  
-Syntax replaced structure.
+That compromise shaped everything that followed.  
+Languages grew more complex to manage what hardware could not.  
+Abstractions piled up to patch a foundation never designed to hold structure.  
+Form gave way to syntax. Identity gave way to resolution.
 
-Symbolic Computing restores what was lost.  
-It replaces approximation with composition.  
-It replaces evaluation with form.
+Symbolic Computing restores that foundation.
 
-At its foundation is MAR — Mathematical Adaptive Reasoning —  
-a symbolic architecture in which structure is preserved across every layer:  
-representation, execution, memory, and reasoning.
+It begins with MAR — Mathematical Adaptive Reasoning —  
+a system in which structure is not discarded but preserved:  
+across representation, across execution, across memory and logic flow.
 
-Here, numbers are symbolic.  
-Functions are compositional.  
-Programs are structured.  
-Evaluation is no longer the default — it is a choice.
+In this model, numbers are symbolic — held as structured forms, not reduced to floating-point approximations.  
+Functions are compositional — defined by how they transform, not just by what they return.  
+Programs remain legible — their logic preserved as structure, not compiled away.  
+Evaluation doesn’t happen by default — it happens when structure calls for it.
 
-This is not a tweak.  
-It is a structural inversion.
+This is not a language feature.  
+It is a shift in architecture.
 
-We do not believe computation must be shallow to be fast.  
-We do not believe intelligence must be statistical to be powerful.  
-We do not believe structure must be discarded to execute.
+We do not believe computation must ignore what it computes.  
+We do not believe intelligence must rely on loss.  
+We do not believe that structure is the problem.
 
-We believe execution must follow form.  
-We believe intelligence must preserve identity.  
-We believe meaning must remain symbolic — all the way down.
+We believe execution should follow form.  
+We believe meaning should persist through memory.  
+We believe that structure is not an obstacle to speed — it’s the key to intelligent computing.
 
-This is Symbolic Computing.  
-It does not simulate structure.  
-It computes on it.
+Symbolic Computing doesn’t simulate logic.  
+It runs on it.
 
-And it begins here.
+And it starts here.
 
 <div class="hidden sm:flex justify-end mt-12 text-sm font-medium">
   <a href="/what-is-symbolic-computing" class="link-nav-soft">What Is Symbolic Computing? →</a>
