@@ -112,7 +112,7 @@ Because symbolic programs retain structure, they can evaluate selectively — co
 
 While this kind of adaptive execution represents the full potential of symbolic software, it’s not required to gain value from the system. Components — especially ASN — can be used independently to improve structure, precision, or reuse in existing tools. For instance, symbolic representation can be applied in encryption algorithms to manage overflow and ensure control over value magnitudes — with minimal changes to existing code. These fragments of symbolic logic can enhance existing tools without requiring a full transition.
 
-At the same time, full symbolic programs already run on classical hardware using interpreters that preserve structure and defer resolution. This is not simulation. It’s a different mode of execution — one that works today, and one that aligns naturally with hardware designed for symbolic form.
+Beyond these targeted integrations, full symbolic programs can be emulated on classical hardware using interpreters that preserve structure and defer resolution. This isn’t simulation — it’s a different mode of execution, one that’s already feasible today and aligns naturally with hardware designed for symbolic form.
 
 ---
 
