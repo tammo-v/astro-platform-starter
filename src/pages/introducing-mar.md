@@ -98,7 +98,7 @@ ADM provides that reasoning — structurally grounded, context-aware, and integr
 
 Once symbolic representation and symbolic reasoning are in place, a natural question follows: how do you write programs in this system?
 
-The first step is using a programming language that supports symbolic notation — the same symbolic forms introduced by ASN. Numbers, expressions, and transformations are written exactly as they appear in equations — and they stay that way during execution.
+The first step is using a programming language that supports symbolic notation — the same symbolic forms introduced by ASN. Numbers, expressions, and transformations are written exactly as they appear in equations — and they stay that way during execution. In this model, structure isn’t just preserved — it’s encoded through tagging: each value or function carries metadata that defines its phase, role, or position. This allows symbolic programs to remain legible and manipulable throughout execution — not as raw code, but as structured objects the system can evaluate, defer, or reuse.
 
 But symbolic programming goes beyond notation. It also applies the same structure-preserving logic to the program itself. Instead of compiling logic into fixed instructions, symbolic systems keep the logic open — reusable, inspectable, and structurally active at runtime.
 
