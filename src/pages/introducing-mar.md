@@ -76,10 +76,10 @@ The system now faces a branching set of possibilities. It can no longer rely on 
 This is the role of ADM.
 
 ADM allows the system to:
-	•	Evaluate symbolic expressions when the structure demands it
-	•	Defer evaluation when reuse or context makes it more efficient
-	•	Rewrite, factor, or expand expressions based on symbolic shape
-	•	Route expressions differently depending on phase, depth, or reuse history
+- Evaluate symbolic expressions when the structure demands it
+- Defer evaluation when reuse or context makes it more efficient
+- Rewrite, factor, or expand expressions based on symbolic shape
+- Route expressions differently depending on phase, depth, or reuse history
 
 ADM is not a controller. It is a selector. It doesn’t apply fixed rules — it makes decisions based on the structure of each expression: how it’s composed, where it appears, and how it relates to other symbolic forms.
 
