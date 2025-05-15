@@ -31,13 +31,13 @@ Evaluation into floating point is no longer the default — it’s triggered onl
 This is not a language feature.  
 It is a shift in architecture.
 
-We do not believe computation must ignore what it computes.  
-We do not believe intelligence must rely on loss.  
-We do not believe that structure is the problem.
+We do not believe computation must flatten meaning to execute.  
+We do not believe the perceived limits of hardware should define the limits of logic.  
+We do not believe that true intelligence can emerge from systems that discard structure.
 
 We believe execution should follow form.  
-We believe meaning should persist through memory.  
-We believe that structure is not an obstacle to speed — it’s the key to intelligent computing.
+We believe logic and meaning should persist through memory.  
+We believe structure is the key to computing that is faster, smarter, and built to reason.
 
 Symbolic Computing doesn’t simulate logic.  
 It runs on it.
