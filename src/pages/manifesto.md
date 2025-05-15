@@ -24,9 +24,8 @@ a system in which structure is not discarded but preserved:
 across representation, across execution, across memory and logic flow.
 
 Numbers are no longer flattened into approximations — they remain symbolic, held as structured mathematical forms.  
-Functions are no longer black boxes — they’re symbolic transformations that can be inspected, composed, reused, or rewritten.  
-Programs are no longer compiled away — their logic stays intact and accessible throughout execution.  
-Evaluation into floating point is no longer the default — it’s triggered only when explicitly needed.
+Functions are no longer compiled away — they are symbolic transformations that can be inspected, composed, reused, or rewritten.  
+Evaluation into floating point is no longer the default — it is triggered explicitly, when required.
 
 This is not a language feature.  
 It is a shift in architecture.
