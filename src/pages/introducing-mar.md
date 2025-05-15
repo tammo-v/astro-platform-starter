@@ -13,7 +13,7 @@ What’s needed is something different — not another generation of denser sili
 
 For decades, we’ve given computers instructions based on how we think: step by step, one operation at a time. Our working memory is limited, so human reasoning tends to follow a single thread — one thing at a time, held just long enough to make the next decision. And we have shaped computing in our image.
 
-But computers don’t share that constraint. They can keep multiple symbolic paths active at once, evaluate them in parallel, and preserve intermediate structure across time — if we give them a system that allows it.
+But computers don’t share that constraint. They can keep multiple symbolic paths active at once, evaluate them in parallel, and preserve intermediate structure across time — if we give them a machine-native architecture built to support it.
 
 MAR provides that system.
 
