@@ -23,10 +23,10 @@ It begins with MAR — Mathematical Adaptive Reasoning —
 a system in which structure is not discarded but preserved:  
 across representation, across execution, across memory and logic flow.
 
-In this model, numbers are symbolic — held as structured forms, not reduced to floating-point approximations.  
-Functions are compositional — defined by how they transform, not just by what they return.  
-Programs remain legible — their logic preserved as structure, not compiled away.  
-Evaluation doesn’t happen by default — it happens when structure calls for it.
+Numbers are no longer flattened into approximations — they remain symbolic, held as structured mathematical forms.  
+Functions are no longer black boxes — they’re symbolic transformations that can be inspected, composed, reused, or rewritten.  
+Programs are no longer compiled away — their logic stays intact and accessible throughout execution.  
+Evaluation into floating point is no longer the default — it’s triggered only when explicitly needed.
 
 This is not a language feature.  
 It is a shift in architecture.
