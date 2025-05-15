@@ -77,6 +77,7 @@ At this scale, the logic required to make these decisions can no longer be progr
 This is where artificial intelligence enters, not as a layer on top, but as an embedded capacity. ADM makes intelligence a property of execution itself — a native function of how symbolic computation flows.
 
 This capacity becomes essential as systems grow more complex. Once structure is preserved, intelligence is needed to move through it. ADM provides that intelligence — structurally grounded, context-aware, and integral to the act of execution.
+
 ---
 
 ### Symbolic Software Layer
