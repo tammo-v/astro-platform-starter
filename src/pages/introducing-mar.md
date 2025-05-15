@@ -98,11 +98,11 @@ ADM provides that reasoning — structurally grounded, context-aware, and integr
 
 Once symbolic representation and symbolic reasoning are in place, a natural question follows: how do you write programs in this system?
 
-The first step is using a programming language that supports symbolic notation — the same symbolic forms introduced by ASN. Numbers, expressions, and transformations are written exactly as they appear in equations — and they stay that way during execution. In this model, structure isn’t just preserved — it’s encoded through tagging: each value or function carries metadata that defines its phase, role, or position. This allows symbolic programs to remain legible and manipulable throughout execution — not as raw code, but as structured objects the system can evaluate, defer, or reuse.
+The first step is using a programming language that supports symbolic notation — the same symbolic forms introduced by ASN. Numbers, expressions, and transformations are written exactly as they appear in equations — and they remain in symbolic form throughout execution. In this model, structure isn’t just preserved — it’s encoded through tagging: each value or function carries metadata that defines its phase, role, or position. This gives the system direct access to the identity of every component, not just its numeric value.
 
-But symbolic programming goes beyond notation. It also applies the same structure-preserving logic to the program itself. Instead of compiling logic into fixed instructions, symbolic systems keep the logic open — reusable, inspectable, and structurally active at runtime.
+But symbolic programming goes beyond representation. It also changes how logic is held. Instead of compiling conditions and control structures into instruction sequences, symbolic programs retain their structure. Rules, transformations, and decisions remain active and visible at runtime — not as code to be interpreted, but as forms that can be examined, referenced, or adapted in context.
 
-In the symbolic software layer, programs aren’t reduced to instruction sequences. They’re composed as symbolic expressions — and those expressions remain accessible throughout execution. Rather than flattening logic, the system maintains its form — making it possible to introspect, reuse, or selectively route computation based on structure.
+In the symbolic software layer, logic doesn't flatten. It flows. Programs are composed as symbolic expressions, and those expressions stay structurally available during execution. This makes it possible to adapt evaluation dynamically — computing only what’s needed, when it’s needed, based on structure and state.
 
 For example, a rule like:
 
