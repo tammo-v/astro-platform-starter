@@ -5,9 +5,9 @@ layout: ../layouts/Layout.astro
 
 ## Introducing MAR
 
-The limits of conventional hardware are no longer theoretical — they’re active constraints. Power ceilings, thermal bottlenecks, and fixed execution models now shape how systems are built and what they can do. Across domains — from AI to scientific computing — these constraints are becoming structural blockers rather than tuning challenges.
+The limits of conventional hardware are no longer theoretical — they’re active constraints. Power ceilings, thermal bottlenecks, and fixed execution models now shape how systems are built and what they can do. Across domains — from AI and scientific computing to cryptographic systems and large-scale modeling — these constraints are becoming structural blockers rather than tuning challenges.
 
-Some look to quantum computing as the next step. But quantum architectures are built for narrow classes of problems — typically involving probabilistic models, combinatorial optimization, or large-scale search. They offer little for domains like AI, scientific computing, and cryptographic systems — areas that depend on precision, memory stability, and complex logic.  
+Some look to quantum computing as the next step. But quantum architectures are built for narrow classes of problems — typically involving probabilistic models, combinatorial optimization, or high-dimensional search spaces. They do little to address the structural demands of systems that rely on stable memory, compositional logic, or selective reuse.
 
 What’s needed is something different — not another generation of denser silicon, but a new kind of logic. A model that allows for fast execution — not by forcing more instructions through a linear pipeline, but by allowing structure to guide how and when computation happens.
 
