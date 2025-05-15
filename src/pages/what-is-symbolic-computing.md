@@ -35,7 +35,7 @@ A = 1, 2; 3, 4
 
 This format treats the matrix as a sequence of values. The position and identity of each number is not preserved beyond its order. Structure becomes implicit — and therefore, inaccessible.
 
-Symbolic computing stores the same matrix with **explicit structure:**
+Symbolic computing stores the same matrix with explicit structure:
 
 A = 1A11, 2A12; 3A21, 4A22
 
