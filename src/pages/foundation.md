@@ -9,9 +9,9 @@ The limits of conventional hardware are no longer theoretical — they’re acti
 
 Some look to quantum computing as the next step. But quantum architectures are built for narrow classes of problems — typically involving probabilistic models, combinatorial optimization, or high-dimensional search spaces. They do little to address the structural demands of systems that rely on stable memory, compositional logic, or selective reuse.
 
-What’s needed is something different — not another generation of denser silicon, but a new kind of logic. A model that allows for fast execution — not by forcing more instructions through a linear pipeline, but by allowing structure to guide how and when computation happens.
+What’s needed is something different — not another generation of denser silicon, but a new kind of logic.
 
-
+Symbolic Computing is based on a system called ASN — Adaptive Symbolic Notation. It is a computational engine that operates directly on mathematical objects, such as numbers, functions, expressions, and matrices, represented in symbolic form. These objects are transformed based on their compositional structure and suffix tags — allowing features such as parallel execution, structural grouping, and evaluation triggered by structure, which typically occurs at the boundary of a workflow or at the end of a pipeline.
 
 
 Symbolic Computing is a representational system for executing mathematical expressions in symbolic form.
