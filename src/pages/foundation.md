@@ -5,13 +5,21 @@ layout: ../layouts/Layout.astro
 
 ## What Is Symbolic Computing?
 
-Symbolic Computing is the result of a research effort rooted in foundational mathematics. It began with the study of structure—particularly the internal structure of numbers, transformations, and symbolic operations. Over time, this work expanded into computation: how structure is represented, evaluated, and preserved across execution.
+Symbolic Computing is a representational system for executing mathematical expressions in symbolic form.
 
-This site presents the resulting system not as a product or platform, but as a representational framework—open to exploration, licensing, and extension with your own contributions.
+It began with foundational research into the internal structure of numbers, transformations, and symbolic operations. From that foundation, it developed into a computational model—one that preserves symbolic form across memory, transformation, and execution.
 
-For decades, computing has been driven by one goal: more speed. Each generation of chips has delivered tighter circuits, faster clocks, and higher throughput—shrinking from microns to nanometers in pursuit of performance. But that path is nearing its end. We are now operating at the edge of what silicon can provide. Data centers consume billions of dollars in power and cooling to support workloads that are only growing.
+This system is not a framework or programming language. It’s a symbolic execution model with its own grammar, memory structure, and dispatch logic. It allows systems to operate directly on symbolic form—without flattening expressions or reducing them too early.
 
-With the rise of AI and large-scale inference, the demand for computational power is accelerating far beyond what current systems can sustain. The answer is no longer more speed. The answer is smarter computation.
+With the rise of AI and high-throughput computation, demand on computational infrastructure continues to increase—especially in inference, modeling, and simulation workloads. The challenge is not speed alone. It’s the ability to work with structure efficiently and preserve what matters through transformation.
 
-That shift requires structure.
-d
+Symbolic Computing addresses this by offering a different execution model. It keeps expressions compositional. It delays evaluation until needed. And it enables reuse and transformation at the level of symbolic form.
+
+This site presents the architecture that makes this possible—called ASN: Mathematical Adaptive Reasoning.
+
+You’ll find:
+- concrete examples of symbolic execution,
+- technical descriptions of the system’s components,
+- and formal documentation through its published patents.
+
+If you're exploring how structure can guide computation—this is a place to begin.
