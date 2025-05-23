@@ -14,13 +14,15 @@ What’s needed is something different — not another generation of denser sili
 
 ---
 
-In symbolic computing, rational expressions are represented as compositional structures. A value like `3 / 4` is stored symbolically, with the numerator and denominator preserved as separate components. When a sequence such as:
+In symbolic computing, rational expressions are represented as compositional structures. A value like `3 / 4` is stored symbolically, with the numerator and denominator preserved as separate components. When multiple rational terms are multiplied, the system performs structural grouping — multiplying all numerators together and all denominators together as independent symbolic streams:
 
-`3 / 4 + 2 / 5 + 7 / 9 + 1 / 6`
+`3 / 4 * 2 / 5 * 7 / 9`
 
-is processed, the system performs structural grouping. Each numerator is scaled to a shared denominator, the scaled numerators are summed, and the result is simplified:
+is processed as:
 
-`(3 * 270 + 2 * 216 + 7 * 120 + 1 * 180) / 1080 = 2262 / 1080 = 377 / 180`
+`(3 * 2 * 7) / (4 * 5 * 9) = 42 / 180 = 7 / 30`
+
+Each component is preserved symbolically throughout the process. Grouping enables exactness, reduces intermediate complexity, and allows evaluation to occur only when required. This becomes especially useful in extended rational workflows — for example in AI, simulation, or symbolic modeling — where multiple transformations may be applied before a final result is needed.
 
 Throughout the process, the full expression remains symbolic. Grouping allows exactness and reuse, and evaluation into numeric form is typically performed at the end — once the expression has been fully prepared. This behavior becomes especially useful in large symbolic sequences — such as those found in AI inference, matrix operations, or symbolic solvers. 
 
