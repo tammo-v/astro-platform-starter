@@ -13,22 +13,14 @@ What’s needed is something different — not another generation of denser sili
 
 Symbolic Computing is based on a system called ASN — Adaptive Symbolic Notation. It is a computational execution system that operates directly on mathematical objects, such as numbers, functions, expressions, and matrices, represented in symbolic form. These objects are transformed based on their compositional structure and suffix tags — allowing features such as parallel execution, structural grouping, and evaluation triggered by structure, which typically occurs at the boundary of a workflow or at the end of a pipeline.
 
+---
 
-Symbolic Computing is a representational system for executing mathematical expressions in symbolic form.
+In symbolic computing, rational expressions are represented as compositional structures. A value like `3 / 4` is stored symbolically, with the numerator and denominator preserved as separate components. When a sequence such as:
 
-It began with foundational research into the internal structure of numbers, transformations, and symbolic operations. From that foundation, it developed into a computational model—one that preserves symbolic form across memory, transformation, and execution.
+`3 / 4 + 2 / 5 + 7 / 9 + 1 / 6`
 
-This system is not a framework or programming language. It’s a symbolic execution model with its own grammar, memory structure, and dispatch logic. It allows systems to operate directly on symbolic form—without flattening expressions or reducing them too early.
+is processed, the system performs structural grouping. Each numerator is scaled to a shared denominator, the scaled numerators are summed, and the result is simplified:
 
-Withor at the end of a pipeline the rise of AI and high-throughput computation, demand on computational infrastructure continues to increase—especially in inference, modeling, and simulation workloads. The challenge is not speed alone. It’s the ability to work with structure efficiently and preserve what matters through transformation.
+`(3 * 270 + 2 * 216 + 7 * 120 + 1 * 180) / 1080 = 2262 / 1080 = 377 / 180`
 
-Symbolic Computing addresses this by offering a different execution model. It keeps expressions compositional. It delays evaluation until needed. And it enables reuse and transformation at the level of symbolic form.
-
-This site presents the architecture that makes this possible—called ASN: Mathematical Adaptive Reasoning.
-
-You’ll find:
-- concrete examples of symbolic execution,
-- technical descriptions of the system’s components,
-- and formal documentation through its published patents.
-
-If you're exploring how structure can guide computation—this is a place to begin.
+Throughout the process, the full expression remains symbolic. Grouping allows exactness and reuse, and evaluation is performed only when required. This behavior becomes especially useful in large symbolic sequences — such as those found in AI inference, matrix operations, or symbolic solvers. 
