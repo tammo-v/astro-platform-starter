@@ -9,3 +9,4 @@ For decades, computing has been driven by one goal: more speed. Each generation 
 With the rise of AI and large-scale inference, the demand for computational power is accelerating far beyond what current systems can sustain. The answer is no longer more speed. The answer is smarter computation.
 
 That shift requires structure.
+d
