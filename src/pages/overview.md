@@ -52,10 +52,4 @@ Each scalar value is symbolically grouped by index. When matrices `A`, `B`, and 
 
 These threads can be processed in parallel, enabling fast execution across the full matrix product. At the end of the chain, symbolic threads are brought together, and final evaluation occurs as needed. This approach generalizes naturally to larger systems, where parallel execution can operate not just on individual scalars, but on entire matrix blocks.
 
-`A * B * C * D * E * F`
-
-the system can segment the chain into symbolic subthreads:
-
-`(A * B)`, `(C * D)`, `(E * F)`
-
-Each segment is computed in parallel, and the results are combined in a second stage. Because all intermediate results remain symbolic, each segment can be reused, transformed, or recomposed before final evaluation. This allows long transformation chains to be executed in parallel across time — guided entirely by symbolic form.
+Because matrix multiplication is associative, long chains can also be segmented temporally. A product like `A * B * C * D` can be evaluated in symbolic groups — such as `(A * B)` and `(C * D)` — also processed in parallel and brought together at the final stage.
