@@ -28,7 +28,7 @@ When multiple rational terms are multiplied, the system can form structural grou
 
 is processed as:
 
-(3 * 2 * 7) / (4 * 5 * 9) = 42 / 180 = 7 / 30
+(3 * 2 * 7) / (4 * 5 * 9) = 42/180 = 7/30
 
 The system composes the expression as a whole. This reduces intermediate evaluations. The result is fast execution, efficient expression handling, and the opportunity to evaluate at a high resolution at the final stage.
 
@@ -50,7 +50,7 @@ B = 5B11, 6B12; 7B21, 8B22
 C = 1C11, 0C12; 0C21, 1C22
 </pre>
 
-Each scalar value is symbolically grouped by index. When the matrices are multiplied in sequence, expressions like `A11*B11*C11` are executed as independent threads — each one mapped to a specific output block.
+Each scalar value is symbolically grouped by index. When the matrices are multiplied in sequence, expressions like  `A11 * B11 * C11`  are executed as independent threads — each one mapped to a specific output block.
 
 These threads can be processed in parallel, enabling fast execution across the full matrix product. At the end of the chain, symbolic threads are brought together, and final evaluation occurs as needed. This approach generalizes naturally to larger systems, where parallel execution can operate not just on individual scalars, but on entire matrix blocks.
 
@@ -58,4 +58,4 @@ Because matrix multiplication is associative, long chains can also be segmented 
 
 A * B * C * D
 
-This product can be evaluated in symbolic groups — such as `(A*B)` and `(C*D)` — also processed in parallel and brought together at the final stage.
+This product can be evaluated in symbolic groups — such as `(A * B)` and `(C * D)` — also processed in parallel and brought together at the final stage.
