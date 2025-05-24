@@ -24,11 +24,11 @@ The next three examples show how symbolic computing improves performance and sca
 
 When multiple rational terms are multiplied, the system can form structural groupings — treating all numerators and all denominators as separate symbolic streams:
 
-`3 / 4 * 2 / 5 * 7 / 9`
+3 / 4 * 2 / 5 * 7 / 9
 
 is processed as:
 
-`(3 * 2 * 7) / (4 * 5 * 9) = 42 / 180 = 7 / 30`
+(3 * 2 * 7) / (4 * 5 * 9) = 42 / 180 = 7 / 30
 
 The system composes the expression as a whole. This reduces intermediate evaluations. The result is fast execution, efficient expression handling, and the opportunity to evaluate at a high resolution at the final stage.
 
@@ -44,9 +44,9 @@ This enables faster execution across cryptographic workflows and supports the us
 
 **Matrix workloads.** In symbolic computing, each entry in a matrix is treated as a symbolic component — tagged with position and preserved as part of a compositional structure. For example:
 
-`A = 1A11, 2A12; 3A21, 4A22`  
-`B = 5B11, 6B12; 7B21, 8B22`  
-`C = 1C11, 0C12; 0C21, 1C22`
+A = 1A11, 2A12; 3A21, 4A22 
+B = 5B11, 6B12; 7B21, 8B22 
+C = 1C11, 0C12; 0C21, 1C22
 
 Each scalar value is symbolically grouped by index. When the matrices are multiplied in sequence, expressions like `A11 * B11 * C11` are executed as independent threads — each one mapped to a specific output block.
 
@@ -54,6 +54,6 @@ These threads can be processed in parallel, enabling fast execution across the f
 
 Because matrix multiplication is associative, long chains can also be segmented temporally.
 
-`A * B * C * D`
+A * B * C * D
 
 This product can be evaluated in symbolic groups — such as `(A * B)` and `(C * D)` — also processed in parallel and brought together at the final stage.
