@@ -42,21 +42,15 @@ This enables faster execution across cryptographic workflows and supports the us
 
 ---
 
-When multiplying matrices, symbolic computing uses structural tags to guide execution. A matrix is written as a collection of symbolic entries, such as:
+**Matrix workloads.** In symbolic computing, each entry in a matrix is treated as a symbolic component — tagged with position and preserved as part of a compositional structure. For example:
 
-`1B11`, `2B12`  
-`3B21`, `4B22`
+`A = 1A11, 2A12; 3A21, 4A22`  
+`B = 5B11, 6B12; 7B21, 8B22`  
+`C = 1C11, 0C12; 0C21, 1C22`
 
-Each value is tagged with its block position. These tags allow the system to identify which operations can run independently. In a 2×2 matrix product, partial results like:
+Each scalar value is symbolically grouped by index. When matrices `A`, `B`, and `C` are multiplied in sequence, expressions like `A11 * B11 * C11` are executed as independent threads — each one mapped to a specific output block.
 
-`A11 * B11`  
-`A12 * B21`  
-`A21 * B12`  
-`A22 * B22`
-
-can be computed in parallel — each as a symbolic expression associated with a specific output block. This is spatial parallelism: execution is driven by symbolic position, not external scheduling.
-
-Symbolic computing also supports temporal parallelism. If a matrix is part of a longer sequence, such as:
+These threads can be processed in parallel, enabling fast execution across the full matrix product. At the end of the chain, symbolic threads are brought together, and final evaluation occurs as needed. This approach generalizes naturally to larger systems, where parallel execution can operate not just on individual scalars, but on entire matrix blocks.
 
 `A * B * C * D * E * F`
 
