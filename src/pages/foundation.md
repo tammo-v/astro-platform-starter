@@ -10,7 +10,7 @@ The limits of conventional hardware are no longer theoretical — they’re acti
 Some look to quantum computing as the next step. But quantum architectures are built for narrow classes of problems — typically involving probabilistic models, combinatorial optimization, or high-dimensional search spaces. They do little to address the structural demands of systems that rely on stable memory, compositional logic, or selective reuse. Other technologies, such as optical computing or neuromorphic hardware, offer promising directions in specialized areas, but remain far from practical deployment and are unlikely to address the near-term demands of large-scale, structured workloads.
 
 What’s needed is something different — not another generation of denser silicon, but a new kind of logic.  
-—  
+
 Symbolic Computing is that logic.
 
 
