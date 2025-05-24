@@ -64,4 +64,8 @@ A = 1A11, 2A12; 3A21, 4A22
 Each entry is symbolic and position-tagged, allowing block-level execution and reuse across transformation stages.
 
 
-[→ Next: Execution](/execution)
+
+<div class="hidden sm:flex justify-between mt-12 text-sm font-medium">
+  <a href="/what-is-symbolic-computing" class="link-nav-soft">← Overview</a>
+  <a href="/execution" class="link-nav-soft">Execution →</a>
+</div>
