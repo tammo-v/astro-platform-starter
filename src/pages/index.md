@@ -9,7 +9,7 @@ Symbolic Computing is a computational execution system built on Adaptive Symboli
 
 The limits of conventional hardware are no longer theoretical — they’re active constraints. Power ceilings, thermal bottlenecks, and fixed execution models now shape how systems are built and what they can do. Across domains — from AI and scientific computing to cryptographic systems and large-scale modeling — these constraints are becoming structural blockers rather than tuning challenges.
 
-Some look to quantum computing as the next step. But quantum architectures are built for narrow classes of problems. They do little to address the structural demands of systems that rely on stable memory, compositional logic, or selective reuse. Other technologies, such as optical computing or neuromorphic hardware, offer promising directions in specialized areas, but remain far from practical deployment and are unlikely to address the near-term demands of large-scale, structured workloads.
+Some look to quantum computing as the next step. But quantum architectures are built for narrow classes of problems. They do little to address the structural demands of systems working with simulation workloads, inference pipelines, and modeling frameworks. Other technologies, such as optical or neuromorphic computing, offer promise in specialized areas, but remain far from practical deployment.
 
 What’s needed is something different — not another generation of denser silicon, but a new kind of logic.
 
