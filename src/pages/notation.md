@@ -3,9 +3,11 @@ title: Notation
 layout: ../layouts/Layout.astro
 ---
 
-Symbolic Computing operates on mathematical objects directly — not as flattened values, but as compositional forms that remain active throughout execution. This includes numbers, functions, expressions, and matrix entries, each represented in a symbolic structure designed for reuse, transformation, and delayed evaluation.
+## Symbolic Notation
 
-This page introduces the notation system that makes symbolic execution possible. You’ll see how numeric values, fractional forms, exponentiation, and transformations are encoded. The format is lightweight and exact — designed to preserve identity and compositional behavior at every stage.
+Symbolic Computing is an execution engine built to handle extensive computational workloads. At the heart of the system is ASN, a notation that preserves the symbolic form of mathematical objects for execution.
+
+This notation supports numbers, fractions, exponents, functions, and matrix structures — each represented in a compositional form that can be preserved, reused, and executed, with evaluation typically occurring at the boundary and resolved to the level required.
 
 ### Numeric Values
 
