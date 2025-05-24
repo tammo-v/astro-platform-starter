@@ -20,7 +20,7 @@ Symbolic Computing is a computational execution system built on Adaptive Symboli
 
 The next three examples show how symbolic computing improves performance and scalability — from rational operations, to encryption pipelines, to matrix workloads.
 
-**Rational multiplication.** In symbolic computing, rational expressions are represented as compositional structures rather than floating-point values. A value like `3 / 4` is stored symbolically, with the numerator and denominator preserved as separate components. This representation unlocks capabilities not available in conventional execution setups — particularly when working with extended sequences of symbolic terms.
+**Rational multiplication.** In symbolic computing, rational expressions are represented as compositional structures rather than floating-point values. A value like `3 / 4` is stored symbolically. This representation unlocks capabilities not available in conventional execution setups — particularly when working with extended sequences of symbolic terms.
 
 When multiple rational terms are multiplied, the system can form structural groupings — treating all numerators and all denominators as separate symbolic streams:
 
