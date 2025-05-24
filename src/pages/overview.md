@@ -20,7 +20,9 @@ Symbolic Computing is a computational execution system built on Adaptive Symboli
 
 The next three examples show how symbolic computing improves performance and scalability — from rational operations, to encryption pipelines, to matrix workloads.
 
-**Rational multiplication.** In symbolic computing, rational expressions are represented as compositional structures rather than floating-point values. A value like `3 / 4` is stored symbolically, with the numerator and denominator preserved as separate components. When multiple rational terms are multiplied, the system performs structural grouping — multiplying all numerators together and all denominators together as independent symbolic streams:
+**Rational multiplication.** In symbolic computing, rational expressions are represented as compositional structures rather than floating-point values. A value like `3 / 4` is stored symbolically, with the numerator and denominator preserved as separate components. This representation unlocks capabilities not available in conventional execution setups — particularly when working with extended sequences of symbolic terms.
+
+When multiple rational terms are multiplied, the system can form structural groupings — treating all numerators and all denominators as separate symbolic streams:
 
 `3 / 4 * 2 / 5 * 7 / 9`
 
@@ -28,15 +30,7 @@ is processed as:
 
 `(3 * 2 * 7) / (4 * 5 * 9) = 42 / 180 = 7 / 30`
 
-Rather than evaluating each fraction individually, the system groups the terms compositionally. This reduces intermediate operations and avoids unnecessary approximation. The result is faster execution and more efficient expression handling in long rational sequences — especially in AI or modeling workloads where symbolic operations are part of an extended pipeline.
-
-`3 / 4 * 2 / 5 * 7 / 9`
-
-is processed as:
-
-`(3 * 2 * 7) / (4 * 5 * 9) = 42 / 180 = 7 / 30`
-
-Each component is preserved symbolically throughout the process. Grouping enables exactness, and allows evaluation to occur only when required. This becomes especially useful in extended rational workflows — for example in AI, simulation, or symbolic modeling — where multiple transformations may be applied before a final result is needed. 
+The system composes the expression as a whole. This reduces intermediate evaluations. The result is fast execution, efficient expression handling, and the opportunity to evaluate at a high resolution at the final stage.
 
 ---
 
