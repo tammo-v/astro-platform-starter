@@ -9,16 +9,19 @@ Symbolic Computing is an execution engine built to handle extensive computationa
 
 This notation supports numbers, fractions, exponents, functions, and matrix structures — each represented in a compositional form that can be preserved, reused, and executed, with evaluation typically occurring at the boundary and resolved to the level required.
 
-### Numeric Values
+---
 
-Simple numbers are written directly, often with symbolic tags that guide execution. For example:
+### Suffix-Based Notation
 
-```
-3n   → negative real 3
-4r   → positive real 4
-5i   → imaginary 5
-6m   → negative imaginary 6
-```
+ASN introduces a suffix-based notation system using symbolic tags that guide execution. These tags indicate sign, phase, or dimensional role, and are attached directly to numeric values, allowing the system to group, route, and resolve expressions structurally.
+
+- `r`: positive real — default phase; can be omitted when sign is implicit
+- `n`: negative real — allows compositional sign logic (e.g. `n * n → r`)
+- `i`: positive imaginary — symbolic axis for complex numbers
+- `m`: negative imaginary — mirror axis for sign-parity logic
+- `j`, `k`: higher-dimensional axes (e.g. quaternionic structures)
+- `q`: generic multi-axis tag — for symbolic components not bound to real/imaginary systems
+
 
 ### Fractions and Rational Forms
 
