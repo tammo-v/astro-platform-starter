@@ -19,8 +19,10 @@ ASN introduces a suffix-based notation system using symbolic tags that guide exe
 - `n`: negative real — allows compositional sign logic (e.g. `n * n → r`)
 - `i`: positive imaginary — symbolic axis for complex numbers
 - `m`: negative imaginary — mirror axis for sign-parity logic
-- `j`, `k`: higher-dimensional axes (e.g. quaternionic structures)
-- `q`: generic multi-axis tag — for symbolic components not bound to real/imaginary systems
+
+These suffixes enable structural grouping. If you have a large number of negative values, you don’t need to resolve each minus sign individually. You simply count the n tags: if the count is even, the result is positive; if odd, it’s negative.
+
+Complex numbers no longer need to be represented as pairs. With suffix tags like i and m, imaginary components are encoded directly. This allows symbolic operations to resolve structurally — for example, i * i = n and i * m = r.
 
 
 ### Fractions and Rational Forms
