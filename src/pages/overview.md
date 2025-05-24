@@ -63,9 +63,8 @@ This product can be evaluated in symbolic groups — such as `(A * B)` and `(C *
 ---
 
 Symbolic Computing is a full execution system designed for symbolic form.  
-
 For a technical overview, continue to the next section.
 
-<div class="hidden sm:flex justify-between mt-12 text-sm font-medium">
+<div class="hidden sm:flex justify-end mt-12 text-sm font-medium">
   <a href="/introducing-asn" class="link-nav-soft">Introducing ASN →</a>
 </div>
