@@ -34,7 +34,7 @@ The system composes the expression as a whole. This reduces intermediate evaluat
 
 ---
 
-**Encryption pipelines.** In symbolic computing, large expressions can be preserved symbolically across multiple stages of a workflow. This includes exponentiations used in cryptographic systems, such as `m ** e`, where the base and exponent are both represented in symbolic form.
+**Encryption pipelines.** In symbolic computing, large expressions can be preserved symbolically across multiple stages of a workflow. This includes exponentiations used in cryptographic systems, such as **`m**e`**, where the base and exponent are both represented in symbolic form.
 
 Rather than resolving results early — including modular reductions **`mod n`**, which are computationally heavy — the system allows the full expression to remain active throughout the pipeline. Evaluation only needs to happen at the final stage, when output is required.
 
@@ -50,7 +50,7 @@ B = 5B11, 6B12; 7B21, 8B22
 C = 1C11, 0C12; 0C21, 1C22
 </pre>
 
-Each scalar value is symbolically grouped by index. When the matrices are multiplied in sequence, expressions like — A11 * B11 * C11 — are executed as independent threads — each one mapped to a specific output block.
+Each scalar value is symbolically grouped by index. When the matrices are multiplied in sequence, expressions like — A11 * B11 * C11 — are executed as independent threads, each one mapped to a specific output block.
 
 These threads can be processed in parallel, enabling fast execution across the full matrix product. At the end of the chain, symbolic threads are brought together, and final evaluation occurs as needed. This approach generalizes naturally to larger systems, where parallel execution can operate not just on individual scalars, but on entire matrix blocks.
 
