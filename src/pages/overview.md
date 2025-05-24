@@ -59,3 +59,13 @@ Because matrix multiplication is associative, long chains can be segmented tempo
 A * B * C * D
 
 This product can be evaluated in symbolic groups — such as `(A * B)` and `(C * D)` — also processed in parallel and brought together at the final stage.
+
+---
+
+Symbolic Computing is a full execution system designed for symbolic form.  
+
+For a technical overview, continue to the next section.
+
+<div class="hidden sm:flex justify-between mt-12 text-sm font-medium">
+  <a href="/introducing-asn" class="link-nav-soft">Introducing ASN →</a>
+</div>
