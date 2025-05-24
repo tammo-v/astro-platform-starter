@@ -1,5 +1,3 @@
----
----
 <nav class="w-full isolate z-[9999] relative bg-white text-sm tracking-wide text-gray-800">
   <!-- Mobile: logo + hamburger inline -->
   <div class="sm:hidden flex items-center justify-between px-6 py-4">
@@ -25,24 +23,18 @@
 
       <!-- Desktop nav list -->
       <ul class="flex items-center gap-x-6">
+        <li><a href="/what-is-symbolic-computing" class="font-semibold text-gray-700 no-underline hover:text-[var(--aubergine)]">Overview</a></li>
+
         <li class="relative">
-          <button class="nav-toggle font-semibold text-gray-700 hover:text-[var(--aubergine)]" data-menu="foundation">Foundation</button>
-          <div id="subnav-foundation" class="absolute top-full left-0 hidden flex flex-row gap-x-6 py-4 px-6 z-50 whitespace-nowrap">
-            <a href="/manifesto" class="text-gray-700 font-medium no-underline hover:text-[var(--aubergine)]">The Manifesto</a>
-            <a href="/what-is-symbolic-computing" class="text-gray-700 font-medium no-underline hover:text-[var(--aubergine)]">What Is Symbolic Computing?</a>
+          <button class="nav-toggle font-semibold text-gray-700 hover:text-[var(--aubergine)]" data-menu="asn">ASN System</button>
+          <div id="subnav-asn" class="absolute top-full left-0 hidden flex flex-row gap-x-6 py-4 px-6 z-50 whitespace-nowrap">
+            <a href="/introducing-asn" class="text-gray-700 font-medium no-underline hover:text-[var(--aubergine)]">Introducing ASN</a>
+            <a href="/symbolic-expressions" class="text-gray-700 font-medium no-underline hover:text-[var(--aubergine)]">Symbolic Expressions</a>
+            <a href="/execution-model" class="text-gray-700 font-medium no-underline hover:text-[var(--aubergine)]">Execution Model</a>
+            <a href="/symbolic-hardware" class="text-gray-700 font-medium no-underline hover:text-[var(--aubergine)]">Symbolic Hardware</a>
           </div>
         </li>
-        <li class="relative">
-          <button class="nav-toggle font-semibold text-gray-700 hover:text-[var(--aubergine)]" data-menu="architecture">MAR Architecture</button>
-          <div id="subnav-architecture" class="absolute top-full left-0 hidden flex flex-row gap-x-6 py-4 px-6 z-50 whitespace-nowrap">
-            <a href="/introducing-mar" class="text-gray-700 font-medium no-underline hover:text-[var(--aubergine)]">Introducing MAR</a>
-            <a href="/asn" class="text-gray-700 font-medium no-underline hover:text-[var(--aubergine)]">ASN</a>
-            <a href="/adm" class="text-gray-700 font-medium no-underline hover:text-[var(--aubergine)]">ADM</a>
-            <a href="/software-layer" class="text-gray-700 font-medium no-underline hover:text-[var(--aubergine)]">Software Layer</a>
-            <a href="/hardware-layer" class="text-gray-700 font-medium no-underline hover:text-[var(--aubergine)]">Hardware Layer</a>
-            <a href="/sems" class="text-gray-700 font-medium no-underline hover:text-[var(--aubergine)]">SEMS</a>
-          </div>
-        </li>
+
         <li><a href="/articles" class="font-semibold text-gray-700 no-underline hover:text-[var(--aubergine)]">Articles</a></li>
         <li><a href="/patents" class="font-semibold text-gray-700 no-underline hover:text-[var(--aubergine)]">Patents</a></li>
         <li><a href="/licensing" class="font-semibold text-gray-700 no-underline hover:text-[var(--aubergine)]">Licensing</a></li>
@@ -51,51 +43,35 @@
     </div>
   </div>
 
-<!-- Mobile Menu -->
-<div id="mobile-menu" class="sm:hidden hidden flex flex-col gap-y-2 px-4 pt-2 pb-4">
-  <!-- Foundation -->
-  <div>
-    <button class="text-left text-gray-700 font-semibold" data-toggle="mobile-foundation">Foundation</button>
-    <div id="mobile-foundation" class="hidden pl-4 mt-2 space-y-2">
-      <a href="/manifesto" class="block text-gray-700 font-medium no-underline hover:opacity-80">The Manifesto</a>
-      <a href="/what-is-symbolic-computing" class="block text-gray-700 font-medium no-underline hover:opacity-80">What Is Symbolic Computing?</a>
+  <!-- Mobile Menu -->
+  <div id="mobile-menu" class="sm:hidden hidden flex flex-col gap-y-2 px-4 pt-2 pb-4">
+    <div>
+      <a href="/what-is-symbolic-computing" class="block text-gray-700 font-semibold no-underline hover:opacity-80">Overview</a>
     </div>
-  </div>
 
-  <!-- MAR Architecture -->
-  <div>
-    <button class="text-left text-gray-700 font-semibold" data-toggle="mobile-architecture">MAR Architecture</button>
-    <div id="mobile-architecture" class="hidden pl-4 mt-2 space-y-2">
-      <a href="/introducing-mar" class="block text-gray-700 font-medium no-underline hover:opacity-80">Introducing MAR</a>
-      <a href="/asn" class="block text-gray-700 font-medium no-underline hover:opacity-80">ASN</a>
-      <a href="/adm" class="block text-gray-700 font-medium no-underline hover:opacity-80">ADM</a>
-      <a href="/software-layer" class="block text-gray-700 font-medium no-underline hover:opacity-80">Software Layer</a>
-      <a href="/hardware-layer" class="block text-gray-700 font-medium no-underline hover:opacity-80">Hardware Layer</a>
-      <a href="/sems" class="block text-gray-700 font-medium no-underline hover:opacity-80">SEMS</a>
+    <!-- ASN System -->
+    <div>
+      <button class="text-left text-gray-700 font-semibold" data-toggle="mobile-asn">ASN System</button>
+      <div id="mobile-asn" class="hidden pl-4 mt-2 space-y-2">
+        <a href="/introducing-asn" class="block text-gray-700 font-medium no-underline hover:opacity-80">Introducing ASN</a>
+        <a href="/symbolic-expressions" class="block text-gray-700 font-medium no-underline hover:opacity-80">Symbolic Expressions</a>
+        <a href="/execution-model" class="block text-gray-700 font-medium no-underline hover:opacity-80">Execution Model</a>
+        <a href="/symbolic-hardware" class="block text-gray-700 font-medium no-underline hover:opacity-80">Symbolic Hardware</a>
+      </div>
     </div>
-  </div>
 
-  <!-- Other pages (wrapped for equal spacing) -->
-  <div>
-    <a href="/articles" class="block text-gray-700 font-medium no-underline hover:opacity-80">Articles</a>
+    <!-- Other pages -->
+    <div><a href="/articles" class="block text-gray-700 font-medium no-underline hover:opacity-80">Articles</a></div>
+    <div><a href="/patents" class="block text-gray-700 font-medium no-underline hover:opacity-80">Patents</a></div>
+    <div><a href="/licensing" class="block text-gray-700 font-medium no-underline hover:opacity-80">Licensing</a></div>
+    <div><a href="/contact" class="block text-gray-700 font-medium no-underline hover:opacity-80">Contact</a></div>
   </div>
-  <div>
-    <a href="/patents" class="block text-gray-700 font-medium no-underline hover:opacity-80">Patents</a>
-  </div>
-  <div>
-    <a href="/licensing" class="block text-gray-700 font-medium no-underline hover:opacity-80">Licensing</a>
-  </div>
-  <div>
-    <a href="/contact" class="block text-gray-700 font-medium no-underline hover:opacity-80">Contact</a>
-  </div>
-</div>
 </nav>
 
 <script type="module" client:load>
   const toggleButtons = document.querySelectorAll('.nav-toggle');
   const subnavs = {
-    foundation: document.getElementById('subnav-foundation'),
-    architecture: document.getElementById('subnav-architecture')
+    asn: document.getElementById('subnav-asn')
   };
 
   toggleButtons.forEach(btn => {
