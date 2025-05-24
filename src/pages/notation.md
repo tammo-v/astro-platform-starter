@@ -20,9 +20,9 @@ ASN introduces a suffix-based notation system using symbolic tags that guide exe
 - `i`: positive imaginary — symbolic axis for complex numbers
 - `m`: negative imaginary — mirror axis for sign-parity logic
 
-These suffixes enable structural grouping. If you have a large number of negative values, you don’t need to resolve each minus sign individually. You simply count the n tags: if the count is even, the result is positive; if odd, it’s negative.
+These suffixes enable structural grouping. If you have a large number of negative values, you don’t need to resolve each minus sign individually. You simply count the `n` tags: if the count is even, the result is positive; if odd, it’s negative.
 
-Complex numbers no longer need to be represented as pairs. With suffix tags like i and m, imaginary components are encoded directly. This allows symbolic operations to resolve structurally — for example, i * i = n and i * m = r.
+Complex numbers no longer need to be represented as pairs. With suffix tags like `i` and `m`, imaginary components are encoded directly. This allows symbolic operations to resolve structurally — for example, `i * i = n` and `i * m = r`.
 
 
 ### Fractions and Rational Forms
