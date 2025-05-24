@@ -7,7 +7,7 @@ layout: ../layouts/Layout.astro
 
 Symbolic Computing is a computational execution system built on Adaptive Symbolic Notation (ASN). It operates directly on mathematical objects — including numbers, functions, expressions, and matrices — keeping them in symbolic form throughout execution. index.md
 
-The limits of conventional hardware are no longer theoretical — they’re active constraints. Power ceilings, thermal bottlenecks, and fixed execution models now shape how systems are built and what they can do. Across domains — from AI and scientific computing to cryptographic systems and large-scale modeling — these constraints are becoming structural blockers rather than tuning challenges.
+The limits of conventional hardware are no longer theoretical — they’re active constraints. The cost of compute, power ceilings, and thermal constraints now shape how systems are built and what they can do. Across domains — from AI and scientific computing to cryptographic systems and large-scale modeling — these constraints are becoming structural blockers rather than tuning challenges.
 
 Some look to quantum computing as the next step. But quantum architectures are built for narrow classes of problems. They do little to address the structural demands of systems working with simulation workloads, inference pipelines, and modeling frameworks. Other technologies, such as optical or neuromorphic computing, offer promise in specialized areas, but remain far from practical deployment.
 
