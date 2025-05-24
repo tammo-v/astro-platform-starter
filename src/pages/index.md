@@ -66,5 +66,5 @@ Symbolic Computing is a full execution system running on symbolic form
 For a technical overview, continue to the next section.
 
 <div class="hidden sm:flex justify-end mt-12 text-sm font-medium">
-  <a href="/introducing-asn" class="link-nav-soft">Introducing ASN →</a>
+  <a href="/notation" class="link-nav-soft">Notation →</a>
 </div>
