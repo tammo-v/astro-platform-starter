@@ -65,7 +65,8 @@ Each entry is symbolic and position-tagged, allowing block-level execution and r
 
 
 
+
 <div class="hidden sm:flex justify-between mt-12 text-sm font-medium">
-  <a href="/what-is-symbolic-computing" class="link-nav-soft">← Overview</a>
+  <a href="/" class="link-nav-soft">← Overview</a>
   <a href="/execution" class="link-nav-soft">Execution →</a>
 </div>
