@@ -34,6 +34,16 @@ The system composes the expression as a whole. This reduces intermediate evaluat
 
 ---
 
+**Encryption pipelines.** In symbolic computing, large expressions can be preserved symbolically across multiple stages of a workflow. This includes exponentiations used in cryptographic systems, such as `m ** e mod n`, where the base and exponent are both represented in symbolic form.
+
+Rather than resolving results early — including modular reductions, which are computationally heavy — the system allows the full expression to remain active throughout the pipeline. Evaluation only needs to happen at the final stage, when output is required.
+
+This enables faster execution across cryptographic workflows and supports the use of larger encryption keys. As quantum computing develops, current encryption sizes may no longer offer the same guarantees. The ability to handle symbolic keys at higher magnitudes may become essential.
+
+
+
+---
+
 When multiplying matrices, symbolic computing uses structural tags to guide execution. A matrix is written as a collection of symbolic entries, such as:
 
 `1B11`, `2B12`  
