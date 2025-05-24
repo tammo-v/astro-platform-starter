@@ -16,6 +16,12 @@ Symbolic Computing is that logic.
 
 ---
 
+Symbolic Computing is a computational execution system that operates using Adaptive Symbolic Notation (ASN). It performs operations directly on mathematical objects — such as numbers, functions, expressions, and matrices — represented in symbolic form. Rather than evaluating expressions early into floating-point values, the system transforms, groups, tags, and dispatches them based on their compositional structure. It is designed to support extensive workloads and complex pipelines — including applications in artificial intelligence, cryptography, simulation, and symbolic audio.
+
+The next three examples show how symbolic computing improves performance and scalability — from rational operations, to encryption pipelines, to matrix workloads.
+
+---
+
 In symbolic computing, rational expressions are represented as compositional structures. A value like `3 / 4` is stored symbolically, with the numerator and denominator preserved as separate components. When multiple rational terms are multiplied, the system performs structural grouping — multiplying all numerators together and all denominators together as independent symbolic streams:
 
 `3 / 4 * 2 / 5 * 7 / 9`
