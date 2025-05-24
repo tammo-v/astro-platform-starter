@@ -16,11 +16,19 @@ Symbolic Computing is that logic.
 
 ---
 
-Symbolic Computing is a computational execution system built on Adaptive Symbolic Notation (ASN). It performs operations directly on mathematical objects, keeping them in symbolic form throughout execution. Instead of converting expressions into floating-point values early, the system operates on their internal composition. It is designed for large-scale workloads and complex pipelines, with applications in artificial intelligence, cryptography, simulation, and symbolic audio.
+Symbolic Computing is a computational execution system built on Adaptive Symbolic Notation (ASN). It operates directly on mathematical objects — including numbers, functions, expressions, and matrices — keeping them in symbolic form throughout execution.
 
 The next three examples show how symbolic computing improves performance and scalability — from rational operations, to encryption pipelines, to matrix workloads.
 
-**Rational multiplication.** In symbolic computing, rational expressions are represented as compositional structures. A value like `3 / 4` is stored symbolically, with the numerator and denominator preserved as separate components. When multiple rational terms are multiplied, the system performs structural grouping — multiplying all numerators together and all denominators together as independent symbolic streams:
+**Rational multiplication.** In symbolic computing, rational expressions are represented as compositional structures rather than floating-point values. A value like `3 / 4` is stored symbolically, with the numerator and denominator preserved as separate components. When multiple rational terms are multiplied, the system performs structural grouping — multiplying all numerators together and all denominators together as independent symbolic streams:
+
+`3 / 4 * 2 / 5 * 7 / 9`
+
+is processed as:
+
+`(3 * 2 * 7) / (4 * 5 * 9) = 42 / 180 = 7 / 30`
+
+Rather than evaluating each fraction individually, the system groups the terms compositionally. This reduces intermediate operations and avoids unnecessary approximation. The result is faster execution and more efficient expression handling in long rational sequences — especially in AI or modeling workloads where symbolic operations are part of an extended pipeline.
 
 `3 / 4 * 2 / 5 * 7 / 9`
 
