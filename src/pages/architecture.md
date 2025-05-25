@@ -11,6 +11,8 @@ ASN begins with a simple idea: that it is possible to execute directly on mathem
 
 This unlocks capabilities that are difficult to express in traditional systems — including the ability to run large matrix computations in parallel, to perform faster transformations in structured workflows like cryptography, and to evaluate with full resolution at the final output stage in scientific computing. These outcomes are enabled by allowing symbolic structure to remain active throughout execution.
 
+---
+
 ### Core Execution Behaviors
 
 ASN defines a symbolic execution model based on the following behaviors:
@@ -29,6 +31,8 @@ ASN defines a symbolic execution model based on the following behaviors:
 
 - **Controlled Evaluation**  
   Evaluation is triggered by structural context. Until then, expressions remain symbolic, preserving compositional identity across stages.
+
+---
 
 ### Execution Across Domains
 
