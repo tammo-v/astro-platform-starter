@@ -34,16 +34,16 @@ ASN defines a symbolic execution model based on the following behaviors:
 
 ---
 
-### Execution Across Domains
+### Applications
 
-ASN is domain-agnostic. It allows symbolic operations to proceed through structure, not through code paths. Applications include:
+ASN is a licensed technology that can be implemented today in software, offering meaningful benefits across real-world domains. For example:
 
-- Symbolic matrix transformation  
-- Cryptographic pipelines  
-- Scientific modeling  
-- Structured audio and signal processing
+- **AI systems**: reduces compute cost and energy usage by enabling matrix operations to run in parallel — with symbolic blocks that remain active across transformation stages.  
+- **Cryptography**: allows protocols to run faster and enables the use of larger encryption keys — held symbolically until resolution, improving both efficiency and security margins.  
+- **Scientific computing**: supports faster computation and higher numerical resolution by preserving exact form throughout extended workflows.  
+- **Symbolic audio**: introduces a new way to store and transform sound — using symbolic form to capture waveform structure naturally, with high fidelity and built-in compression.
 
-ASN is implemented in software, and may also extend into symbolic hardware. Its architecture is general-purpose — supporting symbolic workflows at scale.
+ASN is not optimized for one use case. It is a general execution model — ready to run.
 
 <div class="hidden sm:flex justify-between mt-12 text-sm font-medium">
   <a href="/" class="link-nav-soft">← Overview</a>
