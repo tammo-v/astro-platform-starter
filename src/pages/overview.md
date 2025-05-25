@@ -4,7 +4,7 @@ layout: ../layouts/Layout.astro
 ---
 
 ## Overview
-overview.md
+
 Floating point provides a fast and efficient way to perform computation. It works — and will continue to work — for most computational systems. But in fields such as AI, simulation, and cryptography, where workloads are becoming more extensive, layered, and structurally interdependent, high linear throughput no longer seems to be the answer.
 
 ASN begins with a simple idea: that it is possible to execute directly on mathematical objects — such as numbers, functions and matrices — in their symbolic form. The use of symbolic form in computation is not new — it already exists in preprocessors and symbolic mathematics systems. ASN takes that idea one step further, extending symbolic manipulation into execution itself.
