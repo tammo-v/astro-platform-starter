@@ -3,13 +3,13 @@ title: Architecture
 layout: ../layouts/Layout.astro
 ---
 
-# Architecture 
+## Architecture
 
-Adaptive Symbolic Notation (ASN) defines the execution model that powers Symbolic Computing. It allows symbolic expressions to remain structurally intact across transformation, memory, and execution — enabling compositional workflows that are reusable, inspectable, and precisely evaluable.
+Floating point provides a fast and efficient way to perform computation. It works — and will continue to work — for most computational systems. But in fields such as AI, simulation, and cryptography, where workloads are becoming more extensive, layered, and structurally interdependent, high linear throughput no longer seems to be the answer.
 
-ASN is built for execution on symbolic form. Rather than reducing expressions into numeric values early, it allows values to stay symbolic — grouped, tagged, and routed based on structure. Evaluation occurs only when required, typically at the boundary or output stage.
+ASN begins with a simple idea: that it is possible to execute directly on symbolic form. The use of symbolic form in computation is not new — it already exists in preprocessors and symbolic mathematics systems. ASN takes that idea one step further, extending symbolic manipulation into execution itself.
 
-This model supports symbolic workflows across fields such as simulation, cryptography, matrix transformation, and symbolic audio — all without flattening expressions into traditional numeric form.
+This enables capabilities that are difficult to express in traditional systems — including symbolic parallelism, structural routing, and controlled evaluation. In ASN, structure doesn’t just describe the computation — it drives it.
 
 ### Core Execution Behaviors
 
