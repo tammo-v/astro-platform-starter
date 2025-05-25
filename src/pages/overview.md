@@ -34,6 +34,25 @@ ASN defines a symbolic execution model based on the following behaviors:
 
 ---
 
+### Executing on Symbolic Form
+
+ASN uses a lightweight symbolic notation designed for execution. Values are stored in symbolic form — not flattened or reduced — which allows expressions to remain active across transformation stages.
+
+Suffixes are used to guide execution directly. A number like `3n` represents a negative real, and can be grouped with others based on structure. Signs are resolved not by conditionals, but by counting — an even number of `n` tags yields a positive result.
+
+Rather than approximating irrational values, the system preserves them as symbolic expressions. For example, the square root of 2 is written as `2**(1/2)` and remains unevaluated until needed. Rational numbers are held in their exact form — `1/3` stays `1/3`, not `0.333...`.
+
+Functions are represented symbolically as well. An expression like `sin(x**2)` remains active in memory — it is not reduced through a Taylor expansion or approximated unless required by output.
+
+Even at this level, symbolic preservation offers benefits in computational efficiency — by avoiding unnecessary evaluations and allowing higher-resolution output when needed. Additionally, it solves many of the persistent problems associated with floating-point computation, including rounding artifacts, representation loss, and premature collapse of expression depth.
+
+But the real value of the system becomes clear when structure is not only preserved, but extended. In matrix and tensor operations, symbolic tags can be used to label position and role — such as `2A11` or `3B12`. These tags allow values to be routed, grouped, and executed in parallel based on structure alone.
+
+This enables large matrix products to be subdivided and processed as symbolic threads, without flattening data or separating it from its identity. Evaluation happens only at the final stage — after symbolic execution has completed across the full chain.
+
+
+---
+
 ### Applications
 
 ASN is a licensed technology that can be implemented today in software, offering meaningful benefits across real-world domains. For example:
