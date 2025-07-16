@@ -8,19 +8,25 @@ ogDescription: A unified foundation for structured execution across digital doma
 
 ## A New Computational Substrate
 
-Symbolic Computing introduces a unified framework for digital systems — built not on scalar streams, but on symbolic matrix fields. This new substrate supports structured execution across video, audio, artificial intelligence, and beyond.
+Floating point was not adopted because it was ideal—it was adopted because it matched the constraints of early hardware.
 
-In today’s computing stack, data is represented as flat, disconnected values. Video: pixel arrays. Audio: amplitude sequences. AI: token strings. The substrate is scalar — meaning is imposed from the outside, and execution is blind to structure.
+In the first generation of computing systems, memory was scarce, hardware was limited, and precision was expensive. Floating point offered a compact, lossy encoding scheme for approximating real numbers within a fixed number of bits. It was a compromise that proved scalable.
 
-Symbolic matrix fields invert this paradigm. Data is no longer a stream to be processed, but a structure to be traversed. Position, meaning, and temporal alignment are embedded directly into the representation. Computation operates on relational form — not just values.
+That compromise became the foundation. Today, nearly all computation—whether in video, audio, or artificial intelligence—still runs on scalar values, flattened streams, and bit-level encodings. Meaning is imposed from the outside. Structure is lost in execution.
 
-This shift enables something long anticipated: structured intelligence. A model of computing that understands where it is, what it’s doing, and why.
+Symbolic Computing begins with a different assumption.
 
-The full symbolic framework will be released once the initial patent suite is placed. This site will expand to include technical publications, demonstrations, and structural licensing for aligned partners.
+Instead of representing data as disconnected values, it introduces symbolic matrix fields—a framework where computation occurs over structured relations. Position, meaning, and temporal alignment are encoded directly into the representation. Scalar streams are replaced by symbolic structures. Traversal replaces transformation.
 
---
+This enables a different class of system—one where execution is referential, intelligence is contextual, and meaning is not approximated, but preserved.
+
+The symbolic computing framework is currently organized into three verticals: Artificial Intelligence, Video, and Audio. Each vertical consists of structurally independent components, designed to operate as a coherent system when combined. Additional verticals will follow as the symbolic substrate expands.
+
+The full framework will be released in sequence as the initial patent suite is placed. This site will expand to include technical publications, demonstrations, and licensing pathways.
+
+— 
 
 Symbolic Computing doesn’t simulate logic.  
 It runs on it.  
-
+And it starts here.
 
