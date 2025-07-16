@@ -1,70 +1,16 @@
 ---
-title: Foundation
+title: Symbolic Computing
 layout: ../layouts/Layout.astro
 ---
 
-## What Is Symbolic Computing?
+# Symbolic Computing
 
-Symbolic Computing is a computational execution system built on Adaptive Symbolic Notation (ASN), designed to handle large symbolic computations. It operates directly on mathematical objects — including numbers, functions, expressions, and matrices — keeping them in symbolic form throughout execution.
+Symbolic Computing is developing a new computational framework built on symbolic matrix fields — a structural foundation for video, audio, artificial intelligence, and other fields of computing.
 
-The limits of conventional hardware are no longer theoretical — they’re active constraints. The cost of compute, power ceilings, and thermal constraints now shape how systems are built and what they can do. Across domains — from AI and scientific computing to cryptographic systems and large-scale modeling — these constraints are becoming structural blockers rather than tuning challenges.
+Across today’s computing stack, data is represented as unstructured scalar streams. In video, these are pixel arrays. In audio, sequences of amplitude values. In artificial intelligence, linear token sequences. Regardless of domain, the substrate is the same: disconnected values processed at scale, with meaning imposed from the outside.
 
-Some look to quantum computing as the next step. But quantum architectures are built for narrow classes of problems. They do little to address the structural demands of systems working with simulation workloads, inference pipelines, and modeling frameworks. Other technologies, such as optical or neuromorphic computing, offer promise in specialized areas, but remain far from practical deployment.
+Symbolic matrix fields offer a new foundation. In this framework, we no longer compute over scalars, but over structured relations. The implicit shape of data becomes explicit. Position, meaning, and temporal alignment are encoded directly in the representation itself. This shift enables a new paradigm — one not based on more computation, but on structured intelligence.
 
-What’s needed is something different — not another generation of denser silicon, but a new kind of logic.
+Full details will be made available once the initial patent suite is formally placed. This site will expand to include technical publications, demonstrations, and licensing pathways as the symbolic framework becomes publicly available.
 
-Symbolic Computing is that logic.  
-—
 
-The next three examples show how symbolic computing improves performance and scalability — from rational operations, to encryption pipelines, to matrix workloads.
-
----
-
-**Rational multiplication.** In symbolic computing, rational expressions are represented as compositional structures rather than floating-point values. A value like `3/4` is stored symbolically. This representation unlocks capabilities not available in conventional execution setups — particularly when working with extended sequences of symbolic terms.
-
-When multiple rational terms are multiplied, the system can form structural groupings — treating all numerators and all denominators as separate symbolic streams:
-
-3/4 * 2/5 * 7/9
-
-is processed as:
-
-(3 * 2 * 7) / (4 * 5 * 9) = 42/180 = 7/30
-
-The system composes the expression as a whole. This reduces intermediate evaluations. The result is fast execution, efficient expression handling, and the opportunity to evaluate at a high resolution at the final stage.
-
----
-
-**Encryption pipelines.** In symbolic computing, large expressions can be preserved symbolically across multiple stages of a workflow. This includes exponentiations used in cryptographic systems, such as **`m**e`**, where the base and exponent are both represented in symbolic form.
-
-Rather than resolving results early — including modular reductions **`mod n`**, which are computationally heavy — the system allows the full expression to remain active throughout the pipeline. Evaluation only needs to happen at the final stage, when output is required.
-
-This enables faster execution across cryptographic workflows and supports the use of larger encryption keys — a capability that may become crucial as quantum computing develops.
-
----
-
-**Matrix workloads.** In symbolic computing, each entry in a matrix is treated as a symbolic component — tagged with position and preserved as part of a compositional structure. For example:
-
-<pre>
-A = 1A11, 2A12; 3A21, 4A22
-B = 5B11, 6B12; 7B21, 8B22
-C = 1C11, 0C12; 0C21, 1C22
-</pre>
-
-Each scalar value is symbolically grouped by index. When the matrices are multiplied in sequence, expressions — like A11 * B11 * C11 — are executed as independent threads, each one mapped to a specific output block.
-
-These threads can be processed in parallel, enabling fast execution across the full matrix product. At the end of the chain, symbolic threads are brought together, and final evaluation occurs as needed. This approach generalizes naturally to larger systems, where parallel execution can operate not just on individual scalars, but on entire matrix blocks.
-
-Because matrix multiplication is associative, long chains can be segmented temporally.
-
-A * B * C * D
-
-This product can be evaluated in symbolic groups — such as `(A * B)` and `(C * D)` — processed in parallel as well and brought together at the final stage.
-
----
-
-Symbolic Computing is a full execution system running on symbolic form  
-For a technical overview, continue to the next section.
-
-<div class="hidden sm:flex justify-end mt-12 text-sm font-medium">
-  <a href="/notation" class="link-nav-soft">Notation →</a>
-</div>
