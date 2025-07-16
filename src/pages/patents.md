@@ -1,9 +1,12 @@
 ---
 title: Patent Structure
 layout: ../layouts/Layout.astro
+description: Structural overview of symbolic computing's initial patent architecture, spanning AI, video, and audio.
+ogTitle: Symbolic Computing — Patent Structure
+ogDescription: View the vertical alignment of symbolic patents in artificial intelligence, video, and audio.
 ---
 
-# Patent Structure
+## Patent Structure
 
 The symbolic computing framework is organized into three verticals: Artificial Intelligence, Video, and Audio. Each vertical consists of structurally independent components — designed to operate as a coherent system when combined.
 
