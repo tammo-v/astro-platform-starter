@@ -15,6 +15,6 @@ This shift enables something long anticipated: structured intelligence. A model 
 
 The full symbolic framework will be released once the initial patent suite is placed. This site will expand to include technical publications, demonstrations, and structural licensing for aligned partners.
 
-For early contact or inquiry: **info@symboliccomputing.com**
+For early contact or inquiry: info@symboliccomputing.com
 
 
