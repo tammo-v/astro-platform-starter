@@ -1,6 +1,9 @@
 ---
 title: Symbolic Computing
 layout: ../layouts/Layout.astro
+description: A new computational substrate for video, audio, and artificial intelligence — built on symbolic matrix fields.
+ogTitle: Symbolic Computing
+ogDescription: A unified foundation for structured execution across digital domains.
 ---
 
 ## A New Computational Substrate
