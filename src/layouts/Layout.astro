@@ -2,38 +2,52 @@
 import NavBar from '../components/NavBar.astro'
 import '../../src/styles/globals.css';
 
-
 interface Props {
-    title: string;
+  title: string;
+  description?: string;
+  ogTitle?: string;
+  ogDescription?: string;
 }
 
-const { title } = Astro.props;
+const { title, description, ogTitle, ogDescription } = Astro.props;
 ---
 
 <!doctype html>
 <html lang="en">
-    <head>
-        <meta charset="UTF-8" />
-        <title>{title}</title>
-        <meta name="viewport" content="width=device-width" />
-        <meta name="generator" content={Astro.generator} />
-        <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
-        <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600&family=Inter:wght@400;500&display=swap" rel="stylesheet">
-        
-        <!-- Plausible Analytics -->
-        <script defer data-domain="symboliccomputing.com" src="https://plausible.io/js/script.file-downloads.outbound-links.js"></script>
-        <script>
-          window.plausible = window.plausible || function() {
-            (window.plausible.q = window.plausible.q || []).push(arguments)
-          }
-        </script>
-    </head>
-    <body class="bg-white text-black antialiased">
-      <NavBar />
-      <main class="max-w-3xl mx-auto pl-[27px] pr-6 pt-1 md:pt-10 pb-32">
-        <div class="prose markdown text-base leading-relaxed tracking-tight text-gray-900">
-          <slot />
-        </div>
-      </main>
-    </body>
+  <head>
+    <meta charset="UTF-8" />
+    <title>{title}</title>
+    <meta name="viewport" content="width=device-width" />
+    <meta name="generator" content={Astro.generator} />
+
+    <!-- Meta description -->
+    {description && <meta name="description" content={description} />}
+
+    <!-- Open Graph metadata -->
+    <meta property="og:type" content="website" />
+    <meta property="og:title" content={ogTitle || title} />
+    <meta property="og:description" content={ogDescription || description || ''} />
+    <meta property="og:url" content="https://symboliccomputing.com" />
+    <meta property="og:image" content="/og-image.png" />
+
+    <!-- Favicon and Fonts -->
+    <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
+    <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600&family=Inter:wght@400;500&display=swap" rel="stylesheet" />
+
+    <!-- Plausible Analytics -->
+    <script defer data-domain="symboliccomputing.com" src="https://plausible.io/js/script.file-downloads.outbound-links.js"></script>
+    <script>
+      window.plausible = window.plausible || function () {
+        (window.plausible.q = window.plausible.q || []).push(arguments)
+      }
+    </script>
+  </head>
+  <body class="bg-white text-black antialiased">
+    <NavBar />
+    <main class="max-w-3xl mx-auto pl-[27px] pr-6 pt-1 md:pt-10 pb-32">
+      <div class="prose markdown text-base leading-relaxed tracking-tight text-gray-900">
+        <slot />
+      </div>
+    </main>
+  </body>
 </html>
