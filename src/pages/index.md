@@ -28,5 +28,6 @@ The full framework will be released in sequence as the initial patent suite is p
 
 Symbolic Computing doesn’t simulate logic.  
 It runs on it.  
+
 --
 
