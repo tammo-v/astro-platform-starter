@@ -5,14 +5,16 @@ layout: ../layouts/Layout.astro
 
 ## A New Computational Substrate
 
-Symbolic Computing is developing a new computational framework built on symbolic matrix fields — a structural foundation for video, audio, artificial intelligence, and other fields of computing.
+Symbolic Computing introduces a unified framework for digital systems — built not on scalar streams, but on symbolic matrix fields. This new substrate supports structured execution across video, audio, artificial intelligence, and beyond.
 
-Across today’s computing stack, data is represented as unstructured scalar streams. In video, these are pixel arrays. In audio, sequences of amplitude values. In artificial intelligence, linear token sequences. Regardless of domain, the substrate is the same: disconnected values processed at scale, with meaning imposed from the outside.
+In today’s computing stack, data is represented as flat, disconnected values. Video: pixel arrays. Audio: amplitude sequences. AI: token strings. The substrate is scalar — meaning is imposed from the outside, and execution is blind to structure.
 
-Symbolic matrix fields offer a new foundation. Computation no longer operates over scalars, but over structured relations. The implicit shape of data becomes explicit. Position, meaning, and temporal alignment are encoded directly in the representation itself. This shift enables a new paradigm — one not based on more computation, but on structured intelligence.
+Symbolic matrix fields invert this paradigm. Data is no longer a stream to be processed, but a structure to be traversed. Position, meaning, and temporal alignment are embedded directly into the representation. Computation operates on relational form — not just values.
 
-Full details will be made available once the initial patent suite is formally placed. This site will expand to include technical publications, demonstrations, and licensing pathways as the symbolic framework becomes publicly available. 
+This shift enables something long anticipated: structured intelligence. A model of computing that understands where it is, what it’s doing, and why.
 
-For inquiries or early contact, please reach out to: info@symboliccomputing.com
+The full symbolic framework will be released once the initial patent suite is placed. This site will expand to include technical publications, demonstrations, and structural licensing for aligned partners.
+
+For early contact or inquiry: **info@symboliccomputing.com**
 
 
