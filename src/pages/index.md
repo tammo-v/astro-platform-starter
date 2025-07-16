@@ -18,7 +18,7 @@ That compromise became the foundation. Today, nearly all computation—whether i
 
 Symbolic Computing begins with a different assumption.
 
-Instead of representing data as disconnected values, it introduces symbolic matrix fields — a framework where computation occurs over structured relations. Position, meaning, and temporal alignment are encoded directly into the representation. Scalar streams are replaced by symbolic structures. Traversal replaces sequential operation.
+Instead of representing data as disconnected values, it introduces **symbolic matrix fields** — a framework where computation occurs over structured relations. Position, meaning, and temporal alignment are encoded directly into the representation. Scalar streams are replaced by symbolic structures. Traversal replaces sequential operation.
 
 This enables a different class of system—one where execution is referential, intelligence is structured, and meaning is not approximated, but preserved.
 
