@@ -18,7 +18,7 @@ This shift enables something long anticipated: structured intelligence. A model 
 
 The full symbolic framework will be released once the initial patent suite is placed. This site will expand to include technical publications, demonstrations, and structural licensing for aligned partners.
 
---
+-
 Symbolic Computing doesn’t simulate logic.  
 It runs on it.  
 And it starts here.
