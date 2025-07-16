@@ -11,6 +11,8 @@ Across today’s computing stack, data is represented as unstructured scalar str
 
 Symbolic matrix fields offer a new foundation. In this framework, we no longer compute over scalars, but over structured relations. The implicit shape of data becomes explicit. Position, meaning, and temporal alignment are encoded directly in the representation itself. This shift enables a new paradigm — one not based on more computation, but on structured intelligence.
 
-Full details will be made available once the initial patent suite is formally placed. This site will expand to include technical publications, demonstrations, and licensing pathways as the symbolic framework becomes publicly available.
+Full details will be made available once the initial patent suite is formally placed. This site will expand to include technical publications, demonstrations, and licensing pathways as the symbolic framework becomes publicly available. 
+
+For inquiries or early contact, please reach out to: info@symboliccomputing.com
 
 
