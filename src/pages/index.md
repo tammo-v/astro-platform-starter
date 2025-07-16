@@ -3,7 +3,7 @@ title: Symbolic Computing
 layout: ../layouts/Layout.astro
 ---
 
-# Symbolic Computing
+## Symbolic Computing
 
 Symbolic Computing is developing a new computational framework built on symbolic matrix fields — a structural foundation for video, audio, artificial intelligence, and other fields of computing.
 
