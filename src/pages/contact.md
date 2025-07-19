@@ -8,7 +8,7 @@ ogDescription: "For aligned early inquiry: info@symboliccomputing.com"
 
 ## Contact
 
-Symbolic Computing is an independently developed framework for computation, representation, and intelligence. The structure has been built in full and will be released in sequence as the patent suite is placed.
+Symbolic Computing is an independently developed framework for computation, representation, and intelligence. The structure is currently being completed and will be released in full once the patent suite is in place.  
 
 For early inquiry or contact:
 
