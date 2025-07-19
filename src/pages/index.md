@@ -12,7 +12,7 @@ Floating point was not adopted because it was ideal—it was adopted because it 
 
 In the first generation of computing systems, memory was scarce, hardware was limited, and precision was expensive. Floating point offered a compact, lossy encoding scheme for approximating real numbers within a fixed number of bits. It was a compromise that proved scalable.
 
-That compromise became the foundation. Today, nearly all computation—whether in artificial intelligence, video or audio—still runs on scalar values, flattened streams, and bit-level encodings. Meaning is imposed from the outside. Structure is lost in execution.
+That compromise became the foundation. Today, nearly all computation—across artificial intelligence, media processing, operating systems, networking, and beyond—still runs on scalar values, flattened streams, and bit-level encodings. Meaning is imposed from the outside. Structure is lost in execution.
 
 ---
 
