@@ -8,13 +8,13 @@ ogDescription: View the vertical alignment of symbolic patents in artificial int
 
 ## Patent Structure
 
-The Symbolic Computing framework is currently organized into three verticals: Artificial Intelligence, Video, and Audio. Each vertical consists of structurally independent components, designed to operate as a coherent system when combined. Additional verticals will follow as the symbolic substrate expands.
+The Symbolic Computing framework is currently organized into three verticals: Structured Intelligence, Video, and Audio. Each vertical consists of structurally independent components, designed to operate as a coherent system when combined. Additional verticals will follow as the symbolic substrate expands.
 
 The following titles represent the current structure.
 
 ---
 
-## Artificial Intelligence
+## Structured Intelligence
 
 **S1** — Symbolic Program Matrix Field Initialization Consumer  
 **S2** — Symbolic Program Matrix Field Initialization Enterprise  
