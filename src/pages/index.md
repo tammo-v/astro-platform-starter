@@ -28,8 +28,9 @@ The symbolic computing framework is currently organized into three verticals: Ar
 
 The full framework will be released in sequence as the initial patent suite is placed. This site will expand to include technical publications, demonstrations, and licensing pathways.
 
+--
+
 **Symbolic Computing, when structure becomes execution.**  
   
 
---
 
