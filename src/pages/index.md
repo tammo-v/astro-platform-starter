@@ -12,13 +12,15 @@ Floating point was not adopted because it was ideal—it was adopted because it 
 
 In the first generation of computing systems, memory was scarce, hardware was limited, and precision was expensive. Floating point offered a compact, lossy encoding scheme for approximating real numbers within a fixed number of bits. It was a compromise that proved scalable.
 
-That compromise became the foundation. Today, nearly all computation—across artificial intelligence, media processing, operating systems, networking, and beyond—still runs on scalar values, flattened streams, and bit-level encodings. Meaning is imposed from the outside. Structure is lost in execution.
+That compromise became the foundation. Today, nearly all computation—across artificial intelligence, media processing, operating systems, networking, and beyond—still runs on scalar values, flattened streams, and externally imposed structure.
+Meaning is layered on top and lost in execution.
+
 
 ---
 
 Symbolic Computing begins with a different assumption.
 
-Instead of representing data as disconnected values, it introduces symbolic matrix fields—a framework where computation occurs over structured relations. Position and symbolic time are encoded directly into the representation. Scalar streams are replaced by symbolic structures. Traversal replaces sequential operation.
+Instead of representing data as disconnected values, it introduces **symbolic matrix fields**, a framework where computation occurs over relational fields. Position and symbolic time are encoded directly into the representation. Scalar streams are replaced by symbolic forms. Execution flows across internal structure, not through a linear stream.
 
 This enables a different class of system—one where execution is referential, intelligence is structured, and meaning is carried through form.
 
