@@ -16,11 +16,12 @@ The following titles represent the current structure.
 
 ## Structured Intelligence
 
-**S1** — Symbolic Program Matrix Field Initialization Consumer  
-**S2** — Symbolic Program Matrix Field Initialization Enterprise  
-**S3** — Symbolic Program Construction  
-**S4** — Symbolic Agent OS   
-**S5** — Symbolic LLM  
+**S1** — Symbolic Program Matrix Field Initialization (Consumer)  
+**S2** — Symbolic Program Matrix Field Initialization (Enterprise)  
+**S3** — Symbolic Program Matrix Field Initialization (Web / Internet)  
+**S4** — Symbolic Program Construction  
+**S5** — Symbolic Agent OS  
+**S6** — Symbolic LLM
 
 ---
 
