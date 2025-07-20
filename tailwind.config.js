@@ -7,10 +7,13 @@ module.exports = {
   ],
   theme: {
     extend: {
+      colors: {
+        aubergine: '#5e2b5d',
+      },
       typography: {
         DEFAULT: {
           css: {
-            // full reset for all inline and block code
+            '--tw-prose-headings': '#5e2b5d',
             pre: {
               backgroundColor: 'transparent',
               padding: '0',
