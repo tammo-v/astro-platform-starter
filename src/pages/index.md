@@ -11,7 +11,7 @@ twitterImage: /og-image.png
 ogImage: /og-image.png
 ---
 
-## A New Computational Substrate
+## A New Computational Substrate built on symbolic matrix fields
 
 Floating point was not adopted because it was ideal—it was adopted because it matched the constraints of early hardware.
 
@@ -35,7 +35,7 @@ The full framework will be released in sequence as the initial patent suite is p
 
 --
 
-**Symbolic Computing, a new computational substrate built on symbolic matrix fields**  
+**Symbolic Computing, when structure becomes execution**  
   
 
 
