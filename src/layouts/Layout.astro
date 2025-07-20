@@ -9,7 +9,10 @@ interface Props {
   ogDescription?: string;
 }
 
-const { title, description, ogTitle, ogDescription } = Astro.frontmatter;
+const title = Astro.frontmatter?.title ?? "Symbolic Computing";
+const description = Astro.frontmatter?.description ?? "";
+const ogTitle = Astro.frontmatter?.ogTitle ?? title;
+const ogDescription = Astro.frontmatter?.ogDescription ?? description;
 ---
 
 <!doctype html>
