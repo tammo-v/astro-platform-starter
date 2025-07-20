@@ -10,7 +10,6 @@ twitterDescription: Symbolic matrix fields provide a new substrate for computing
 twitterImage: /og-image.png
 ogImage: /og-image.png
 ---
----
 
 ## A New Computational Substrate
 
