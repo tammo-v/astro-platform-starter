@@ -13,7 +13,6 @@ module.exports = {
       typography: {
         DEFAULT: {
           css: {
-            '--tw-prose-headings': '#5e2b5d',
             pre: {
               backgroundColor: 'transparent',
               padding: '0',
