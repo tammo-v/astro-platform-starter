@@ -9,7 +9,7 @@ interface Props {
   ogDescription?: string;
 }
 
-const { title, description, ogTitle, ogDescription } = Astro.props;
+const { title, description, ogTitle, ogDescription } = Astro.frontmatter;
 ---
 
 <!doctype html>
