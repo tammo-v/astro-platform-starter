@@ -2,8 +2,14 @@
 title: Symbolic Computing
 layout: ../layouts/Layout.astro
 description: A new computational substrate for video, audio, and artificial intelligence — built on symbolic matrix fields.
-ogTitle: Symbolic Computing
-ogDescription: A unified foundation for structured execution across digital domains.
+ogTitle: A New Foundation for Computing
+ogDescription: Symbolic matrix fields provide a new substrate for computing — unifying execution, representation, and interface across all domains.
+twitterCard: summary_large_image
+twitterTitle: A New Foundation for Computing
+twitterDescription: Symbolic matrix fields provide a new substrate for computing — unifying execution, representation, and interface.
+twitterImage: /og-image.png
+ogImage: /og-image.png
+---
 ---
 
 ## A New Computational Substrate
@@ -30,7 +36,7 @@ The full framework will be released in sequence as the initial patent suite is p
 
 --
 
-**Symbolic Computing, when structure becomes execution.**  
+**Symbolic Computing, when structure becomes execution**  
   
 
 
