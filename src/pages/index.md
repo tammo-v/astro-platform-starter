@@ -11,7 +11,7 @@ twitterImage: /og-image.png
 ogImage: /og-image.png
 ---
 
-## A New Computational Substrate built on symbolic matrix fields
+## A new computational substrate built on symbolic matrix fields
 
 Floating point was not adopted because it was ideal—it was adopted because it matched the constraints of early hardware.
 
