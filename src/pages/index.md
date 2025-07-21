@@ -23,7 +23,7 @@ Meaning is layered on top and lost in execution.
 
 ---
 
-Symbolic Computing begins with a different assumption.
+Symbolic Computing begins from a different foundation.
 
 Instead of representing data as disconnected values, it introduces symbolic matrix fields, a framework where computation occurs over relational fields. Position and symbolic time are encoded directly into the representation. Scalar streams are replaced by symbolic forms. Execution flows across internal structure, not through a linear stream.
 
