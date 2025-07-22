@@ -14,14 +14,25 @@ The following titles represent the current structure.
 
 ---
 
+## Foundations
+
+**F1** — Symbolic Matrix Fields for Symbolic Computing
+
+---
+
 ## Structured Intelligence
 
-**S1** — Symbolic Program Matrix Field Initialization (Consumer)  
-**S2** — Symbolic Program Matrix Field Initialization (Enterprise)  
-**S3** — Symbolic Program Matrix Field Initialization (Web / Internet)  
-**S4** — Symbolic Program Construction  
-**S5** — Symbolic Agent OS  
-**S6** — Symbolic LLM
+**S1** — Symbolic Language Model Execution (LLM)  
+**S2** — Symbolic Program Construction  
+**S3** — Symbolic Agent Execution Model
+
+---
+
+## Interface
+
+**I1** — Symbolic Agent Operating System  
+**I2** — Symbolic Agent Execution in Software Interfaces  
+**I3** — Symbolic Agent Execution in Web Interfaces
 
 ---
 
@@ -29,11 +40,10 @@ The following titles represent the current structure.
 
 **V1** — Symbolic Photo and Video Matrix Field Initialization  
 **V2** — Symbolic Object Identity in Photo and Video  
-**V3** — Symbolic Photo  
-**V4** — Symbolic Video Compression and Playback  
-**V5** — Symbolic Video Recording and Editing  
-**V6** — Symbolic Video Synthesis  
-**V7** — Symbolic Video Camera  
+**V3** — Symbolic Video Compression and Playback  
+**V4** — Symbolic Agent Execution in Visual Composition and Photo Interfaces  
+**V5** — Symbolic Agent Execution in Video Interfaces  
+**V6** — Symbolic Video Camera
 
 ---
 
@@ -42,12 +52,18 @@ The following titles represent the current structure.
 **A1** — Symbolic Audio Matrix Field Initialization  
 **A2** — Symbolic Sound Identity  
 **A3** — Symbolic Audio Compression and Playback  
-**A4** — Symbolic Audio Editing and Composition  
+**A4** — Symbolic Agent Execution in Audio Interfaces  
 **A5** — Symbolic Speech Recognition and Generation  
-**A6** — Symbolic Audio Synthesis  
-**A7** — Symbolic Noise Cancellation  
-**A8** — Symbolic Audio Recording and Microphone  
-**A9** — Symbolic Speakers and Headphones  
+**A6** — Symbolic Noise Cancellation  
+**A7** — Symbolic Audio Recording and Microphone  
+**A8** — Symbolic Speakers and Headphones
+
+---
+
+## Cryptography
+
+**C1** — Symbolic Matrix Field Encryption  
+**C2** — Symbolic Field Authentication and Overlay Matching 
 
 ---
 
