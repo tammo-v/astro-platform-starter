@@ -8,9 +8,11 @@ ogDescription: View the vertical alignment of symbolic patents in artificial int
 
 ## Patent Structure
 
-The Symbolic Computing framework is currently organized into three verticals: Structured Intelligence, Video, and Audio. Each vertical consists of structurally independent components, designed to operate as a coherent system when combined. Additional verticals will follow as the symbolic substrate expands.
+All patents in this portfolio are built on a single architectural system: the symbolic matrix field.
 
-The following titles represent the current structure.
+Each patent defines how this structure operates in a specific domain—applying the same logic of symbolic tokens, referential fields, and agent-based execution to intelligence, media, interface, navigation, and cryptography.
+
+These are not isolated technologies. They are high-level structural patterns: modular applications of a unified execution model. Because the architecture is recursive, the same logic applies across domains. What follows is not a collection of systems—but one system, expressed through multiple symbolic fields.
 
 ---
 
