@@ -33,7 +33,10 @@ The following titles represent the current structure.
 **I1** — Symbolic Agent Operating System  
 **I2** — Symbolic Agent Execution in Software Interfaces  
 **I3** — Symbolic Agent Execution in Web Interfaces  
-**I4** — Symbolic Screen and Interface Rendering
+**I4** — Symbolic Screen  
+**I5** — Symbolic Watch  
+**I6** — Symbolic Glasses  
+**I7** — Symbolic Vision Systems
 
 ---
 
@@ -72,6 +75,16 @@ The following titles represent the current structure.
 
 **H1** — Symbolic Processing Units  
 **H2** — Symbolic Accelerators
+
+---
+
+## Navigation
+
+**N1** — Symbolic Navigation for Vehicles  
+**N2** — Symbolic Navigation for Aircraft and Flying Objects  
+**N3** — Symbolic Agent Execution in Vehicles  
+**N4** — Symbolic Agent Execution in Aircraft and Flying Objects  
+**N5** — Symbolic Radar and Lidar
 
 ---
 
