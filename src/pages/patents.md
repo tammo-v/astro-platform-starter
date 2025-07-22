@@ -32,7 +32,8 @@ The following titles represent the current structure.
 
 **I1** — Symbolic Agent Operating System  
 **I2** — Symbolic Agent Execution in Software Interfaces  
-**I3** — Symbolic Agent Execution in Web Interfaces
+**I3** — Symbolic Agent Execution in Web Interfaces  
+**I4** — Symbolic Screen and Interface Rendering
 
 ---
 
@@ -64,6 +65,13 @@ The following titles represent the current structure.
 
 **C1** — Symbolic Matrix Field Encryption  
 **C2** — Symbolic Field Authentication and Overlay Matching 
+
+---
+
+## Hardware
+
+**H1** — Symbolic Processing Units  
+**H2** — Symbolic Accelerators
 
 ---
 
