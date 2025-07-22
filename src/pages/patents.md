@@ -64,20 +64,6 @@ The following titles represent the current structure.
 
 ---
 
-## Cryptography
-
-**C1** — Symbolic Matrix Field Encryption  
-**C2** — Symbolic Field Authentication and Overlay Matching 
-
----
-
-## Hardware
-
-**H1** — Symbolic Processing Units  
-**H2** — Symbolic Accelerators
-
----
-
 ## Navigation
 
 **N1** — Symbolic Navigation for Vehicles  
@@ -85,6 +71,27 @@ The following titles represent the current structure.
 **N3** — Symbolic Agent Execution in Vehicles  
 **N4** — Symbolic Agent Execution in Aircraft and Flying Objects  
 **N5** — Symbolic Radar and Lidar
+
+---
+
+## Cryptography
+
+**C1** — Symbolic Matrix Field Encryption  
+**C2** — Symbolic Field Authentication and Overlay Matching 
+
+---
+
+## Mathematics
+
+**M1** — Symbolic Matrix Multiplication  
+**M2** — Symbolic Value Preservation and Arithmetic Execution
+
+---
+
+## Hardware
+
+**H1** — Symbolic Processing Units  
+**H2** — Symbolic Accelerators
 
 ---
 
