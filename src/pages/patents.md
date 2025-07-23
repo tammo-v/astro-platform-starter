@@ -16,7 +16,7 @@ These are not isolated technologies. They are high-level structural patterns: mo
 
 ---
 
-## Foundations
+## Foundation
 
 **F1** — Symbolic Matrix Fields for Symbolic Computing
 
