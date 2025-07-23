@@ -12,7 +12,7 @@ All patents in this portfolio are built on a single architectural system: the sy
 
 Each patent defines how this structure operates in a specific domain—applying the same logic of symbolic tokens, referential fields, and agent-based execution to intelligence, media, interface, navigation, and cryptography.
 
-These are not isolated technologies. They are high-level structural patterns: modular applications of a unified execution model. Because the architecture is recursive, the same logic applies across domains. What follows is not a collection of systems—but one system, expressed through multiple symbolic fields.
+These are not isolated technologies. They are high-level structural patents: modular applications of a unified execution model. Because the architecture is recursive, the same logic applies across domains. What follows is not a collection of systems—but one system, expressed through multiple symbolic fields.
 
 ---
 
