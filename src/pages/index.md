@@ -29,7 +29,7 @@ Instead of representing data as disconnected values, it introduces symbolic matr
 
 This enables a different class of system—one where execution is referential, intelligence is structured, and meaning is carried through form.
 
-The symbolic computing framework is currently organized into three verticals: Artificial Intelligence, Video, and Audio. Each vertical consists of structurally independent components, designed to operate as a coherent system when combined. Additional verticals will follow as the symbolic substrate expands.
+The Symbolic Computing framework is organized into eight verticals: Structured Intelligence, Interface, Video, Audio, Navigation, Cryptography, Mathematics, and Hardware. Each vertical applies the same execution model to a different domain. As the symbolic substrate continues to unfold, additional verticals may follow.
 
 The full framework will be released in sequence as the initial patent suite is placed. This site will expand to include technical publications, demonstrations, and licensing pathways.
 
