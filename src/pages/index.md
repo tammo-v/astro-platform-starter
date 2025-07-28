@@ -25,9 +25,9 @@ Meaning is layered on top and lost in execution.
 
 Symbolic Computing begins from a different foundation.
 
-Instead of representing data as disconnected values, it introduces symbolic matrix fields, a framework where computation occurs over relational fields. Position and symbolic time are encoded directly into the representation. Scalar streams are replaced by symbolic forms. Execution flows across internal structure, not through a linear stream.
+Instead of representing data as disconnected values, it introduces symbolic matrix fields — a framework where execution occurs over structured space. **Each element in the field carries not just value, but also an explicit positional address, a semantic identity, and symbolic time.** Scalar streams are replaced by referential structure. Execution flows through internal position and meaning, not external sequence.  
 
-This enables a different class of system—one where execution is referential, intelligence is structured, and meaning is carried through form.
+This enables a different class of system — one where both data and execution are referential.
 
 The Symbolic Computing framework is organized into eight verticals: Structured Intelligence, Interface, Video, Audio, Navigation, Cryptography, Mathematics, and Hardware. Each vertical applies the same execution model to a different domain. As the symbolic substrate continues to unfold, additional verticals may follow.
 
