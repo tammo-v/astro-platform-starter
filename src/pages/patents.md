@@ -26,7 +26,7 @@ These are not isolated technologies. They are high-level structural patents: mod
 ## Interface
 
 **I1** — Symbolic Agent Operating System 
-**I2** - Symbolic Runtime Execution and Dispatch Layer
+**I2** - Symbolic Runtime Execution and Dispatch Layer  
 **I2** — Symbolic Agent Execution in Software Interfaces  
 **I3** — Symbolic Agent Execution in Web Interfaces  
 **I4** — Symbolic Screen   
