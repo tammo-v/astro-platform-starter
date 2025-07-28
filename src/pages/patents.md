@@ -27,21 +27,21 @@ These are not isolated technologies. They are high-level structural patents: mod
 
 **I1** — Symbolic Agent Operating System  
 **I2** — Symbolic Runtime Execution and Dispatch Layer  
-**I2** — Symbolic Agent Execution in Software Interfaces  
-**I3** — Symbolic Agent Execution in Web Interfaces  
-**I4** — Symbolic Screen   
-**I6** — Symbolic Glasses  
+**I3** — Symbolic Agent Execution in Software Interfaces  
+**I4** — Symbolic Agent Execution in Web Interfaces  
+**I5** — Symbolic Visual Field Initialization  
+**I6** — Symbolic Object Identity in Visual Fields  
+**I7** — Symbolic Delta Evaluation and Playback in Matrix Fields  
+**I8** — Symbolic Screen   
+**I9** — Symbolic Glasses  
 
 ---
 
 ## Video
-
-**V1** — Symbolic Photo and Video Matrix Field Initialization  
-**V2** — Symbolic Object Identity in Photo and Video  
-**V3** — Symbolic Video Compression and Playback  
-**V4** — Symbolic Agent Execution in Visual Composition and Photo Interfaces  
-**V5** — Symbolic Agent Execution in Video Interfaces  
-**V6** — Symbolic Video Camera
+**V1** — Symbolic Video Compression and Playback  
+**V2** — Symbolic Agent Execution in Visual Composition and Photo Interfaces  
+**V3** — Symbolic Agent Execution in Video Interfaces  
+**V4** — Symbolic Video Camera
 
 ---
 
