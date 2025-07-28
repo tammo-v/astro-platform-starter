@@ -20,19 +20,17 @@ These are not isolated technologies. They are high-level structural patents: mod
 
 **S1** — Symbolic Language Model Execution (LLM)  
 **S2** — Symbolic Program Construction  
-**S3** — Symbolic Agent Execution Model
 
 ---
 
 ## Interface
 
-**I1** — Symbolic Agent Operating System  
+**I1** — Symbolic Agent Operating System 
+**I2** - Symbolic Runtime Execution and Dispatch Layer
 **I2** — Symbolic Agent Execution in Software Interfaces  
 **I3** — Symbolic Agent Execution in Web Interfaces  
-**I4** — Symbolic Screen  
-**I5** — Symbolic Watch  
+**I4** — Symbolic Screen   
 **I6** — Symbolic Glasses  
-**I7** — Symbolic Vision Systems
 
 ---
 
@@ -88,6 +86,7 @@ These are not isolated technologies. They are high-level structural patents: mod
 
 **H1** — Symbolic Processing Units  
 **H2** — Symbolic Accelerators
+**H2** — Symbolic Memory
 
 ---
 
