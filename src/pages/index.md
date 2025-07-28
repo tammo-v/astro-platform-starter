@@ -25,7 +25,7 @@ Meaning is layered on top and lost in execution.
 
 Symbolic Computing begins from a different foundation.
 
-Instead of representing data as disconnected values, it introduces symbolic matrix fields — a framework where execution occurs over structured space. **Each element in the field carries not just value, but also an explicit positional address, a semantic identity, and symbolic time.** Scalar streams are replaced by referential structure. Execution flows through internal position and meaning, not external sequence.  
+Instead of representing data as disconnected values, it introduces symbolic matrix fields — a framework where execution occurs over structured space. **Each element in the field carries not just value, but also an explicit positional address, a semantic identity, and symbolic time.** Scalar streams are replaced by referential structure. Execution flows through internal position and meaning, not external sequence. This enables delta computing — execution triggered only by structural change.     
 
 This enables a different class of system — one where both data and execution are referential.
 
