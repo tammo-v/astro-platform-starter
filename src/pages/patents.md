@@ -29,11 +29,12 @@ These are not isolated technologies. They are high-level structural patents: mod
 **I2** — Symbolic Runtime Execution and Dispatch Layer  
 **I3** — Symbolic Agent Execution in Software Interfaces  
 **I4** — Symbolic Agent Execution in Web Interfaces  
-**I5** — Symbolic Visual Field Initialization  
-**I6** — Symbolic Object Identity in Visual Fields  
-**I7** — Symbolic Delta Evaluation and Playback in Matrix Fields  
-**I8** — Symbolic Screen   
-**I9** — Symbolic Glasses  
+**I5** — Symbolic Initialization of Captured Visual Fields    
+**I6** — Symbolic Object Identity in Captured Visual Fields  
+**I7** — Symbolic Composition of Constructed Visual Fields   
+**I8** — Symbolic Screen 
+**I9** — Symbolic Visual Fields in 3D: Initialization, Identity, and Projection     
+**I10** — Symbolic Glasses and Head-Mounted Visual Systems    
 
 ---
 
