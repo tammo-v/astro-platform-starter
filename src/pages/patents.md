@@ -38,9 +38,9 @@ These are not isolated technologies. They are high-level structural patents: mod
 
 ---
 
-## Video
+## Photo and Video
 **V1** — Symbolic Video Compression and Playback  
-**V2** — Symbolic Agent Execution in Visual Composition and Photo Interfaces  
+**V2** — Symbolic Agent Execution in Constructed Visual Fields  
 **V3** — Symbolic Agent Execution in Video Interfaces  
 **V4** — Symbolic Video Camera
 
@@ -48,14 +48,15 @@ These are not isolated technologies. They are high-level structural patents: mod
 
 ## Audio
 
-**A1** — Symbolic Audio Matrix Field Initialization  
-**A2** — Symbolic Sound Identity  
-**A3** — Symbolic Audio Compression and Playback  
-**A4** — Symbolic Agent Execution in Audio Interfaces  
-**A5** — Symbolic Speech Recognition and Generation  
-**A6** — Symbolic Noise Cancellation  
-**A7** — Symbolic Audio Recording and Microphone  
-**A8** — Symbolic Speakers and Headphones
+**A1** — Symbolic Initialization of Captured Audio Fields  
+**A1** — Symbolic Compostion of Constructed Audio Fields  
+**A3** — Symbolic Sound Identity in Captured Audio Fields 
+**A4** — Symbolic Audio Compression and Playback  
+**A5** — Symbolic Agent Execution in Constructed Audio Fields  
+**A6** — Symbolic Speech Recognition and Generation  
+**A7** — Symbolic Noise Cancellation  
+**A8** — Symbolic Audio Recording and Microphone  
+**A9** — Symbolic Speakers and Headphones
 
 ---
 
