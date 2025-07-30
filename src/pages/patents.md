@@ -24,7 +24,7 @@ These are not isolated technologies. They are high-level structural patents: mod
 
 ## Structured Intelligence
 
-**S1** — Symbolic Language Model Execution (LLM)  
+**S1** — Symbolic Language Model Execution    
 **S2** — Symbolic Program Construction  
 
 ---
