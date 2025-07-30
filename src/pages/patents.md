@@ -93,9 +93,8 @@ These are not isolated technologies. They are high-level structural patents: mod
 
 ## Symbolic Hardware
 
-**H1** — Symbolic Processing Units  
-**H2** — Symbolic Accelerators  
-**H3** — Symbolic Memory
+**H1** — Symbolic Processing Units and Accelerators  
+**H2** — Symbolic Memory  
 
 ---
 
