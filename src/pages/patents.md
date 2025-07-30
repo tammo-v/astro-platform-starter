@@ -16,6 +16,12 @@ These are not isolated technologies. They are high-level structural patents: mod
 
 ---
 
+## Foundation
+
+**F1** — Symbolic Matrix Fields for Symbolic Computing     
+
+---
+
 ## Structured Intelligence
 
 **S1** — Symbolic Language Model Execution (LLM)  
