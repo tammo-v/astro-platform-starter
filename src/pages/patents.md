@@ -30,8 +30,8 @@ These are not isolated technologies. They are high-level structural patents: mod
 **I3** — Symbolic Agent Execution in Software Interfaces  
 **I4** — Symbolic Agent Execution in Web Interfaces  
 **I5** — Symbolic Initialization of Captured Visual Fields    
-**I6** — Symbolic Object Identity in Captured Visual Fields  
-**I7** — Symbolic Composition of Constructed Visual Fields   
+**I6** — Symbolic Composition of Constructed Visual Fields   
+**I7** — Symbolic Object Identity in Captured Visual Fields    
 **I8** — Symbolic Screen   
 **I9** — Symbolic Visual Fields in 3D: Initialization, Identity, and Projection     
 **I10** — Symbolic Glasses and Head-Mounted Visual Systems    
