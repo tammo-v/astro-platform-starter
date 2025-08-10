@@ -25,7 +25,7 @@ More patents will follow, each addressing different layers of the computing stac
 
 ## Latest article
 
-**SEAL: Doing What Passkeys Couldn't — The End of All Passwords**  
+**Passkeys Couldn't End Passwords — SEAL Can**  
 A decentralized, credential-free model where each registered device becomes part of your identity.  
 [Read the article →](/articles/seal)
 
