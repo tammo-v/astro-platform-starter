@@ -20,3 +20,25 @@ Our work spans multiple domains — from authentication and security to new appr
 Our first public release is **SEAL**: a decentralized authentication model that replaces passwords and vendor accounts with device-based cryptographic identity. It is built entirely from known cryptographic primitives, configured in a new way to remove central points of control while improving security.  
 
 More patents will follow, each addressing different layers of the computing stack.
+
+---
+
+## Latest article
+
+**SEAL: Doing What Passkeys Couldn't — The End of All Passwords**  
+A decentralized, credential-free model where each registered device becomes part of your identity.  
+[Read the article →](/articles/seal)
+
+---
+
+## Patents
+
+Our first public patent covers decentralized authentication using device-generated keys and direct identity confirmation.  
+[View the patent →](/patents/seal)
+
+---
+
+## Early Adopter Licensing
+
+We offer royalty-free, perpetual licenses to selected early adopters of SEAL. This program is available for a limited time and rewards first movers who help demonstrate SEAL at scale.  
+[Learn more →](/licensing)
