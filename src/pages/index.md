@@ -1,41 +1,22 @@
 ---
 title: Symbolic Computing
 layout: ../layouts/Layout.astro
-description: A new computational substrate for video, audio, and artificial intelligence — built on symbolic matrix fields.
-ogTitle: A New Foundation for Computing
-ogDescription: Symbolic matrix fields provide a new substrate for computing — unifying execution, representation, and interface across all domains.
+description: Developing a portfolio of patents that advance the foundations of computing — from authentication and security to new computational models.
+ogTitle: Advancing the Foundations of Computing
+ogDescription: A growing portfolio of patents exploring new architectures, protocols, and execution models for the next generation of computing.
 twitterCard: summary_large_image
-twitterTitle: A New Foundation for Computing
-twitterDescription: Symbolic matrix fields provide a new substrate for computing — unifying execution, representation, and interface.
+twitterTitle: Advancing the Foundations of Computing
+twitterDescription: A growing portfolio of patents exploring new architectures, protocols, and execution models for the next generation of computing.
 twitterImage: /og-image.png
 ogImage: /og-image.png
 ---
 
-## A new computational substrate built on symbolic matrix fields
+## Advancing the Foundations of Computing
 
-Floating point was not adopted because it was ideal—it was adopted because it matched the constraints of early hardware.
+Symbolic Computing is developing a portfolio of patents that explore new architectures, protocols, and execution models for the next generation of computing.  
 
-In the first generation of computing systems, memory was scarce, hardware was limited, and precision was expensive. Floating point offered a compact, lossy encoding scheme for approximating real numbers within a fixed number of bits. It was a compromise that proved scalable.
+Our work spans multiple domains — from authentication and security to new approaches for computation itself. Each patent is designed to stand on its own, while contributing to a broader, long-term vision.  
 
-That compromise became the foundation. Today, nearly all computation—across artificial intelligence, media processing, operating systems, networking, and beyond—still runs on scalar values, flattened streams, and externally imposed structure.
-Meaning is layered on top and lost in execution.
+Our first public release is **SEAL**: a decentralized authentication model that replaces passwords and vendor accounts with device-based cryptographic identity. It is built entirely from known cryptographic primitives, configured in a new way to remove central points of control while improving security.  
 
-
----
-
-Symbolic Computing begins from a different foundation.
-
-Instead of representing tokens and data as disconnected values, it introduces symbolic matrix fields — a framework where execution occurs over structured space. Each element in the field carries not just value, but also an explicit positional address, a semantic identity, and symbolic time. Scalar streams are replaced by referential structure. Execution flows through internal position and meaning, not external sequence. This architecture enables delta computing — execution triggered only by structural change.
-
-A different class of system emerges — one where both data and execution are referential.
-
-The Symbolic Computing framework is organized into eight verticals: Structured Intelligence, Interface, Video, Audio, Navigation, Cryptography, Mathematics, and Hardware. Each vertical applies the same execution model to a different domain. As the symbolic substrate continues to unfold, additional verticals may follow.
-
-The full framework will be released in sequence as the initial patent suite is placed. This site will expand to include technical publications, demonstrations, and licensing pathways.
-
---
-
-**Symbolic Computing, when structure becomes execution**  
-  
-
-
+More patents will follow, each addressing different layers of the computing stack.
