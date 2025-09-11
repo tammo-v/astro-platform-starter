@@ -46,4 +46,4 @@ Each addresses a specific vertical but relies on the same model: device-rooted k
 
 ---
 
-Together, these eight patents define a single, coherent substrate for authentication—rooted in the device, mediated by the operating system, and extensible across domains.
+Together, these eight patents define a single, coherent substrate for authentication, rooted in the device, mediated by the operating system, and extensible across domains.
