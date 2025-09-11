@@ -1,4 +1,4 @@
----
+------
 title: Patent Structure
 layout: ../layouts/Layout.astro
 description: Overview of Symbolic Computing’s initial patent suite, defining device-rooted trust across eight verticals.
