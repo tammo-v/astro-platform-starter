@@ -7,8 +7,6 @@ ogDescription: A patent portfolio defining the substrate of digital trust — re
 twitterCard: summary_large_image
 twitterTitle: Device-Rooted Trust
 twitterDescription: A patent portfolio defining the substrate of digital trust — replacing passwords, tokens, and certificates with secure, hardware-backed proofs.
-twitterImage: /og-image.png
-ogImage: /og-image.png
 ---
 
 ## Device-Rooted Trust
