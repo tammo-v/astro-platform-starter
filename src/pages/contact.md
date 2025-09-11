@@ -3,7 +3,7 @@ title: Contact
 layout: ../layouts/Layout.astro
 description: "Direct contact address for early inquiries related to Symbolic Computing and the authentication patent suite."
 ogTitle: "Contact — Symbolic Computing"
-ogDescription: "For early inquiries about the authentication suite and partnership discussions: partnerships@symboliccomputing.com"
+ogDescription: "For early inquiries about the authentication suite and partnership discussions: info@symboliccomputing.com"
 ---
 
 ## Contact
