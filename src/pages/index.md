@@ -32,5 +32,4 @@ Each patent stands on its own but also contributes to a unified architecture for
 
 ## Patents
 
-Together, these eight patents define a single, coherent substrate for authentication—rooted in the device, mediated by the operating system, and extensible across domains.  
-<a href="/patents" class="link-nav-soft">Explore the Patent Suite</a>
+Together, these eight patents define a single, coherent substrate for authentication—rooted in the device, mediated by the operating system, and extensible across domains. [Explore the Patent Suite](/patents).
