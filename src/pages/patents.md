@@ -46,4 +46,4 @@ Each addresses a specific vertical but relies on the same model: device-rooted k
 
 ---
 
-Together, these eight patents define a single, coherent substrate for authentication, rooted in the device, mediated by the operating system, and extensible across domains.
+Taken together, these eight provisional patents establish the foundation for device-rooted trust. Each stands alone in its domain, but the true value emerges in combination: a unified authentication substrate that can scale across services, enterprises, and consumer ecosystems. This portfolio forms the first phase of a broader architecture, with further patents to follow as the work extends into adjacent domains.
