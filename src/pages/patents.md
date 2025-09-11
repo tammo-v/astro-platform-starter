@@ -9,6 +9,7 @@ ogDescription: Explore the provisional patents that define device-rooted trust a
 ## Authentication Patent Suite
 
 Symbolic Computing’s first portfolio consists of eight provisional patents, together defining a single substrate for authentication.  
+
 Each addresses a specific vertical but relies on the same model: device-rooted keys, secure hardware, and mutual cryptographic proof at the moment of access.
 
 ---
