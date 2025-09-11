@@ -13,8 +13,7 @@ ogImage: /og-image.png
 
 ## Device-Rooted Trust
 
-Symbolic Computing is developing a suite of patents that define the substrate of digital trust.  
-This framework replaces passwords, tokens, and certificates with secure, hardware-backed proofs that operate consistently across all domains of authentication.  
+Symbolic Computing is developing a suite of patents that define the substrate of digital trust.  This framework replaces passwords, tokens, and certificates with secure, hardware-backed proofs that operate consistently across all domains of authentication.  
 
 Our current work focuses on authentication, spanning:  
 
