@@ -1,17 +1,17 @@
 ---
 title: Contact
 layout: ../layouts/Layout.astro
-description: "Direct contact address for early inquiry related to Symbolic Computing."
+description: "Direct contact address for early inquiries related to Symbolic Computing and the authentication patent suite."
 ogTitle: "Contact — Symbolic Computing"
-ogDescription: "For aligned early inquiry: info@symboliccomputing.com"
+ogDescription: "For early inquiries about the authentication suite and partnership discussions: partnerships@symboliccomputing.com"
 ---
 
 ## Contact
 
-Symbolic Computing is an independently developed framework for computation, representation, and intelligence. The structure is currently being completed and will be released in full once the patent suite is in place.  
+Symbolic Computing is developing a portfolio of patents that define device-rooted trust for authentication across networks, peers, IoT, physical access, web services, accounts, checkout, and service-to-service.  
 
-For early inquiry or contact:
+For early inquiries or partnership discussions, please contact:  
 
 info@symboliccomputing.com
 
-All messages will be read and responded to.
+All messages will be read and responded to directly.
