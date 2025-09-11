@@ -32,7 +32,5 @@ Each patent stands on its own but also contributes to a unified architecture for
 
 ## Patents
 
-The first set of provisional patents defines decentralized authentication using device-generated keys and direct identity confirmation.  
-<div class="hidden sm:flex justify-between mt-12 text-sm font-medium">
-  <a href="/patents" class="link-nav-soft">← Explore the Patent Suite</a>
-</div>
+Together, these eight patents define a single, coherent substrate for authentication—rooted in the device, mediated by the operating system, and extensible across domains.  
+<a href="/patents" class="link-nav-soft">Explore the Patent Suite</a>
