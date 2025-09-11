@@ -1,44 +1,37 @@
 ---
 title: Symbolic Computing
 layout: ../layouts/Layout.astro
-description: Developing a portfolio of patents that advance the foundations of computing — from authentication and security to new computational models.
-ogTitle: Advancing the Foundations of Computing
-ogDescription: A growing portfolio of patents exploring new architectures, protocols, and execution models for the next generation of computing.
+description: Developing a suite of patents that establish device-rooted trust — the foundation for secure authentication across networks, devices, accounts, and services.
+ogTitle: Device-Rooted Trust
+ogDescription: A patent portfolio defining the substrate of digital trust — replacing passwords, tokens, and certificates with secure, hardware-backed proofs.
 twitterCard: summary_large_image
-twitterTitle: Advancing the Foundations of Computing
-twitterDescription: A growing portfolio of patents exploring new architectures, protocols, and execution models for the next generation of computing.
+twitterTitle: Device-Rooted Trust
+twitterDescription: A patent portfolio defining the substrate of digital trust — replacing passwords, tokens, and certificates with secure, hardware-backed proofs.
 twitterImage: /og-image.png
 ogImage: /og-image.png
 ---
 
-## Advancing the Foundations of Computing
+## Device-Rooted Trust
 
-Symbolic Computing is developing a portfolio of patents that explore new architectures, protocols, and execution models for the next generation of computing.  
+Symbolic Computing is developing a suite of patents that define the substrate of digital trust.  
+This framework replaces passwords, tokens, and certificates with secure, hardware-backed proofs that operate consistently across all domains of authentication.  
 
-Our work spans multiple domains — from authentication and security to new approaches for computation itself. Each patent is designed to stand on its own, while contributing to a broader, long-term vision.  
+Our current work focuses on authentication, spanning:  
 
-Our first public release is **SEAL**: a decentralized authentication model that replaces passwords and vendor accounts with device-based cryptographic identity. It is built entirely from known cryptographic primitives, configured in a new way to remove central points of control while improving security.  
+- **Networks** (Wi-Fi and enterprise access)  
+- **Peer-to-peer connections** (Bluetooth, NFC, UWB)  
+- **IoT devices** (consumer and industrial)  
+- **Physical access** (cars, homes, enterprises, hotels)  
+- **Web services** (reciprocal authentication at the handshake)  
+- **Accounts** (device-based identity for consumers and enterprises)  
+- **Checkout** (an OS-level shopping basket consolidating purchases and subscriptions)  
+- **Service-to-service** (mutual proof between APIs and backend systems)  
 
-More patents will follow, each addressing different layers of the computing stack.
-
----
-
-## Latest article
-
-**Passkeys Couldn't End Passwords — SEAL Can**  
-A decentralized, credential-free model where each registered device becomes part of your identity.  
-[Read the article →](/articles/seal)
+Each patent stands on its own but also contributes to a unified architecture for trust.  
 
 ---
 
 ## Patents
 
-Our first public patent covers decentralized authentication using device-generated keys and direct identity confirmation.  
-[View the patent →](/patents/seal)
-
----
-
-## Early Adopter Licensing
-
-We offer royalty-free, perpetual licenses to selected early adopters of SEAL. This program is available for a limited time and rewards first movers who help demonstrate SEAL at scale.  
-[Learn more →](/licensing)
+The first set of provisional patents defines decentralized authentication using device-generated keys and direct identity confirmation.  
+[View the patents →](/patents)
