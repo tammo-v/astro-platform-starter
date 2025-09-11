@@ -33,4 +33,6 @@ Each patent stands on its own but also contributes to a unified architecture for
 ## Patents
 
 The first set of provisional patents defines decentralized authentication using device-generated keys and direct identity confirmation.  
-[View the patents →](/patents)
+<div class="hidden sm:flex justify-between mt-12 text-sm font-medium">
+  <a href="/patents" class="link-nav-soft">← Explore the Patent Suite</a>
+</div>
