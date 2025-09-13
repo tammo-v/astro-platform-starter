@@ -11,18 +11,19 @@ twitterDescription: A patent portfolio defining the substrate of digital trust â
 
 ## Device-Rooted Trust
 
-Symbolic Computing is developing a suite of patents that define the substrate of digital trust.  This framework replaces passwords, tokens, and certificates with secure, hardware-backed proofs that operate consistently across all domains of authentication.  
+Symbolic Computing is developing a suite of patents that define the substrate of digital trust.  
+This framework moves beyond passwords, tokens, and certificates, introducing a consistent device-based approach to authentication across all domains.  
 
-Our current work focuses on authentication, spanning:  
+Our current work focuses on authentication in:  
 
 - **Networks** (Wi-Fi and enterprise access)  
 - **Peer-to-peer connections** (Bluetooth, NFC, UWB)  
 - **IoT devices** (consumer and industrial)  
-- **Physical access** (cars, homes, enterprises, hotels)  
-- **Web services** (reciprocal authentication at the handshake)  
-- **Accounts** (device-based identity for consumers and enterprises)  
-- **Checkout** (an OS-level shopping basket consolidating purchases and subscriptions)  
-- **Service-to-service** (mutual proof between APIs and backend systems)  
+- **Physical access** (cars, homes, enterprises, hospitality)  
+- **Web services** (online interactions between users and platforms)  
+- **Accounts** (identity management for consumers and enterprises)  
+- **Transactions** (purchases, subscriptions, and fulfillment)  
+- **Service-to-service** (trust between backend systems and APIs)  
 
 Each patent stands on its own but also contributes to a unified architecture for trust.  
 
@@ -30,6 +31,6 @@ Each patent stands on its own but also contributes to a unified architecture for
 
 ## Patents
 
-Together, these eight patents define a single, coherent substrate for authentication, rooted in the device, mediated by the operating system, and extensible across domains. 
+Together, these eight patents define a single, coherent substrate for authentication, rooted in the device, mediated by the operating system, and extensible across domains.  
 
 [Explore the Patent Suite](/patents)
