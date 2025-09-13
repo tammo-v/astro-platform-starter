@@ -12,6 +12,7 @@ twitterDescription: A patent portfolio defining the substrate of digital trust â
 ## Device-Rooted Trust
 
 Symbolic Computing is developing a suite of patents that define the substrate of digital trust.  
+
 This framework moves beyond passwords, tokens, and certificates, introducing a consistent device-based approach to authentication across all domains.  
 
 Our current work focuses on authentication in:  
@@ -24,8 +25,6 @@ Our current work focuses on authentication in:
 - **Accounts** (identity management for consumers and enterprises)  
 - **Transactions** (purchases, subscriptions, and fulfillment)  
 - **Service-to-service** (trust between backend systems and APIs)  
-
-Each patent stands on its own but also contributes to a unified architecture for trust.  
 
 ---
 
