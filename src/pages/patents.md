@@ -8,41 +8,41 @@ ogDescription: Explore the provisional patents that define device-rooted trust a
 
 ## Authentication Patent Suite
 
-Symbolic Computing’s first portfolio consists of eight provisional patents, together defining a single substrate for authentication.  
+Symbolic Computing’s first portfolio consists of eight provisional patents, together defining a unified framework for authentication.  
 
-Each addresses a specific vertical but relies on the same model: device-rooted keys, secure hardware, and mutual cryptographic proof at the moment of access.
+Each addresses a different vertical but relies on the same underlying substrate, ensuring consistency across services, devices, networks, and transactions.
 
 ---
 
 ### Part A — Wireless Authentication
 
 - **A1. Device-Rooted Network Authentication**  
-  Passwordless Wi-Fi/Ethernet access, with authentication inseparable from association.  
+  Seamless access to Wi-Fi and wired networks, anchored directly in the device.  
 
 - **A2. Device-Rooted Peer Authentication**  
-  Secure pairing for peripherals; no “connected but not authenticated” states; theft-proof by design.  
+  Stronger trust for peripherals and peer devices, built into everyday pairing.  
 
 - **A3. Device-Rooted IoT Authentication**  
-  Cryptographic onboarding and lifecycle control for devices at home and in enterprise/industry.  
+  Secure onboarding and lifecycle management for connected devices, at home or in industry.  
 
 - **A4. Device-Rooted Physical Authentication**  
-  “Your device is your key” for cars, offices, hospitality, and home—OS-mediated and revocable.  
+  Turning personal devices into keys for cars, buildings, and hospitality.  
 
 ---
 
 ### Part B — Online Authentication
 
 - **B1. Device-Rooted Service Authentication**  
-  Reciprocity at the first handshake—devices prove themselves to services as services prove themselves to devices.  
+  Extending device trust into the way services are accessed online.  
 
 - **B2. Device-Rooted Account Authentication**  
-  “Your account is your devices”—login as local proof; passwords and resets disappear.  
+  A consistent model for accounts and identity, spanning devices and platforms.  
 
 - **B3. Device-Rooted Transaction Orchestration**  
-  OS-level shopping basket—payments, subscriptions, fulfillment as a single signed authorization.  
+  A unified approach to purchases, subscriptions, and fulfillment.  
 
 - **B4. Device-to-Service Authentication**  
-  Mutual proof and verifiable receipts for backend/API traffic.  
+  Strengthening trust between backend systems and APIs.   
 
 ---
 
