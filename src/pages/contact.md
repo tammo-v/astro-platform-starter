@@ -14,4 +14,4 @@ For early inquiries or partnership discussions, please contact:
 
 info@symboliccomputing.com
 
-All messages will be read and responded to directly.
+All messages will be read and responded to.
