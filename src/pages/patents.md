@@ -1,49 +1,59 @@
 ---
 title: Patent Structure
 layout: ../layouts/Layout.astro
-description: Overview of Symbolic Computing’s initial patent suite, defining device-rooted trust across eight verticals.
-ogTitle: Symbolic Computing — Authentication Patent Suite
-ogDescription: Explore the provisional patents that define device-rooted trust across networks, peers, IoT, physical access, services, accounts, checkout, and service-to-service.
+description: Overview of the parent patent architecture defining device-rooted authentication across physical and online domains.
+ogTitle: Symbolic Computing — Device-Rooted Authentication
+ogDescription: A parent patent defining device-delegated, hardware-rooted authentication across networks, devices, services, and accounts.
 ---
 
-## Authentication Patent Suite
+## Authentication Patent Structure
 
-Symbolic Computing’s first portfolio consists of eight provisional patents, together defining a unified framework for authentication.  
+Symbolic Computing’s current work is organized around a single parent patent
+defining a device-rooted authentication architecture based on device-delegated
+cryptographic authorization.
 
-Each addresses a different vertical but relies on the same underlying substrate, ensuring consistency across services, devices, networks, and transactions.
+The parent architecture applies across multiple trust domains. The sections
+below describe the primary domain areas in which the same underlying model is
+embodied, rather than separate or independent inventions.
 
 ---
 
-### Part A — Wireless Authentication
+### Part A — Wireless and Physical Authentication
 
 - **A1. Device-Rooted Network Authentication**  
-  Seamless access to Wi-Fi and wired networks, anchored directly in the device.  
+  Device-based access to Wi-Fi and wired networks without shared credentials or
+  certificate infrastructure.
 
 - **A2. Device-Rooted Peer Authentication**  
-  Stronger trust for peripherals and peer devices, built into everyday pairing.  
+  Stronger trust for peripherals and peer devices, integrated into familiar
+  pairing workflows.
 
 - **A3. Device-Rooted IoT Authentication**  
-  Secure onboarding and lifecycle management for connected devices, at home or in industry.  
+  Secure onboarding and lifecycle control for consumer and industrial connected
+  devices, including headless systems.
 
 - **A4. Device-Rooted Physical Authentication**  
-  Turning personal devices into keys for cars, buildings, and hospitality.  
+  Using personal devices as cryptographic keys for vehicles, buildings, and
+  hospitality environments.
 
 ---
 
 ### Part B — Online Authentication
 
 - **B1. Device-Rooted Service Authentication**  
-  Extending device trust into the way services are accessed online.  
+  Extending device-rooted trust into online service interactions through
+  reciprocal authentication.
 
 - **B2. Device-Rooted Account Authentication**  
-  A consistent model for accounts and identity, spanning devices and platforms.  
+  A consistent, device-based model for account identity and continuity across
+  platforms.
 
-- **B3. Device-Rooted Transaction Orchestration**  
-  A unified approach to purchases, subscriptions, and fulfillment.  
-
-- **B4. Device-to-Service Authentication**  
-  Strengthening trust between backend systems and APIs.   
+- **B3. Device-to-Service Authentication**  
+  Cryptographic trust between backend systems, APIs, and agentic AI services,
+  using the same device-delegated authorization model.
 
 ---
 
-Taken together, these eight provisional patents establish the foundation for device-rooted trust. Each stands alone in its domain, but the true value emerges in combination: a unified authentication substrate that can scale across services, enterprises, and consumer ecosystems. This portfolio forms the first phase of a broader architecture, with further patents to follow as the work extends into adjacent domains.
+Together, these domain areas illustrate how a single device-rooted
+authentication architecture can be applied consistently across physical and
+online environments. 
