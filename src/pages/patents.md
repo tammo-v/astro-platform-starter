@@ -48,7 +48,7 @@ embodied, rather than separate or independent inventions.
   A consistent, device-based model for account identity and continuity across
   platforms.
 
-- **B3. Device-to-Service Authentication**  
+- **B3. Service-to-Service Authentication**  
   Cryptographic trust between backend systems, APIs, and agentic AI services,
   using the same device-delegated authorization model.
 
